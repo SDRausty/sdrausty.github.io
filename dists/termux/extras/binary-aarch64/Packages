@@ -1,0 +1,11 @@
+Package: aapt
+Architecture: aarch64
+Installed-Size: 3860
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.0.14-2
+Description: Android Asset Packaging Tool
+Homepage: http://elinux.org/Android_aapt
+Depends: libexpat, libpng, libzopfli
+Filename: dists/termux/extras/binary-aarch64/aapt_7.0.0.14-2_aarch64.deb
+Size: 2824400
+SHA256: d191d4d1af26c2a4298e8a9ee9757e3b4465fadc9e795f20e260ed03c839e500

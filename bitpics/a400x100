@@ -1,0 +1,1 @@
+convert -layers OptimizePlus -delay 400x100 *.png -loop 0 ps1.gif

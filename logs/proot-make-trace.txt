@@ -1,0 +1,536 @@
+22558 execve("/data/data/com.termux/files/usr/bin/make", ["make"], ["LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib", "LANG=en_US.UTF-8", "PREFIX=/data/data/com.termux/files/usr", "PWD=/data/data/com.termux/files/home/lm-sensors", "HOME=/data/data/com.termux/files/home", "TMPDIR=/data/data/com.termux/files/usr/tmp/", "TERM=xterm-256color", "SHLVL=1", "ANDROID_ROOT=/system", "ANDROID_DATA=/data", "EXTERNAL_STORAGE=/sdcard", "PATH=/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/opt/texlive/2017/bin/custom:/data/data/com.termux/files/home/bin", "PS1=$ ", "OLDPWD=/data/data/com.termux/files/home", "_=/data/data/com.termux/files/usr/bin/proot"]) = 0
+22558 mprotect(0x3f00040000, 4096, PROT_READ) = 0
+22558 set_tid_address(0x3f00042fd8)     = 22558
+22558 mmap(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f95c4c000
+22558 mprotect(0x7f95c4c000, 4096, PROT_NONE) = 0
+22558 sigaltstack({ss_sp=0x7f95c4d000, ss_flags=0, ss_size=16384}, NULL) = 0
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c4d000, 16384, "thread signal stack") = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f95c4b000
+22558 mprotect(0x7f95c4b000, 4096, PROT_READ) = 0
+22558 mprotect(0x7f95c4b000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 mprotect(0x7f95c4b000, 4096, PROT_READ) = 0
+22558 mprotect(0x7f95c4b000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 mprotect(0x7f95c4b000, 4096, PROT_READ) = 0
+22558 mprotect(0x7f95c4b000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 mprotect(0x7f95c4b000, 4096, PROT_READ) = 0
+22558 mprotect(0x7f95c4b000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 mprotect(0x7f95c4b000, 4096, PROT_READ) = 0
+22558 openat(AT_FDCWD, "/dev/__properties__", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 3
+22558 fstat(3, {st_dev=makedev(0, 12), st_ino=2688, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=152, st_size=131072, st_atime=2017-08-25T19:15:01-0400.459967824, st_mtime=2017-08-23T19:06:16-0400.412999993, st_ctime=2017-08-23T19:06:16-0400.412999993}) = 0
+22558 mmap(NULL, 131072, PROT_READ, MAP_SHARED, 3, 0) = 0x7f95c2b000
+22558 close(3)                          = 0
+22558 rt_sigaction(SIGABRT, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22558 rt_sigaction(SIGBUS, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22558 rt_sigaction(SIGFPE, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22558 rt_sigaction(SIGILL, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22558 rt_sigaction(SIGPIPE, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22558 rt_sigaction(SIGSEGV, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22558 rt_sigaction(SIGSTKFLT, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22558 rt_sigaction(SIGTRAP, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c2a000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c2a000, 4096, "linker_alloc") = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c29000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c29000, 4096, "linker_alloc_64") = 0
+22558 mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c28000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c28000, 24, "linker_alloc_vector") = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c27000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c27000, 4096, "linker_alloc_32") = 0
+22558 mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c26000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c26000, 24, "linker_alloc_vector") = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c25000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c25000, 4096, "linker_alloc") = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c24000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c24000, 4096, "linker_alloc") = 0
+22558 openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libc.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22558 openat(AT_FDCWD, "/vendor/lib64/libc.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22558 openat(AT_FDCWD, "/system/lib64/libc.so", O_RDONLY|O_CLOEXEC) = 3
+22558 fstat(3, {st_dev=makedev(179, 37), st_ino=2029, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1592, st_size=812400, st_atime=2008-12-31T11:00:00-0500, st_mtime=2008-12-31T11:00:00-0500, st_ctime=2008-12-31T11:00:00-0500}) = 0
+22558 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c22000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c22000, 8192, "linker_alloc_lob") = 0
+22558 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c20000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c20000, 8192, "linker_alloc_lob") = 0
+22558 futex(0x3f000457dc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 prctl(PR_GET_DUMPABLE)            = 1 (SUID_DUMP_USER)
+22558 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22558 readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libc.so", 4096) = 21
+22558 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22558 munmap(0x7f95c20000, 8192)        = 0
+22558 munmap(0x7f95c22000, 8192)        = 0
+22558 pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\300q\1\0\0\0\0\0@\0\0\0\0\0\0\0\260^\f\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\33\0\30\0", 64, 0) = 64
+22558 mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f95c23000
+22558 mmap(NULL, 765952, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f95b68000
+22558 mmap(0x7f95b68000, 612512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f95b68000
+22558 mmap(0x7f95c0e000, 26200, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x96000) = 0x7f95c0e000
+22558 mmap(0x7f95c15000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f95c15000
+22558 munmap(0x7f95c23000, 4096)        = 0
+22558 close(3)                          = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c23000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c23000, 4096, "linker_alloc_128") = 0
+22558 mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95b67000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95b67000, 24, "linker_alloc_vector") = 0
+22558 mprotect(0x7f95c0e000, 16384, PROT_READ) = 0
+22558 munmap(0x7f95c23000, 4096)        = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c23000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c23000, 4096, "linker_alloc_128") = 0
+22558 munmap(0x7f95c23000, 4096)        = 0
+22558 mprotect(0x7f95c2a000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 mprotect(0x7f95c24000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 openat(AT_FDCWD, "/dev/__properties__", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 3
+22558 fstat(3, {st_dev=makedev(0, 12), st_ino=2688, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=152, st_size=131072, st_atime=2017-08-25T19:15:01-0400.459967824, st_mtime=2017-08-23T19:06:16-0400.412999993, st_ctime=2017-08-23T19:06:16-0400.412999993}) = 0
+22558 mmap(NULL, 131072, PROT_READ, MAP_SHARED, 3, 0) = 0x7f95b47000
+22558 close(3)                          = 0
+22558 futex(0x7f95c146c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libnetd_client.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22558 openat(AT_FDCWD, "/vendor/lib64/libnetd_client.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22558 openat(AT_FDCWD, "/system/lib64/libnetd_client.so", O_RDONLY|O_CLOEXEC) = 3
+22558 fstat(3, {st_dev=makedev(179, 37), st_ino=2144, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=9888, st_atime=2008-12-31T11:00:00-0500, st_mtime=2008-12-31T11:00:00-0500, st_ctime=2008-12-31T11:00:00-0500}) = 0
+22558 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95b45000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95b45000, 8192, "linker_alloc_lob") = 0
+22558 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95b43000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95b43000, 8192, "linker_alloc_lob") = 0
+22558 prctl(PR_GET_DUMPABLE)            = 1 (SUID_DUMP_USER)
+22558 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22558 readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libnetd_client.so", 4096) = 31
+22558 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22558 munmap(0x7f95b43000, 8192)        = 0
+22558 munmap(0x7f95b45000, 8192)        = 0
+22558 pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\240\f\0\0\0\0\0\0@\0\0\0\0\0\0\0 !\0\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\26\0\25\0", 64, 0) = 64
+22558 mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f95c23000
+22558 mmap(NULL, 77824, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f95b34000
+22558 mmap(0x7f95b34000, 6488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f95b34000
+22558 mmap(0x7f95b45000, 4104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x1000) = 0x7f95b45000
+22558 munmap(0x7f95c23000, 4096)        = 0
+22558 close(3)                          = 0
+22558 openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libc++.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22558 openat(AT_FDCWD, "/vendor/lib64/libc++.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22558 openat(AT_FDCWD, "/system/lib64/libc++.so", O_RDONLY|O_CLOEXEC) = 3
+22558 fstat(3, {st_dev=makedev(179, 37), st_ino=2028, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1848, st_size=944056, st_atime=2008-12-31T11:00:00-0500, st_mtime=2008-12-31T11:00:00-0500, st_ctime=2008-12-31T11:00:00-0500}) = 0
+22558 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95b32000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95b32000, 8192, "linker_alloc_lob") = 0
+22558 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95b30000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95b30000, 8192, "linker_alloc_lob") = 0
+22558 prctl(PR_GET_DUMPABLE)            = 1 (SUID_DUMP_USER)
+22558 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22558 readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libc++.so", 4096) = 23
+22558 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22558 munmap(0x7f95b30000, 8192)        = 0
+22558 munmap(0x7f95b32000, 8192)        = 0
+22558 pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\20\341\3\0\0\0\0\0@\0\0\0\0\0\0\0xa\16\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\31\0\30\0", 64, 0) = 64
+22558 mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f95c23000
+22558 mmap(NULL, 987136, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f95a43000
+22558 mmap(0x7f95a43000, 877868, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f95a43000
+22558 mmap(0x7f95b29000, 28728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0xdf000) = 0x7f95b29000
+22558 mmap(0x7f95b31000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f95b31000
+22558 munmap(0x7f95c23000, 4096)        = 0
+22558 close(3)                          = 0
+22558 openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libm.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22558 openat(AT_FDCWD, "/vendor/lib64/libm.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22558 openat(AT_FDCWD, "/system/lib64/libm.so", O_RDONLY|O_CLOEXEC) = 3
+22558 fstat(3, {st_dev=makedev(179, 37), st_ino=2128, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=464, st_size=235544, st_atime=2008-12-31T11:00:00-0500, st_mtime=2008-12-31T11:00:00-0500, st_ctime=2008-12-31T11:00:00-0500}) = 0
+22558 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95a41000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95a41000, 8192, "linker_alloc_lob") = 0
+22558 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95a3f000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95a3f000, 8192, "linker_alloc_lob") = 0
+22558 prctl(PR_GET_DUMPABLE)            = 1 (SUID_DUMP_USER)
+22558 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22558 readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libm.so", 4096) = 21
+22558 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22558 munmap(0x7f95a3f000, 8192)        = 0
+22558 munmap(0x7f95a41000, 8192)        = 0
+22558 pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0`D\0\0\0\0\0\0@\0\0\0\0\0\0\0X\222\3\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\27\0\26\0", 64, 0) = 64
+22558 mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f95c23000
+22558 mmap(NULL, 303104, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f959f9000
+22558 mmap(0x7f959f9000, 229000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f959f9000
+22558 mmap(0x7f95a41000, 4424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x38000) = 0x7f95a41000
+22558 munmap(0x7f95c23000, 4096)        = 0
+22558 close(3)                          = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c23000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c23000, 4096, "linker_alloc_128") = 0
+22558 mprotect(0x7f95b45000, 4096, PROT_READ) = 0
+22558 munmap(0x7f95c23000, 4096)        = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c23000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c23000, 4096, "linker_alloc_128") = 0
+22558 mprotect(0x7f95b29000, 28672, PROT_READ) = 0
+22558 munmap(0x7f95c23000, 4096)        = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f95c23000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f95c23000, 4096, "linker_alloc_128") = 0
+22558 mprotect(0x7f95a41000, 4096, PROT_READ) = 0
+22558 munmap(0x7f95c23000, 4096)        = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 brk(NULL)                         = 0x3000045000
+22558 brk(0x3000046000)                 = 0x3000046000
+22558 futex(0x7f95b302a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b334e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b302a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95b302a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 futex(0x7f95c17878, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f95c23000
+22558 mprotect(0x7f95c23000, 4096, PROT_READ) = 0
+22558 futex(0x7f95c17738, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22558 mprotect(0x7f95c2a000, 4096, PROT_READ) = 0
+22558 mprotect(0x7f95c24000, 4096, PROT_READ) = 0
+22558 mprotect(0x7f95c23000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 mprotect(0x7f95c23000, 4096, PROT_READ) = 0
+22558 getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+22558 setrlimit(RLIMIT_STACK, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+22558 rt_sigaction(SIGHUP, {sa_handler=0x300000c810, sa_mask=[HUP], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+22558 rt_sigaction(SIGQUIT, {sa_handler=0x300000c810, sa_mask=[QUIT], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+22558 rt_sigaction(SIGINT, {sa_handler=0x300000c810, sa_mask=[INT], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+22558 rt_sigaction(SIGTERM, {sa_handler=0x300000c810, sa_mask=[TERM], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+22558 rt_sigaction(SIGXCPU, {sa_handler=0x300000c810, sa_mask=[XCPU], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+22558 rt_sigaction(SIGXFSZ, {sa_handler=0x300000c810, sa_mask=[XFSZ], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+22558 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[CHLD], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+22558 fstat(1, {st_dev=makedev(0, 9), st_ino=5, st_mode=S_IFCHR|0600, st_nlink=1, st_uid=10093, st_gid=10093, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 2), st_atime=2017-08-26T16:12:34-0400.987998933, st_mtime=2017-08-26T16:12:34-0400.987998933, st_ctime=2017-08-26T16:12:34-0400.987998933}) = 0
+22558 mprotect(0x7f95c23000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 mprotect(0x7f95c23000, 4096, PROT_READ) = 0
+22558 fcntl(1, F_GETFL)                 = 0x20002 (flags O_RDWR|O_LARGEFILE)
+22558 fcntl(1, F_SETFL, O_RDWR|O_APPEND|O_LARGEFILE) = 0
+22558 fcntl(2, F_GETFL)                 = 0x20402 (flags O_RDWR|O_APPEND|O_LARGEFILE)
+22558 fcntl(2, F_SETFL, O_RDWR|O_APPEND|O_LARGEFILE) = 0
+22558 fcntl(1, F_GETFD)                 = 0
+22558 mprotect(0x7f95c23000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 mprotect(0x7f95c23000, 4096, PROT_READ) = 0
+22558 brk(0x3000048000)                 = 0x3000048000
+22558 mmap(NULL, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f959e8000
+22558 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f959e8000, 69632, "libc_malloc") = 0
+22558 brk(0x300004a000)                 = 0x300004a000
+22558 brk(0x300004b000)                 = 0x300004b000
+22558 getcwd("/data/data/com.termux/files/home/lm-sensors", 4096) = 44
+22558 brk(0x300004c000)                 = 0x300004c000
+22558 ioctl(1, TCGETS, {c_iflags=0x4100, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=2, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+22558 ioctl(1, TCGETS, {c_iflags=0x4100, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=2, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+22558 readlinkat(AT_FDCWD, "/proc/self/fd/1", "/dev/pts/2", 64) = 10
+22558 ioctl(2, TCGETS, {c_iflags=0x4100, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=2, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+22558 ioctl(2, TCGETS, {c_iflags=0x4100, c_oflags=0x5, c_cflags=0xbf, c_lflags=0x8a3b, c_line=2, c_cc="\x03\x1c\x7f\x15\x04\x00\x01\x00\x11\x13\x1a\x00\x12\x0f\x17\x16\x00\x00\x00"}) = 0
+22558 readlinkat(AT_FDCWD, "/proc/self/fd/2", "/dev/pts/2", 64) = 10
+22558 newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/include", {st_dev=makedev(254, 0), st_ino=892241, st_mode=S_IFDIR|0750, st_nlink=180, st_uid=10093, st_gid=10093, st_blksize=4096, st_blocks=32, st_size=16384, st_atime=2017-05-19T16:15:04-0400, st_mtime=2017-08-17T10:46:08-0400.592955336, st_ctime=2017-08-17T10:46:08-0400.592955336}, 0) = 0
+22558 brk(0x300004e000)                 = 0x300004e000
+22558 newfstatat(AT_FDCWD, "/usr/gnu/include", 0x7feac76a00, 0) = -1 ENOENT (No such file or directory)
+22558 newfstatat(AT_FDCWD, "/usr/local/include", 0x7feac76a00, 0) = -1 ENOENT (No such file or directory)
+22558 newfstatat(AT_FDCWD, "/usr/include", 0x7feac76a00, 0) = -1 ENOENT (No such file or directory)
+22558 rt_sigaction(SIGCHLD, {sa_handler=0x3000015a64, sa_mask=[CHLD], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[CHLD], sa_flags=SA_RESTART}, 8) = 0
+22558 rt_sigprocmask(SIG_SETMASK, [CHLD], [], 8) = 0
+22558 rt_sigaction(SIGUSR1, {sa_handler=0x3000017898, sa_mask=[USR1], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+22558 brk(0x300004f000)                 = 0x300004f000
+22558 brk(0x3000050000)                 = 0x3000050000
+22558 brk(0x3000051000)                 = 0x3000051000
+22558 brk(0x3000052000)                 = 0x3000052000
+22558 brk(0x3000053000)                 = 0x3000053000
+22558 brk(0x3000054000)                 = 0x3000054000
+22558 brk(0x3000055000)                 = 0x3000055000
+22558 brk(0x3000056000)                 = 0x3000056000
+22558 newfstatat(AT_FDCWD, ".", {st_dev=makedev(254, 0), st_ino=212851, st_mode=S_IFDIR|0700, st_nlink=7, st_uid=10093, st_gid=10093, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2017-08-25T23:28:58-0400.799962011, st_mtime=2017-08-26T16:12:41-0400.957998930, st_ctime=2017-08-26T16:12:41-0400.957998930}, 0) = 0
+22558 openat(AT_FDCWD, ".", O_RDONLY|O_DIRECTORY|O_CLOEXEC) = 3
+22558 brk(0x3000057000)                 = 0x3000057000
+22558 getdents64(3, [{d_ino=212851, d_off=12, d_reclen=24, d_type=DT_DIR, d_name="."}, {d_ino=884917, d_off=24, d_reclen=24, d_type=DT_DIR, d_name=".."}, {d_ino=212852, d_off=36, d_reclen=24, d_type=DT_DIR, d_name=".git"}, {d_ino=157163, d_off=52, d_reclen=32, d_type=DT_REG, d_name="CHANGES"}, {d_ino=157164, d_off=72, d_reclen=32, d_type=DT_REG, d_name="CONTRIBUTORS"}, {d_ino=157165, d_off=88, d_reclen=32, d_type=DT_REG, d_name="COPYING"}, {d_ino=157166, d_off=108, d_reclen=32, d_type=DT_REG, d_name="COPYING.LGPL"}, {d_ino=157167, d_off=124, d_reclen=32, d_type=DT_REG, d_name="INSTALL"}, {d_ino=157250, d_off=140, d_reclen=32, d_type=DT_REG, d_name="Makefile"}, {d_ino=157251, d_off=156, d_reclen=32, d_type=DT_REG, d_name="README"}, {d_ino=212868, d_off=168, d_reclen=24, d_type=DT_DIR, d_name="doc"}, {d_ino=212870, d_off=180, d_reclen=24, d_type=DT_DIR, d_name="etc"}, {d_ino=212871, d_off=192, d_reclen=24, d_type=DT_DIR, d_name="lib"}, {d_ino=212873, d_off=204, d_reclen=24, d_type=DT_DIR, d_name="prog"}, {d_ino=157292, d_off=224, d_reclen=32, d_type=DT_REG, d_name="version.h"}, {d_ino=157328, d_off=248, d_reclen=40, d_type=DT_REG, d_name="proot-log.txt"}, {d_ino=157337, d_off=4096, d_reclen=40, d_type=DT_REG, d_name="proot-make-trace.txt"}], 4200) = 504
+22558 getdents64(3, [], 4200)           = 0
+22558 close(3)                          = 0
+22558 openat(AT_FDCWD, "Makefile", O_RDONLY) = 3
+22558 fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+22558 fstat(3, {st_dev=makedev(254, 0), st_ino=157250, st_mode=S_IFREG|0600, st_nlink=1, st_uid=10093, st_gid=10093, st_blksize=4096, st_blocks=24, st_size=9465, st_atime=2017-08-25T23:29:19-0400.179962004, st_mtime=2017-08-25T23:29:19-0400.179962004, st_ctime=2017-08-25T23:29:19-0400.179962004}) = 0
+22558 brk(0x3000058000)                 = 0x3000058000
+22558 read(3, "#  Makefile - Makefile for a Linux module for reading sensor data.\n#  Copyright (c) 1998, 1999  Frodo Looijaard <frodol@dds.nl>\n#\n#  This program is free software; you can redistribute it and/or modify\n#  it under the terms of the GNU General Public License as published by\n#  the Free Software Foundation; either version 2 of the License, or\n#  (at your option) any later version.\n#\n#  This program is distributed in the hope that it will be useful,\n#  but WITHOUT ANY WARRANTY; without even the implied warranty of\n#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n#  GNU General Public License for more details.\n#\n#  You should have received a copy of the GNU General Public License\n#  along with this program; if not, write to the Free Software\n#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,\n#  MA 02110-1301 USA.\n\n# Everything you may want to change is in the top of this file. Usually, you\n# can just use the defaults, fortunately.\n\n# You need a full complement of GNU utilities to run this Makefile\n# successfully; most notably, you need GNU make, flex (>= 2.5.1)\n# and bison.\n\n# Uncomment the second line if you are a developer. This will enable many\n# additional warnings at compile-time\n#WARN := 0\nWARN := 1\n\n# Uncomment the second line if you want to get (loads of) debug information\n# at run-time.\n# Not recommended, unless you are actually debugging the code\nDEBUG := 0\n#DEBUG := 1\n\n# Note that all the installation paths below can also be set on the make\n# command line (e.g. \"make PREFIX=/usr\").\n\n# If you want to install at some other place then at from which you will run\n# everything, set DESTDIR to the extra prefix.\nDESTDIR :=\n\n# This is the prefix that will be used for almost all directories below.\nPREFIX := /usr/local\n\n# Your C compiler\nCC := gcc\n\n# This is the directory where sensors3.conf will be installed, if no other\n# configuration file is found\nETCDIR := /etc\n\n# You should not need to change this. It is the directory into which the\n# library files (both static and shared) will be installed.\nLIBDIR := $(PREFIX)/lib\n\nEXLDFLAGS := -Wl,-rpath,$(LIBDIR)\n\n# You should not need to change this. It is the directory into which the\n# executable program files will be installed. BINDIR for programs that are\n# also useful for normal users, SBINDIR for programs that can only be run\n# by the superuser.\n# Note that not all programs in this package are really installed;\n# some are just examples. You can always install them by hand, of\n# course.\nBINDIR := $(PREFIX)/bin\nSBINDIR := $(PREFIX)/sbin\n\n# You should not need to change this. It is the basic directory into which\n# include files will be installed. The actual directory will be \n# $(INCLUDEDIR)/sensors for library include files.\nINCLUDEDIR := $(PREFIX)/include\nLIBINCLUDEDIR := $(INCLUDEDIR)/sensors\n\n# You should not need to change this. It is the base directory under which the\n# manual pages will be installed.\nMANDIR := $(PREFIX)/man\n\nMACHINE := $(shell uname -m)\n\n# Extra non-default programs to build; e.g., sensord\n#PROG_EXTRA := sensord\n\n# Build and install static library\nBUILD_STATIC_LIB := 1\n\n# Set these to add preprocessor or compiler flags, or use\n# environment variables\n# CFLAGS :=\n# CPPFLAGS :=\n\n##################################################\n# Below this, nothing should need to be changed. #\n##################################################\n\n# Note that this is a monolithic Makefile; it calls no sub-Makefiles,\n# but instead, it compiles everything right from here. Yes, there are\n# some distinct advantages to this; see the following paper for more info:\n#   http://www.tip.net.au/~millerp/rmch/recu-make-cons-harm.html\n# Note that is still uses Makefile fragments in sub-directories; these\n# are called 'Module.mk'.\n\n# Within each Module.mk, rules and dependencies can be added to targets\n# all, install and clean. Use double colons instead of single ones\n# to do this. \n\n# The subdirectories we need to build things in \nSRCDIRS := lib prog/detect prog/pwm \\\n           prog/sensors ${PROG_EXTRA:%=prog/%} etc\n# Only build isadump and isaset on x86 machi", 4096) = 4096
+22558 pipe2([4, 5], 0)                  = 0
+22558 fcntl(5, F_SETFD, FD_CLOEXEC)     = 0
+22558 fcntl(4, F_SETFD, FD_CLOEXEC)     = 0
+22558 clone( <unfinished ...>
+22559 rt_sigprocmask(SIG_SETMASK, [], [CHLD], 8) = 0
+22559 setrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+22559 dup3(5, 1, 0)                     = 1
+22559 execve("/data/data/com.termux/files/usr/bin/uname", ["uname", "-m"], ["LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib", "LANG=en_US.UTF-8", "PREFIX=/data/data/com.termux/files/usr", "PWD=/data/data/com.termux/files/home/lm-sensors", "HOME=/data/data/com.termux/files/home", "TMPDIR=/data/data/com.termux/files/usr/tmp/", "TERM=xterm-256color", "SHLVL=1", "ANDROID_ROOT=/system", "ANDROID_DATA=/data", "EXTERNAL_STORAGE=/sdcard", "PATH=/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/opt/texlive/2017/bin/custom:/data/data/com.termux/files/home/bin", "PS1=$ ", "OLDPWD=/data/data/com.termux/files/home", "_=/data/data/com.termux/files/usr/bin/proot"]) = 0
+22559 mprotect(0x3f00040000, 4096, PROT_READ) = 0
+22559 set_tid_address(0x3f00042fd8)     = 22559
+22559 mmap(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8a0e000
+22559 mprotect(0x7fa8a0e000, 4096, PROT_NONE) = 0
+22559 sigaltstack({ss_sp=0x7fa8a0f000, ss_flags=0, ss_size=16384}, NULL) = 0
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa8a0f000, 16384, "thread signal stack") = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8a0d000
+22559 mprotect(0x7fa8a0d000, 4096, PROT_READ) = 0
+22559 mprotect(0x7fa8a0d000, 4096, PROT_READ|PROT_WRITE) = 0
+22559 mprotect(0x7fa8a0d000, 4096, PROT_READ) = 0
+22559 mprotect(0x7fa8a0d000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 <... clone resumed> child_stack=NULL, flags=CLONE_VM|CLONE_VFORK|SIGCHLD) = 22559
+22559 mprotect(0x7fa8a0d000, 4096, PROT_READ) = 0
+22558 close(5 <unfinished ...>
+22559 mprotect(0x7fa8a0d000, 4096, PROT_READ|PROT_WRITE) = 0
+22558 <... close resumed> )             = 0
+22559 mprotect(0x7fa8a0d000, 4096, PROT_READ) = 0
+22559 mprotect(0x7fa8a0d000, 4096, PROT_READ|PROT_WRITE <unfinished ...>
+22558 read(4,  <unfinished ...>
+22559 <... mprotect resumed> )          = 0
+22559 mprotect(0x7fa8a0d000, 4096, PROT_READ) = 0
+22559 openat(AT_FDCWD, "/dev/__properties__", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 3
+22559 fstat(3, {st_dev=makedev(0, 12), st_ino=2688, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=152, st_size=131072, st_atime=2017-08-25T19:15:01-0400.459967824, st_mtime=2017-08-23T19:06:16-0400.412999993, st_ctime=2017-08-23T19:06:16-0400.412999993}) = 0
+22559 mmap(NULL, 131072, PROT_READ, MAP_SHARED, 3, 0) = 0x7fa89ed000
+22559 close(3)                          = 0
+22559 rt_sigaction(SIGABRT, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22559 rt_sigaction(SIGBUS, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22559 rt_sigaction(SIGFPE, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22559 rt_sigaction(SIGILL, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22559 rt_sigaction(SIGPIPE, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22559 rt_sigaction(SIGSEGV, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22559 rt_sigaction(SIGSTKFLT, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22559 rt_sigaction(SIGTRAP, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89ec000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89ec000, 4096, "linker_alloc") = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89eb000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89eb000, 4096, "linker_alloc_64") = 0
+22559 mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89ea000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89ea000, 24, "linker_alloc_vector") = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e9000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e9000, 4096, "linker_alloc_32") = 0
+22559 mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e8000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e8000, 24, "linker_alloc_vector") = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e7000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e7000, 4096, "linker_alloc") = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e6000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e6000, 4096, "linker_alloc") = 0
+22559 openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libiconv.so", O_RDONLY|O_CLOEXEC) = 3
+22559 fstat(3, {st_dev=makedev(254, 0), st_ino=883574, st_mode=S_IFREG|0700, st_nlink=1, st_uid=10093, st_gid=10093, st_blksize=4096, st_blocks=304, st_size=152312, st_atime=2017-08-17T10:45:55-0400, st_mtime=2017-08-16T18:52:48-0400, st_ctime=2017-08-17T10:45:56-0400.462955341}) = 0
+22559 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e4000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e4000, 8192, "linker_alloc_lob") = 0
+22559 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e2000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e2000, 8192, "linker_alloc_lob") = 0
+22559 futex(0x3f000457dc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 prctl(PR_GET_DUMPABLE)            = 1 (SUID_DUMP_USER)
+22559 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22559 readlinkat(AT_FDCWD, "/proc/self/fd/3", "/data/data/com.termux/files/usr/lib/libandroid-support.so", 4096) = 57
+22559 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22559 munmap(0x7fa89e2000, 8192)        = 0
+22559 munmap(0x7fa89e4000, 8192)        = 0
+22559 pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\0\0\0\0008N\2\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\23\0\22\0", 64, 0) = 64
+22559 mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa89e5000
+22559 mmap(NULL, 155648, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa89bf000
+22559 mmap(0x7fa89bf000, 144008, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fa89bf000
+22559 mmap(0x7fa89e3000, 7440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x23000) = 0x7fa89e3000
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 close(3)                          = 0
+22559 openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libc.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22559 openat(AT_FDCWD, "/vendor/lib64/libc.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22559 openat(AT_FDCWD, "/system/lib64/libc.so", O_RDONLY|O_CLOEXEC) = 3
+22559 fstat(3, {st_dev=makedev(179, 37), st_ino=2029, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1592, st_size=812400, st_atime=2008-12-31T11:00:00-0500, st_mtime=2008-12-31T11:00:00-0500, st_ctime=2008-12-31T11:00:00-0500}) = 0
+22559 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89bd000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89bd000, 8192, "linker_alloc_lob") = 0
+22559 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89bb000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89bb000, 8192, "linker_alloc_lob") = 0
+22559 prctl(PR_GET_DUMPABLE)            = 1 (SUID_DUMP_USER)
+22559 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22559 readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libc.so", 4096) = 21
+22559 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22559 munmap(0x7fa89bb000, 8192)        = 0
+22559 munmap(0x7fa89bd000, 8192)        = 0
+22559 pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\300q\1\0\0\0\0\0@\0\0\0\0\0\0\0\260^\f\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\33\0\30\0", 64, 0) = 64
+22559 mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa89e5000
+22559 mmap(NULL, 765952, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8904000
+22559 mmap(0x7fa8904000, 612512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fa8904000
+22559 mmap(0x7fa89aa000, 26200, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x96000) = 0x7fa89aa000
+22559 mmap(0x7fa89b1000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa89b1000
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 close(3)                          = 0
+22559 mprotect(0x30000ee000, 53248, PROT_READ) = 0
+22559 mprotect(0x7fa89e3000, 4096, PROT_READ) = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e5000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e5000, 4096, "linker_alloc_128") = 0
+22559 mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa8903000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa8903000, 24, "linker_alloc_vector") = 0
+22559 mprotect(0x7fa89aa000, 16384, PROT_READ) = 0
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e5000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e5000, 4096, "linker_alloc_128") = 0
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 mprotect(0x7fa89ec000, 4096, PROT_READ|PROT_WRITE) = 0
+22559 mprotect(0x7fa89e6000, 4096, PROT_READ|PROT_WRITE) = 0
+22559 openat(AT_FDCWD, "/dev/__properties__", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 3
+22559 fstat(3, {st_dev=makedev(0, 12), st_ino=2688, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=152, st_size=131072, st_atime=2017-08-25T19:15:01-0400.459967824, st_mtime=2017-08-23T19:06:16-0400.412999993, st_ctime=2017-08-23T19:06:16-0400.412999993}) = 0
+22559 mmap(NULL, 131072, PROT_READ, MAP_SHARED, 3, 0) = 0x7fa88e3000
+22559 close(3)                          = 0
+22559 futex(0x7fa89b06c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libnetd_client.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22559 openat(AT_FDCWD, "/vendor/lib64/libnetd_client.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22559 openat(AT_FDCWD, "/system/lib64/libnetd_client.so", O_RDONLY|O_CLOEXEC) = 3
+22559 fstat(3, {st_dev=makedev(179, 37), st_ino=2144, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=9888, st_atime=2008-12-31T11:00:00-0500, st_mtime=2008-12-31T11:00:00-0500, st_ctime=2008-12-31T11:00:00-0500}) = 0
+22559 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa88e1000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa88e1000, 8192, "linker_alloc_lob") = 0
+22559 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa88df000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa88df000, 8192, "linker_alloc_lob") = 0
+22559 prctl(PR_GET_DUMPABLE)            = 1 (SUID_DUMP_USER)
+22559 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22559 readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libnetd_client.so", 4096) = 31
+22559 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22559 munmap(0x7fa88df000, 8192)        = 0
+22559 munmap(0x7fa88e1000, 8192)        = 0
+22559 pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\240\f\0\0\0\0\0\0@\0\0\0\0\0\0\0 !\0\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\26\0\25\0", 64, 0) = 64
+22559 mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa89e5000
+22559 mmap(NULL, 77824, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa88d0000
+22559 mmap(0x7fa88d0000, 6488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fa88d0000
+22559 mmap(0x7fa88e1000, 4104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x1000) = 0x7fa88e1000
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 close(3)                          = 0
+22559 openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libc++.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22559 openat(AT_FDCWD, "/vendor/lib64/libc++.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22559 openat(AT_FDCWD, "/system/lib64/libc++.so", O_RDONLY|O_CLOEXEC) = 3
+22559 fstat(3, {st_dev=makedev(179, 37), st_ino=2028, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1848, st_size=944056, st_atime=2008-12-31T11:00:00-0500, st_mtime=2008-12-31T11:00:00-0500, st_ctime=2008-12-31T11:00:00-0500}) = 0
+22559 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa88ce000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa88ce000, 8192, "linker_alloc_lob") = 0
+22559 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa88cc000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa88cc000, 8192, "linker_alloc_lob") = 0
+22559 prctl(PR_GET_DUMPABLE)            = 1 (SUID_DUMP_USER)
+22559 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22559 readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libc++.so", 4096) = 23
+22559 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22559 munmap(0x7fa88cc000, 8192)        = 0
+22559 munmap(0x7fa88ce000, 8192)        = 0
+22559 pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\20\341\3\0\0\0\0\0@\0\0\0\0\0\0\0xa\16\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\31\0\30\0", 64, 0) = 64
+22559 mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa89e5000
+22559 mmap(NULL, 987136, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa87df000
+22559 mmap(0x7fa87df000, 877868, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fa87df000
+22559 mmap(0x7fa88c5000, 28728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0xdf000) = 0x7fa88c5000
+22559 mmap(0x7fa88cd000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa88cd000
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 close(3)                          = 0
+22559 openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libm.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22559 openat(AT_FDCWD, "/vendor/lib64/libm.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22559 openat(AT_FDCWD, "/system/lib64/libm.so", O_RDONLY|O_CLOEXEC) = 3
+22559 fstat(3, {st_dev=makedev(179, 37), st_ino=2128, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=464, st_size=235544, st_atime=2008-12-31T11:00:00-0500, st_mtime=2008-12-31T11:00:00-0500, st_ctime=2008-12-31T11:00:00-0500}) = 0
+22559 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa87dd000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa87dd000, 8192, "linker_alloc_lob") = 0
+22559 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa87db000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa87db000, 8192, "linker_alloc_lob") = 0
+22559 prctl(PR_GET_DUMPABLE)            = 1 (SUID_DUMP_USER)
+22559 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22559 readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libm.so", 4096) = 21
+22559 prctl(PR_SET_DUMPABLE, SUID_DUMP_USER) = 0
+22559 munmap(0x7fa87db000, 8192)        = 0
+22559 munmap(0x7fa87dd000, 8192)        = 0
+22559 pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0`D\0\0\0\0\0\0@\0\0\0\0\0\0\0X\222\3\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\27\0\26\0", 64, 0) = 64
+22559 mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa89e5000
+22559 mmap(NULL, 303104, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8795000
+22559 mmap(0x7fa8795000, 229000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fa8795000
+22559 mmap(0x7fa87dd000, 4424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x38000) = 0x7fa87dd000
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 close(3)                          = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e5000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e5000, 4096, "linker_alloc_128") = 0
+22559 mprotect(0x7fa88e1000, 4096, PROT_READ) = 0
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e5000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e5000, 4096, "linker_alloc_128") = 0
+22559 mprotect(0x7fa88c5000, 28672, PROT_READ) = 0
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7fa89e5000
+22559 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7fa89e5000, 4096, "linker_alloc_128") = 0
+22559 mprotect(0x7fa87dd000, 4096, PROT_READ) = 0
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 brk(NULL)                         = 0x3000119000
+22559 brk(0x300011a000)                 = 0x300011a000
+22559 futex(0x7fa88cc2a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cf4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cc2a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa88cc2a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 futex(0x7fa89b3878, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa89e5000
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ) = 0
+22559 futex(0x7fa89b3738, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 mprotect(0x7fa89ec000, 4096, PROT_READ) = 0
+22559 mprotect(0x7fa89e6000, 4096, PROT_READ) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ|PROT_WRITE) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ) = 0
+22559 prctl(PR_SET_NAME, "uname")       = 0
+22559 prctl(PR_SET_KEEPCAPS, 549298695514) = -1 EINVAL (Invalid argument)
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ|PROT_WRITE) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ) = 0
+22559 uname({sysname="Linux", nodename="localhost", release="3.10.84-perf-gcdba782-00725-g9a1b90d", version="#1 SMP PREEMPT Wed Aug 2 13:48:17 CST 2017", machine="aarch64", domainname="localdomain"}) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ|PROT_WRITE) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ) = 0
+22559 fstat(1, {st_dev=makedev(0, 7), st_ino=5138005, st_mode=S_IFIFO|0600, st_nlink=1, st_uid=10093, st_gid=10093, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2017-08-26T16:12:42-0400.707998930, st_mtime=2017-08-26T16:12:42-0400.707998930, st_ctime=2017-08-26T16:12:42-0400.707998930}) = 0
+22559 brk(0x300011b000)                 = 0x300011b000
+22559 futex(0x7fa89bbb1c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ|PROT_WRITE) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ) = 0
+22559 write(1, "aarch64\n", 8)          = 8
+22559 close(1)                          = 0
+22559 close(2)                          = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ|PROT_WRITE) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ) = 0
+22559 close(0)                          = 0
+22559 futex(0x7fa89b06c0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ|PROT_WRITE) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ|PROT_WRITE) = 0
+22559 mprotect(0x7fa89e5000, 4096, PROT_READ) = 0
+22559 munmap(0x7fa89e5000, 4096)        = 0
+22559 exit_group(0)                     = ?
+22558 <... read resumed> "aarch64\n", 200) = 8
+22559 +++ exited with 0 +++
+22558 read(4, "", 192)                  = 0
+22558 close(4)                          = 0
+22558 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 22559
+22558 read(3, "nes.\nifneq (,$(findstring $(MACHINE), i386 i486 i586 i686 x86_64))\nSRCDIRS += prog/dump\nendif\nSRCDIRS += lib/test\n\n# Some often-used commands with default options\nMKDIR := mkdir -p\nRMDIR := rmdir\nRM := rm -f\nMV := mv -f\nBISON := bison\nFLEX := flex\nAR := ar\nINSTALL := install\nLN := ln -sf\nGREP := grep\nAWK := awk\nSED := sed\n\n# Determine the default compiler flags\n# Set CFLAGS or CPPFLAGS above to add your own flags to all.\n# ALLCPPFLAGS/ALLCFLAGS are common flags, plus any user-specified overrides from the environment or make command line.\n# PROGCPPFLAGS/PROGCFLAGS is to create regular object files (which are linked into executables).\n# ARCPPFLAGS/ARCFLAGS are used to create archive object files (static libraries).\n# LIBCPPFLAGS/LIBCFLAGS are for shared library objects.\nALL_CPPFLAGS := -I.\nALL_CFLAGS := -Wall\n\nifeq ($(DEBUG),1)\nALL_CPPFLAGS += -DDEBUG\nALL_CFLAGS += -O -g\nelse\nALL_CFLAGS += -O2\nendif\n\nifeq ($(WARN),1)\nALL_CFLAGS += -Wstrict-prototypes -Wshadow -Wpointer-arith -Wcast-qual \\\n            -Wcast-align -Wwrite-strings -Wnested-externs -Winline -W \\\n            -Wmissing-prototypes -Wundef\nendif\n\nALL_CPPFLAGS += $(CPPFLAGS)\nALL_CFLAGS += $(CFLAGS)\n\nPROGCPPFLAGS := -DETCDIR=\"\\\"$(ETCDIR)\\\"\" $(ALL_CPPFLAGS)\nPROGCFLAGS := $(ALL_CFLAGS)\nARCPPFLAGS := -DETCDIR=\"\\\"$(ETCDIR)\\\"\" $(ALL_CPPFLAGS)\nARCFLAGS := $(ALL_CFLAGS)\nLIBCPPFLAGS := -DETCDIR=\"\\\"$(ETCDIR)\\\"\" $(ALL_CPPFLAGS)\nLIBCFLAGS := -fpic -D_REENTRANT $(ALL_CFLAGS)\n\n.PHONY: all user clean install user_install uninstall user_uninstall\n\n# Make all the default rule\nall::\n\n# Include all makefiles for sub-modules\nINCLUDEFILES := \ninclude $(patsubst %,%/Module.mk,$(SRCDIRS))\nifneq ($(MAKECMDGOALS),clean)\nifneq ($(MAKECMDGOALS),uninstall)\nifneq ($(MAKECMDGOALS),user_uninstall)\nifneq ($(MAKECMDGOALS),help)\ninclude $(INCLUDEFILES)\nendif\nendif\nendif\nendif\n\n# Man pages\nMANPAGES := $(LIBMAN3FILES) $(LIBMAN5FILES) $(PROGDETECTMAN8FILES) $(PROGDUMPMAN8FILES) \\\n            $(PROGSENSORSMAN1FILES) $(PROGPWMMAN8FILES) prog/sensord/sensord.8\n\nuser ::\nuser_install::\n\t@echo \"*** Important notes:\"\n\t@echo \"***  * The libsensors configuration file ($(ETCDIR)/sensors3.conf) is never\"\n\t@echo \"***    overwritten by our installation process, so that you won't lose\"\n\t@echo \"***    your personal settings in that file. You still can get our latest\"\n\t@echo \"***    default config file in etc/sensors.conf.default and manually copy\"\n\t@echo \"***    it to $(ETCDIR)/sensors3.conf if you want. You will then want to\"\n\t@echo \"***    edit it to fit your needs again.\"\n\t@echo \"***  * The format of $(ETCDIR)/sensors3.conf changed with lm-sensors 3.0.0.\"\n\t@echo \"***    If you have a custom configuration file using the old format, you\"\n\t@echo \"***    can convert it using the sensors-conf-convert script. Otherwise just\"\n\t@echo \"***    overwrite your old configuration file with the new default one.\"\n\t@echo \"***  * As of lm-sensors 3.1.0, the default configuration file only\"\n\t@echo \"***    contains statements which do not depend on how chips are wired.\"\n\t@echo \"***    If you miss parts of the bigger configuration file that used to be\"\n\t@echo \"***    the default, copy the relevant parts from etc/sensors.conf.eg to\"\n\t@echo \"***    $(ETCDIR)/sensors3.conf.\"\nall :: user\ninstall :: all user_install\n\nclean::\n\t$(RM) lm_sensors-* lex.backup\n\nuser_uninstall::\n\nuninstall :: user_uninstall\n\nhelp:\n\t@echo 'Make targets are:'\n\t@echo '  all (default): build library and userspace programs'\n\t@echo '  install: install library and userspace programs'\n\t@echo '  uninstall: uninstall library and userspace programs'\n\t@echo '  clean: cleanup'\n\n# Generate html man pages to be copied to the lm_sensors website.\n# This uses the man2html from here\n# http://ftp.math.utah.edu/pub/sgml/\n# which works directly from the nroff source\nmanhtml:\n\t$(MKDIR) html\n\tcp $(MANPAGES) html\n\tcd html ; \\\n\texport LOGNAME=sensors ; \\\n\texport HOSTNAME=www.lm-sensors.org ; \\\n\tman2html *.[1-8] ; \\\n\t$(RM) *.[1-8]\n\n# Here, we define all implicit rules we want to use.\n\n.SUFFIXES:\n\n# We need to create dependency files. Tricky. The sed rule puts dir/file.d and\n# dir/file.c", 4096) = 4096
+22558 brk(0x3000059000)                 = 0x300011b000
+22558 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x3000058fb8} ---
+22558 rt_sigaction(SIGSEGV, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTART}, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, 8) = 0
+22558 rt_sigaction(SIGSEGV, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, NULL, 8) = 0
+22558 prctl(PR_GET_NAME, "make")        = 0
+22558 openat(AT_FDCWD, "/dev/log/main", O_WRONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+22558 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0) = 4
+22558 connect(4, {sa_family=AF_UNIX, sun_path=@"android:debuggerd"}, 20) = 0
+22558 write(4, "\0\0\0\0\36X\0\0\0\0\0\0\0\0\0\0\1\0\0\0", 20) = 20
+22558 read(4, "", 1)                    = 0
+22558 close(4)                          = 0
+22558 rt_sigaction(SIGSEGV, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTART}, {sa_handler=0x3f000029f0, sa_mask=[], sa_flags=SA_RESTART|SA_SIGINFO|SA_ONSTACK}, 8) = 0
+22558 rt_sigreturn({mask=[CHLD]})       = 81920
+22558 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x3000058fb8} ---
+22558 +++ killed by SIGSEGV +++

@@ -1,0 +1,43 @@
+
+
+
+Welcome to the wiki for sdrausty.github.io wiki! Please contribute...
+[Here](https://github.com/sdrausty/sdrausty.github.io/wiki/What-You-Have-Found)
+
+---
+
+What you have found:
+
+LaTeX and git to build books like the ones here at https://github.com/sdrausty?tab=repositories
+
+https://sdrausty.github.io
+
+https://www.google.com/search?q=lynx+browser
+
+https://www.google.com/search?q=clang+termux
+
+https://duckduckgo.com/?q=clang+termux
+
+https://duckduckgo.com/?q=imagemagick
+
+https://duckduckgo.com/?q=openssh
+
+https://duckduckgo.com/?q=youtube-dl
+
+There some others from http://termux.net/dists/stable/main/ and others that build on device...
+
+---
+
+## Support and promote sdrausty.github.io!
+
+                                                                                                                     ### Donate using Bitcoin:
+
+                                                                                                                                  - [14iBsezkxU4MiqypKcQTXNzthYGrh57eLT](bitcoin:14iBsezkxU4MiqypKcQTXNzthYGrh57eLT)
+
+
+![Bitcoin QR code](https://sdrausty.github.io/bitpics/bitcoin.jpg)
+
+                                                                                                                                                                                                                                                                           ### Donate using PayPal:
+
+
+- <https://paypal.me/sdrausty>

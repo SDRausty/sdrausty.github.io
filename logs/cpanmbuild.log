@@ -1,0 +1,169 @@
+cpanm (App::cpanminus) 1.7043 on perl 5.026000 built for aarch64-android
+Work directory is /data/data/com.termux/files/home/.cpanm/work/1497719334.16066
+You have make /data/data/com.termux/files/usr/bin/make
+You have /data/data/com.termux/files/usr/bin/wget
+You have /data/data/com.termux/files/usr/bin/tar: tar (GNU tar) 1.29
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /data/data/com.termux/files/usr/bin/unzip
+Searching reports () on cpanmetadb ...
+-> FAIL Finding reports on cpanmetadb failed.
+Searching reports () on metacpan ...
+! Could not find a release matching reports () on MetaCPAN.
+Searching reports on mirror http://www.cpan.org ...
+Downloading index file http://www.cpan.org/modules/02packages.details.txt.gz ...
+Uncompressing index file...
+-> FAIL Finding reports () on mirror http://www.cpan.org failed.
+-> FAIL Couldn't find module or a distribution reports
+--> Working on SHLOMIF/XML-LibXSLT-1.95.tar.gz
+Fetching http://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXSLT-1.95.tar.gz
+-> OK
+Unpacking XML-LibXSLT-1.95.tar.gz
+Entering XML-LibXSLT-1.95
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.24)
+Configuring XML-LibXSLT-1.95
+Running Makefile.PL
+running xslt-config... ok
+looking for -lxslt... yes
+looking for -lexslt... yes
+running pkg-config libexslt... ok
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for XML::LibXSLT
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (7.24)
+Checking if you have XML::LibXML 1.70 ... Yes (2.0129)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have warnings 0 ... Yes (1.37)
+Checking if you have Encode 0 ... Yes (2.90)
+Building and testing XML-LibXSLT-1.95
+cp LibXSLT.pm blib/lib/XML/LibXSLT.pm
+Running Mkbootstrap for LibXSLT ()
+chmod 644 "LibXSLT.bs"
+"/data/data/com.termux/files/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- LibXSLT.bs blib/arch/auto/XML/LibXSLT/LibXSLT.bs 644
+"/data/data/com.termux/files/usr/bin/perl" "/data/data/com.termux/files/usr/lib/perl5/5.26.0/ExtUtils/xsubpp"  -typemap '/data/data/com.termux/files/usr/lib/perl5/5.26.0/ExtUtils/typemap' -typemap '/data/data/com.termux/files/home/.cpanm/work/1497719334.16066/XML-LibXSLT-1.95/typemap'  LibXSLT.xs > LibXSLT.xsc
+mv LibXSLT.xsc LibXSLT.c
+aarch64-linux-android-clang -c  -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libxml2 -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libxml2 -I/data/data/com.termux/files/usr/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -DVERSION=\"1.95\" -DXS_VERSION=\"1.95\" -fPIC -Wno-unused-function "-I/data/data/com.termux/files/usr/lib/perl5/5.26.0/aarch64-android/CORE"  -DHAVE_BLANK -DHAVE_BLANK -DHAVE_EXSLT LibXSLT.c
+aarch64-linux-android-clang -c  -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libxml2 -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libxml2 -I/data/data/com.termux/files/usr/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -DVERSION=\"1.95\" -DXS_VERSION=\"1.95\" -fPIC -Wno-unused-function "-I/data/data/com.termux/files/usr/lib/perl5/5.26.0/aarch64-android/CORE"  -DHAVE_BLANK -DHAVE_BLANK -DHAVE_EXSLT perl-libxml-mm.c
+rm -f blib/arch/auto/XML/LibXSLT/LibXSLT.so
+aarch64-linux-android-clang  -I/data/data/com.termux/files/usr/include -shared LibXSLT.o perl-libxml-mm.o  -o blib/arch/auto/XML/LibXSLT/LibXSLT.so  \
+   -L/data/data/com.termux/files/usr/lib -L/home/fornwall/.termux-build/_lib/android-standalone-toolchain-aarch64-ndk12-api21-gcc4.9/sysroot/usr/lib -lxslt -lxml2 -lz -llzma -liconv -lm -L/data/data/com.termux/files/usr/lib -L/home/fornwall/.termux-build/_lib/android-standalone-toolchain-aarch64-ndk12-api21-gcc4.9/sysroot/usr/lib -L/data/data/com.termux/files/usr/lib -lexslt -llzma -liconv -lgcrypt -lgpg-error -lxml2 -lm -ldl "-L/data/data/com.termux/files/usr/lib/perl5/5.26.0/aarch64-android/CORE" -lperl   \
+  
+chmod 755 blib/arch/auto/XML/LibXSLT/LibXSLT.so
+Manifying 1 pod document
+"/data/data/com.termux/files/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- LibXSLT.bs blib/arch/auto/XML/LibXSLT/LibXSLT.bs 644
+PERL_DL_NONLAZY=1 "/data/data/com.termux/files/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/01basic.t ............... 
+Failed 4/4 subtests 
+t/02dromeds.t ............. 
+Failed 6/6 subtests 
+t/03input.t ............... 
+Failed 28/28 subtests 
+t/04params.t .............. 
+Failed 7/7 subtests 
+t/05quick.t ............... 
+Failed 12/12 subtests 
+t/06entities.t ............ 
+Failed 2/2 subtests 
+t/06output.t .............. 
+Failed 28/28 subtests 
+t/07blankdoc.t ............ 
+Failed 5/5 subtests 
+t/08literal.t ............. 
+Failed 8/8 subtests 
+t/09exslt.t ............... 
+No subtests run 
+t/10functions.t ........... 
+Failed 39/39 subtests 
+t/11utf8.t ................ 
+Failed 32/32 subtests 
+t/12import.t .............. 
+Failed 6/6 subtests 
+t/13error.t ............... 
+Failed 28/28 subtests 
+t/14security.t ............ 
+Failed 26/26 subtests 
+t/15misc.t ................ 
+Failed 4/4 subtests 
+t/cpan-changes.t .......... skipped: Test::CPAN::Changes required for this test
+t/pod.t ................... ok
+t/rt71345_a.t ............. 
+Failed 2/2 subtests 
+t/rt71345_b.t ............. 
+Failed 2/2 subtests 
+t/style-trailing-space.t .. skipped: Test::TrailingSpace required for trailing space test.
+t/xml-grammar-failures.t .. 
+Failed 1/1 subtests 
+
+Test Summary Report
+-------------------
+t/01basic.t             (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 4 tests but ran 0.
+t/02dromeds.t           (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 6 tests but ran 0.
+t/03input.t             (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 28 tests but ran 0.
+t/04params.t            (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 7 tests but ran 0.
+t/05quick.t             (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 12 tests but ran 0.
+t/06entities.t          (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/06output.t            (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 28 tests but ran 0.
+t/07blankdoc.t          (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 5 tests but ran 0.
+t/08literal.t           (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 8 tests but ran 0.
+t/09exslt.t             (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: No plan found in TAP output
+t/10functions.t         (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 39 tests but ran 0.
+t/11utf8.t              (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 32 tests but ran 0.
+t/12import.t            (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 6 tests but ran 0.
+t/13error.t             (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 28 tests but ran 0.
+t/14security.t          (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 26 tests but ran 0.
+t/15misc.t              (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 4 tests but ran 0.
+t/rt71345_a.t           (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/rt71345_b.t           (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/xml-grammar-failures.t (Wstat: 11 Tests: 0 Failed: 0)
+  Non-zero wait status: 11
+  Parse errors: Bad plan.  You planned 1 tests but ran 0.
+Files=22, Tests=1, 15 wallclock secs ( 0.45 usr  0.10 sys + 11.67 cusr  0.71 csys = 12.93 CPU)
+Result: FAIL
+Failed 19/22 test programs. 0/1 subtests failed.
+make: *** [Makefile:1048: test_dynamic] Error 255
+-> FAIL Installing SHLOMIF/XML-LibXSLT-1.95.tar.gz failed. See /data/data/com.termux/files/home/.cpanm/work/1497719334.16066/build.log for details. Retry with --force to force install it.

@@ -1,0 +1,1 @@
+ packages that are available for [all](http://termux.net/dists/stable/main/binary-all/) and [arm](http://termux.net/dists/stable/main/binary-arm/) computer architectures for [Termux](https://termux.com) on Android and Chrome as of 

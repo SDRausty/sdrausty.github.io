@@ -1,0 +1,368 @@
+proot info: binding = /
+proot info: vpid 1: translate("/data/data/com.termux/files/home/lm-sensors" + "make")
+proot info: vpid 1:          -> "/data/data/com.termux/files/home/lm-sensors/make"
+proot info: vpid 1: translate("/" + "/data/data/com.termux/files/usr/bin/make")
+proot info: vpid 1:          -> "/data/data/com.termux/files/usr/bin/make"
+proot info: vpid 1: translate("/" + "/data/data/com.termux/files/usr/bin/make")
+proot info: vpid 1:          -> "/data/data/com.termux/files/usr/bin/make"
+proot info: exe = /data/data/com.termux/files/usr/bin/make
+proot info: argv = make
+proot info: initial cwd = /data/data/com.termux/files/home/lm-sensors
+proot info: verbose level = 9
+proot info: pid 11502: access to "/dev/pts/2" (fd 0) won't be translated until closed
+proot info: pid 11502: access to "/data/data/com.termux/files/home/lm-sensors/proot-log.txt" (fd 1) won't be translated until closed
+proot info: pid 11502: access to "/data/data/com.termux/files/home/lm-sensors/proot-log.txt" (fd 2) won't be translated until closed
+proot info: pid 11502: access to "/proc/11502/fd" (fd 3) won't be translated until closed
+proot info: vpid 1: sysenter start: prctl(0x26, 0x1, 0x0, 0x0, 0x0, 0x1) = 0x26 [0x7fc777c680, 0]
+proot info: vpid 1: sysenter end: prctl(0x26, 0x1, 0x0, 0x0, 0x0, 0x1) = 0x26 [0x7fc777c680, 0]
+proot info: vpid 1: sysexit start: prctl(0x0, 0x1, 0x0, 0x0, 0x0, 0x1) = 0x0 [0x7fc777c680, 0]
+proot info: vpid 1: sysexit end: prctl(0x0, 0x1, 0x0, 0x0, 0x0, 0x1) = 0x0 [0x7fc777c680, 0]
+proot info: vpid 1: sysenter start: prctl(0x16, 0x2, 0x7fc777c690, 0x0, 0x0, 0x1) = 0x16 [0x7fc777c680, 0]
+proot info: vpid 1: sysenter end: prctl(0x16, 0x2, 0x7fc777c690, 0x0, 0x0, 0x1) = 0x16 [0x7fc777c680, 0]
+proot info: vpid 1: sysexit start: prctl(0x0, 0x2, 0x7fc777c690, 0x0, 0x0, 0x1) = 0x0 [0x7fc777c680, 0]
+proot info: vpid 1: sysexit end: prctl(0x0, 0x2, 0x7fc777c690, 0x0, 0x0, 0x1) = 0x0 [0x7fc777c680, 0]
+proot info: ptrace acceleration (seccomp mode 2) enabled
+proot info: vpid 1: sysenter start: execve(0x55658a8c80, 0x7fc777e820, 0x7fc777e830, 0x0, 0x40100401, 0x1) = 0x55658a8c80 [0x7fc777b610, 0]
+proot info: vpid 1: translate("/" + "/data/data/com.termux/files/usr/bin/make")
+proot info: vpid 1:          -> "/data/data/com.termux/files/usr/bin/make"
+proot info: vpid 1: translate("/" + "/system/bin/linker64")
+proot info: vpid 1:          -> "/system/bin/linker64"
+proot info: loader: /data/data/com.termux/files/usr/tmp/prooted-11502-ZUQMMM
+proot info: vpid 1: sysenter end: execve(0x7fc777b5d7, 0x7fc777e820, 0x7fc777e830, 0x0, 0x40100401, 0x1) = 0x7fc777b5d7 [0x7fc777b5d7, 0]
+proot info: vpid 1: sysexit start: io_setup(0x0, 0x0, 0x0, 0x0, 0x0, 0x0) = 0x0 [0x7fcf673520, 0]
+proot info: vpid 1: sysexit end: io_setup(0x7fcf673360, 0x0, 0x0, 0x0, 0x0, 0x0) = 0x7fcf673360 [0x7fcf673360, 0]
+proot info: vpid 1: sysenter start: openat(0xffffffffffffff9c, 0x7fcf6734e0, 0x0, 0x0, 0x0, 0x0) = 0xffffffffffffff9c [0x7fcf673360, 0]
+proot info: vpid 1: translate("/" + "/data/data/com.termux/files/usr/bin/make")
+proot info: vpid 1:          -> "/data/data/com.termux/files/usr/bin/make"
+proot info: vpid 1: sysenter end: openat(0xffffffffffffff9c, 0x7fcf673337, 0x0, 0x0, 0x0, 0x0) = 0xffffffffffffff9c [0x7fcf673360, 0]
+proot info: vpid 1: sysenter start: openat(0xffffffffffffff9c, 0x7fcf673509, 0x0, 0x0, 0xffffffffffffffff, 0x0) = 0xffffffffffffff9c [0x7fcf673360, 0]
+proot info: vpid 1: translate("/" + "/system/bin/linker64")
+proot info: vpid 1:          -> "/system/bin/linker64"
+proot info: vpid 1: sysenter end: openat(0xffffffffffffff9c, 0x7fcf67334b, 0x0, 0x0, 0xffffffffffffffff, 0x0) = 0xffffffffffffff9c [0x7fcf673360, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x3f00041240, 0x88000, 0x0, 0x17, 0x7fcf673698) = 0xffffff9c [0x7fcf6730d0, 0]
+proot info: vpid 1: translate("/" + "/dev/__properties__")
+proot info: vpid 1:          -> "/dev/__properties__"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf6730bc, 0x88000, 0x0, 0x17, 0x7fcf673698) = 0xffffff9c [0x7fcf6730d0, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf673040, 0x80000, 0x0, 0x0, 0x7fcf67306c) = 0xffffff9c [0x7fcf672e10, 0]
+proot info: vpid 1: translate("/" + "/data/data/com.termux/files/usr/lib/libc.so")
+proot info: vpid 1:          -> "/data/data/com.termux/files/usr/lib/libc.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672de4, 0x80000, 0x0, 0x0, 0x7fcf67306c) = 0xffffff9c [0x7fcf672e10, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf673040, 0x80000, 0x0, 0x72616863747570ff, 0x0) = 0xffffff9c [0x7fcf672e10, 0]
+proot info: vpid 1: translate("/" + "/vendor/lib64/libc.so")
+proot info: vpid 1:          -> "/system/vendor/lib64/libc.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672df3, 0x80000, 0x0, 0x72616863747570ff, 0x0) = 0xffffff9c [0x7fcf672e10, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf673040, 0x80000, 0x0, 0x72616863747570ff, 0x0) = 0xffffff9c [0x7fcf672e10, 0]
+proot info: vpid 1: translate("/" + "/system/lib64/libc.so")
+proot info: vpid 1:          -> "/system/lib64/libc.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672dfa, 0x80000, 0x0, 0x72616863747570ff, 0x0) = 0xffffff9c [0x7fcf672e10, 0]
+proot info: vpid 1: sysenter start: readlinkat(0xffffff9c, 0x7fae94a010, 0x7fae94c010, 0x1000, 0x7fae94c010, 0x7fae94a010) = 0xffffff9c [0x7fcf672cf0, 0]
+proot info: vpid 1: translate("/" + "/proc/self/fd/3")
+proot info: vpid 1:          -> "/proc/11503/fd/3"
+proot info: vpid 1: sysenter end: readlinkat(0xffffff9c, 0x7fcf672cdf, 0x7fae94c010, 0x1000, 0x7fae94c010, 0x7fae94a010) = 0xffffff9c [0x7fcf672cdf, 0]
+proot info: vpid 1: sysexit start: readlinkat(0x15, 0x7fcf672cdf, 0x7fae94c010, 0x1000, 0x7fae94c010, 0x7fae94a010) = 0x15 [0x7fcf672cdf, 0]
+proot info: vpid 1: sysexit end: readlinkat(0x15, 0x7fae94a010, 0x7fae94c010, 0x1000, 0x7fae94c010, 0x7fae94a010) = 0x15 [0x7fcf672cf0, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fae93c0b0, 0x88000, 0x0, 0x0, 0x1) = 0xffffff9c [0x7fcf672fc0, 0]
+proot info: vpid 1: translate("/" + "/dev/__properties__")
+proot info: vpid 1:          -> "/dev/__properties__"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672fac, 0x88000, 0x0, 0x0, 0x1) = 0xffffff9c [0x7fcf672fc0, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf672e80, 0x80000, 0x0, 0x0, 0x7fcf672eb6) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: translate("/" + "/data/data/com.termux/files/usr/lib/libnetd_client.so")
+proot info: vpid 1:          -> "/data/data/com.termux/files/usr/lib/libnetd_client.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672c3a, 0x80000, 0x0, 0x0, 0x7fcf672eb6) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf672e80, 0x80000, 0x0, 0x43, 0x8080808080808000) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: translate("/" + "/vendor/lib64/libnetd_client.so")
+proot info: vpid 1:          -> "/system/vendor/lib64/libnetd_client.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672c49, 0x80000, 0x0, 0x43, 0x8080808080808000) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf672e80, 0x80000, 0x0, 0x43, 0x8080808080808000) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: translate("/" + "/system/lib64/libnetd_client.so")
+proot info: vpid 1:          -> "/system/lib64/libnetd_client.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672c50, 0x80000, 0x0, 0x43, 0x8080808080808000) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: sysenter start: readlinkat(0xffffff9c, 0x7fae86d010, 0x7fae86f010, 0x1000, 0x7fae86f010, 0x7fae86d010) = 0xffffff9c [0x7fcf672b50, 0]
+proot info: vpid 1: translate("/" + "/proc/self/fd/3")
+proot info: vpid 1:          -> "/proc/11503/fd/3"
+proot info: vpid 1: sysenter end: readlinkat(0xffffff9c, 0x7fcf672b3f, 0x7fae86f010, 0x1000, 0x7fae86f010, 0x7fae86d010) = 0xffffff9c [0x7fcf672b3f, 0]
+proot info: vpid 1: sysexit start: readlinkat(0x1f, 0x7fcf672b3f, 0x7fae86f010, 0x1000, 0x7fae86f010, 0x7fae86d010) = 0x1f [0x7fcf672b3f, 0]
+proot info: vpid 1: sysexit end: readlinkat(0x1f, 0x7fae86d010, 0x7fae86f010, 0x1000, 0x7fae86f010, 0x7fae86d010) = 0x1f [0x7fcf672b50, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf672e80, 0x80000, 0x0, 0x0, 0x7fcf672eae) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: translate("/" + "/data/data/com.termux/files/usr/lib/libc++.so")
+proot info: vpid 1:          -> "/data/data/com.termux/files/usr/lib/libc++.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672c42, 0x80000, 0x0, 0x0, 0x7fcf672eae) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf672e80, 0x80000, 0x0, 0x2b6362696cffffff, 0x8000000000) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: translate("/" + "/vendor/lib64/libc++.so")
+proot info: vpid 1:          -> "/system/vendor/lib64/libc++.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672c51, 0x80000, 0x0, 0x2b6362696cffffff, 0x8000000000) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf672e80, 0x80000, 0x0, 0x2b6362696cffffff, 0x8000000000) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: translate("/" + "/system/lib64/libc++.so")
+proot info: vpid 1:          -> "/system/lib64/libc++.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672c58, 0x80000, 0x0, 0x2b6362696cffffff, 0x8000000000) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: sysenter start: readlinkat(0xffffff9c, 0x7fae85a010, 0x7fae85c010, 0x1000, 0x7fae85c010, 0x7fae85a010) = 0xffffff9c [0x7fcf672b50, 0]
+proot info: vpid 1: translate("/" + "/proc/self/fd/3")
+proot info: vpid 1:          -> "/proc/11503/fd/3"
+proot info: vpid 1: sysenter end: readlinkat(0xffffff9c, 0x7fcf672b3f, 0x7fae85c010, 0x1000, 0x7fae85c010, 0x7fae85a010) = 0xffffff9c [0x7fcf672b3f, 0]
+proot info: vpid 1: sysexit start: readlinkat(0x17, 0x7fcf672b3f, 0x7fae85c010, 0x1000, 0x7fae85c010, 0x7fae85a010) = 0x17 [0x7fcf672b3f, 0]
+proot info: vpid 1: sysexit end: readlinkat(0x17, 0x7fae85a010, 0x7fae85c010, 0x1000, 0x7fae85c010, 0x7fae85a010) = 0x17 [0x7fcf672b50, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf672e80, 0x80000, 0x0, 0x0, 0x7fcf672eac) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: translate("/" + "/data/data/com.termux/files/usr/lib/libm.so")
+proot info: vpid 1:          -> "/data/data/com.termux/files/usr/lib/libm.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672c44, 0x80000, 0x0, 0x0, 0x7fcf672eac) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf672e80, 0x80000, 0x0, 0x655fffffffffffff, 0x0) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: translate("/" + "/vendor/lib64/libm.so")
+proot info: vpid 1:          -> "/system/vendor/lib64/libm.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672c53, 0x80000, 0x0, 0x655fffffffffffff, 0x0) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x7fcf672e80, 0x80000, 0x0, 0x655fffffffffffff, 0x0) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: translate("/" + "/system/lib64/libm.so")
+proot info: vpid 1:          -> "/system/lib64/libm.so"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf672c5a, 0x80000, 0x0, 0x655fffffffffffff, 0x0) = 0xffffff9c [0x7fcf672c70, 0]
+proot info: vpid 1: sysenter start: readlinkat(0xffffff9c, 0x7fae769010, 0x7fae76b010, 0x1000, 0x7fae76b010, 0x7fae769010) = 0xffffff9c [0x7fcf672b50, 0]
+proot info: vpid 1: translate("/" + "/proc/self/fd/3")
+proot info: vpid 1:          -> "/proc/11503/fd/3"
+proot info: vpid 1: sysenter end: readlinkat(0xffffff9c, 0x7fcf672b3f, 0x7fae76b010, 0x1000, 0x7fae76b010, 0x7fae769010) = 0xffffff9c [0x7fcf672b3f, 0]
+proot info: vpid 1: sysexit start: readlinkat(0x15, 0x7fcf672b3f, 0x7fae76b010, 0x1000, 0x7fae76b010, 0x7fae769010) = 0x15 [0x7fcf672b3f, 0]
+proot info: vpid 1: sysexit end: readlinkat(0x15, 0x7fae769010, 0x7fae76b010, 0x1000, 0x7fae76b010, 0x7fae769010) = 0x15 [0x7fcf672b50, 0]
+proot info: vpid 1: sysenter start: brk(0x0, 0x0, 0x0, 0x0, 0x0, 0x0) = 0x0 [0x7fcf6729d0, 0]
+proot info: vpid 1: sysenter end: mmap(0x3000044000, 0x1000, 0x3, 0x22, 0xffffffffffffffff, 0x0) = 0x3000044000 [0x7fcf6729d0, 0]
+proot info: vpid 1: sysexit start: mmap(0x3000044000, 0x1000, 0x3, 0x22, 0xffffffffffffffff, 0x0) = 0x3000044000 [0x7fcf6729d0, 0]
+proot info: vpid 1: sysexit end: brk(0x3000045000, 0x0, 0x0, 0x0, 0x0, 0x0) = 0x3000045000 [0x7fcf6729d0, 0]
+proot info: vpid 1: sysenter start: brk(0x3000046000, 0xffffffcffffbafff, 0x0, 0x0, 0x0, 0x0) = 0x3000046000 [0x7fcf6729d0, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0x1000, 0x2000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf6729d0, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0x1000, 0x2000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf6729d0, 0]
+proot info: vpid 1: sysexit end: brk(0x3000046000, 0xffffffcffffbafff, 0x0, 0x0, 0x0, 0x0) = 0x3000046000 [0x7fcf6729d0, 0]
+proot info: vpid 1: sysenter start: setrlimit(0x3, 0x7fcf6724c0, 0x800000, 0xffffffffffffffff, 0x0, 0x0) = 0x3 [0x7fcf671c10, 0]
+proot info: vpid 1: sysenter end: setrlimit(0x3, 0x7fcf6724c0, 0x800000, 0xffffffffffffffff, 0x0, 0x0) = 0x3 [0x7fcf671c10, 0]
+proot info: vpid 1: sysexit start: setrlimit(0x0, 0x7fcf6724c0, 0x800000, 0xffffffffffffffff, 0x0, 0x0) = 0x0 [0x7fcf671c10, 0]
+proot info: vpid 1: sysexit end: setrlimit(0x0, 0x7fcf6724c0, 0x800000, 0xffffffffffffffff, 0x0, 0x0) = 0x0 [0x7fcf671c10, 0]
+proot info: vpid 1: sysenter start: brk(0x3000048000, 0xffffffcffffb9fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000048000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0x2000, 0x4000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0x2000, 0x4000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysexit end: brk(0x3000048000, 0xffffffcffffb9fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000048000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysenter start: brk(0x300004a000, 0xffffffcffffb7fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300004a000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0x4000, 0x6000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0x4000, 0x6000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysexit end: brk(0x300004a000, 0xffffffcffffb7fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300004a000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysenter start: brk(0x300004b000, 0xffffffcffffb5fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300004b000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0x6000, 0x7000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0x6000, 0x7000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysexit end: brk(0x300004b000, 0xffffffcffffb5fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300004b000 [0x7fcf671b00, 0]
+proot info: vpid 1: sysenter start: getcwd(0x7fcf6724c0, 0x1000, 0x0, 0x18, 0x8, 0x5c) = 0x7fcf6724c0 [0x7fcf671bd0, 0]
+proot info: vpid 1: sysenter end: void(0x7fcf6724c0, 0x1000, 0x0, 0x18, 0x8, 0x5c) = 0x7fcf6724c0 [0x7fcf671bd0, 0]
+proot info: vpid 1: sysexit start: void(0x7fcf6724c0, 0x1000, 0x0, 0x18, 0x8, 0x5c) = 0x7fcf6724c0 [0x7fcf671bd0, 0]
+proot info: vpid 1: translate("/data/data/com.termux/files/home/lm-sensors" + ".")
+proot info: vpid 1:          -> "/data/data/com.termux/files/home/lm-sensors/."
+proot info: vpid 1: sysexit end: getcwd(0x2c, 0x1000, 0x0, 0x18, 0x8, 0x5c) = 0x2c [0x7fcf671bd0, 0]
+proot info: vpid 1: sysenter start: brk(0x300004c000, 0xffffffcffffb4fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300004c000 [0x7fcf671a90, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0x7000, 0x8000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a90, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0x7000, 0x8000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a90, 0]
+proot info: vpid 1: sysexit end: brk(0x300004c000, 0xffffffcffffb4fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300004c000 [0x7fcf671a90, 0]
+proot info: vpid 1: sysenter start: fstatat64(0xffffff9c, 0x300002b053, 0x7fcf671b90, 0x0, 0x0, 0x1) = 0xffffff9c [0x7fcf671b40, 0]
+proot info: vpid 1: translate("/" + "/data/data/com.termux/files/usr/include")
+proot info: vpid 1:          -> "/data/data/com.termux/files/usr/include"
+proot info: vpid 1: sysenter end: fstatat64(0xffffff9c, 0x7fcf671b18, 0x7fcf671b90, 0x0, 0x0, 0x1) = 0xffffff9c [0x7fcf671b40, 0]
+proot info: vpid 1: sysenter start: brk(0x300004e000, 0xffffffcffffb3fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300004e000 [0x7fcf671a00, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0x8000, 0xa000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a00, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0x8000, 0xa000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a00, 0]
+proot info: vpid 1: sysexit end: brk(0x300004e000, 0xffffffcffffb3fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300004e000 [0x7fcf671a00, 0]
+proot info: vpid 1: sysenter start: fstatat64(0xffffff9c, 0x300002b07b, 0x7fcf671b90, 0x0, 0x200, 0x1fff) = 0xffffff9c [0x7fcf671b40, 0]
+proot info: vpid 1: translate("/" + "/usr/gnu/include")
+proot info: vpid 1: sysenter end: void(0xfffffffffffffffe, 0x300002b07b, 0x7fcf671b90, 0x0, 0x200, 0x1fff) = 0xfffffffffffffffe [0x7fcf671b40, 0]
+proot info: vpid 1: sysenter start: fstatat64(0xffffff9c, 0x300002b08c, 0x7fcf671b90, 0x0, 0x200, 0x1fff) = 0xffffff9c [0x7fcf671b40, 0]
+proot info: vpid 1: translate("/" + "/usr/local/include")
+proot info: vpid 1: sysenter end: void(0xfffffffffffffffe, 0x300002b08c, 0x7fcf671b90, 0x0, 0x200, 0x1fff) = 0xfffffffffffffffe [0x7fcf671b40, 0]
+proot info: vpid 1: sysenter start: fstatat64(0xffffff9c, 0x300002b06e, 0x7fcf671b90, 0x0, 0x200, 0x1fff) = 0xffffff9c [0x7fcf671b40, 0]
+proot info: vpid 1: translate("/" + "/usr/include")
+proot info: vpid 1: sysenter end: void(0xfffffffffffffffe, 0x300002b06e, 0x7fcf671b90, 0x0, 0x200, 0x1fff) = 0xfffffffffffffffe [0x7fcf671b40, 0]
+proot info: vpid 1: sysenter start: brk(0x300004f000, 0xffffffcffffb1fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300004f000 [0x7fcf6719d0, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0xa000, 0xb000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf6719d0, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0xa000, 0xb000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf6719d0, 0]
+proot info: vpid 1: sysexit end: brk(0x300004f000, 0xffffffcffffb1fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300004f000 [0x7fcf6719d0, 0]
+proot info: vpid 1: sysenter start: brk(0x3000050000, 0xffffffcffffb0fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000050000 [0x7fcf6719c0, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0xb000, 0xc000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf6719c0, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0xb000, 0xc000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf6719c0, 0]
+proot info: vpid 1: sysexit end: brk(0x3000050000, 0xffffffcffffb0fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000050000 [0x7fcf6719c0, 0]
+proot info: vpid 1: sysenter start: brk(0x3000051000, 0xffffffcffffaffff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000051000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0xc000, 0xd000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0xc000, 0xd000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysexit end: brk(0x3000051000, 0xffffffcffffaffff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000051000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysenter start: brk(0x3000052000, 0xffffffcffffaefff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000052000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0xd000, 0xe000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0xd000, 0xe000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysexit end: brk(0x3000052000, 0xffffffcffffaefff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000052000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysenter start: brk(0x3000053000, 0xffffffcffffadfff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000053000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0xe000, 0xf000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0xe000, 0xf000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysexit end: brk(0x3000053000, 0xffffffcffffadfff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000053000 [0x7fcf671a40, 0]
+proot info: vpid 1: sysenter start: brk(0x3000054000, 0xffffffcffffacfff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000054000 [0x7fcf671a60, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0xf000, 0x10000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a60, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0xf000, 0x10000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a60, 0]
+proot info: vpid 1: sysexit end: brk(0x3000054000, 0xffffffcffffacfff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000054000 [0x7fcf671a60, 0]
+proot info: vpid 1: sysenter start: brk(0x3000055000, 0xffffffcffffabfff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000055000 [0x7fcf671a90, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0x10000, 0x11000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a90, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0x10000, 0x11000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a90, 0]
+proot info: vpid 1: sysexit end: brk(0x3000055000, 0xffffffcffffabfff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000055000 [0x7fcf671a90, 0]
+proot info: vpid 1: sysenter start: brk(0x3000056000, 0xffffffcffffaafff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000056000 [0x7fcf671a60, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0x11000, 0x12000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a60, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0x11000, 0x12000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671a60, 0]
+proot info: vpid 1: sysexit end: brk(0x3000056000, 0xffffffcffffaafff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000056000 [0x7fcf671a60, 0]
+proot info: vpid 1: sysenter start: fstatat64(0xffffff9c, 0x30000299ff, 0x7fcf671af0, 0x0, 0x10, 0xff) = 0xffffff9c [0x7fcf671a20, 0]
+proot info: vpid 1: translate("/data/data/com.termux/files/home/lm-sensors" + ".")
+proot info: vpid 1:          -> "/data/data/com.termux/files/home/lm-sensors/."
+proot info: vpid 1: sysenter end: fstatat64(0xffffff9c, 0x7fcf6719f2, 0x7fcf671af0, 0x0, 0x10, 0xff) = 0xffffff9c [0x7fcf671a20, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x30000299ff, 0x84000, 0x0, 0x10, 0xff) = 0xffffff9c [0x7fcf671920, 0]
+proot info: vpid 1: translate("/data/data/com.termux/files/home/lm-sensors" + ".")
+proot info: vpid 1:          -> "/data/data/com.termux/files/home/lm-sensors/."
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf6718f2, 0x84000, 0x0, 0x10, 0xff) = 0xffffff9c [0x7fcf671920, 0]
+proot info: vpid 1: sysenter start: brk(0x3000057000, 0xffffffcffffa9fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000057000 [0x7fcf671960, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0x12000, 0x13000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671960, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0x12000, 0x13000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf671960, 0]
+proot info: vpid 1: sysexit end: brk(0x3000057000, 0xffffffcffffa9fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000057000 [0x7fcf671960, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x300002b04a, 0x0, 0x0, 0x2000, 0x4000) = 0xffffff9c [0x7fcf6719f0, 0]
+proot info: vpid 1: translate("/data/data/com.termux/files/home/lm-sensors" + "Makefile")
+proot info: vpid 1:          -> "/data/data/com.termux/files/home/lm-sensors/Makefile"
+proot info: vpid 1: sysenter end: openat(0xffffff9c, 0x7fcf6719bb, 0x0, 0x0, 0x2000, 0x4000) = 0xffffff9c [0x7fcf6719f0, 0]
+proot info: vpid 1: sysenter start: brk(0x3000058000, 0xffffffcffffa8fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000058000 [0x7fcf6717b0, 0]
+proot info: vpid 1: sysenter end: mremap(0x3000044000, 0x13000, 0x14000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf6717b0, 0]
+proot info: vpid 1: sysexit start: mremap(0x3000044000, 0x13000, 0x14000, 0x0, 0x0, 0x0) = 0x3000044000 [0x7fcf6717b0, 0]
+proot info: vpid 1: sysexit end: brk(0x3000058000, 0xffffffcffffa8fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000058000 [0x7fcf6717b0, 0]
+proot info: vpid 2: pid 11504
+proot info: vpid 2: sysenter start: setrlimit(0x3, 0x3000043438, 0x7fcf671598, 0x8, 0x0, 0x4001) = 0x3 [0x7fcf6715d0, 0]
+proot info: vpid 2: sysenter end: setrlimit(0x3, 0x3000043438, 0x7fcf671598, 0x8, 0x0, 0x4001) = 0x3 [0x7fcf6715d0, 0]
+proot info: vpid 2: sysexit start: setrlimit(0x0, 0x3000043438, 0x7fcf671598, 0x8, 0x0, 0x4001) = 0x0 [0x7fcf6715d0, 0]
+proot info: vpid 2: sysexit end: setrlimit(0x0, 0x3000043438, 0x7fcf671598, 0x8, 0x0, 0x4001) = 0x0 [0x7fcf6715d0, 0]
+proot info: vpid 2: sysenter start: execve(0x7fcf670588, 0x3000055ef0, 0x7fcf673538, 0x65, 0x3a, 0x800000000000) = 0x7fcf670588 [0x7fcf6703f0, 0]
+proot info: vpid 2: translate("/" + "/data/data/com.termux/files/usr/bin/uname")
+proot info: vpid 2:          -> "/data/data/com.termux/files/usr/bin/coreutils"
+proot info: vpid 2: translate("/" + "/system/bin/linker64")
+proot info: vpid 2:          -> "/system/bin/linker64"
+proot info: vpid 2: sysenter end: execve(0x7fcf6703b7, 0x3000055ef0, 0x7fcf673538, 0x65, 0x3a, 0x800000000000) = 0x7fcf6703b7 [0x7fcf6703b7, 0]
+proot info: vpid 2: sysexit start: io_setup(0x0, 0x0, 0x0, 0x0, 0x0, 0x0) = 0x0 [0x7ff88ea990, 0]
+proot info: vpid 2: sysexit end: io_setup(0x7ff88ea7d0, 0x0, 0x0, 0x0, 0x0, 0x0) = 0x7ff88ea7d0 [0x7ff88ea7d0, 0]
+proot info: vpid 2: sysenter start: openat(0xffffffffffffff9c, 0x7ff88ea950, 0x0, 0x0, 0x0, 0x0) = 0xffffffffffffff9c [0x7ff88ea7d0, 0]
+proot info: vpid 2: translate("/" + "/data/data/com.termux/files/usr/bin/uname")
+proot info: vpid 2:          -> "/data/data/com.termux/files/usr/bin/coreutils"
+proot info: vpid 2: sysenter end: openat(0xffffffffffffff9c, 0x7ff88ea7a2, 0x0, 0x0, 0x0, 0x0) = 0xffffffffffffff9c [0x7ff88ea7d0, 0]
+proot info: vpid 2: sysenter start: openat(0xffffffffffffff9c, 0x7ff88ea97a, 0x0, 0x0, 0xffffffffffffffff, 0x0) = 0xffffffffffffff9c [0x7ff88ea7d0, 0]
+proot info: vpid 2: translate("/" + "/system/bin/linker64")
+proot info: vpid 2:          -> "/system/bin/linker64"
+proot info: vpid 2: sysenter end: openat(0xffffffffffffff9c, 0x7ff88ea7bb, 0x0, 0x0, 0xffffffffffffffff, 0x0) = 0xffffffffffffff9c [0x7ff88ea7d0, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x3f00041240, 0x88000, 0x0, 0x17, 0x7ff88eab10) = 0xffffff9c [0x7ff88ea540, 0]
+proot info: vpid 2: translate("/" + "/dev/__properties__")
+proot info: vpid 2:          -> "/dev/__properties__"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea52c, 0x88000, 0x0, 0x17, 0x7ff88eab10) = 0xffffff9c [0x7ff88ea540, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x300000276e, 0x80000, 0x0, 0x40100401, 0x8000008) = 0xffffff9c [0x7ff88ea280, 0]
+proot info: vpid 2: translate("/" + "/data/data/com.termux/files/usr/lib/libiconv.so")
+proot info: vpid 2:          -> "/data/data/com.termux/files/usr/lib/libandroid-support.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea246, 0x80000, 0x0, 0x40100401, 0x8000008) = 0xffffff9c [0x7ff88ea280, 0]
+proot info: vpid 2: sysenter start: readlinkat(0xffffff9c, 0x7f97874010, 0x7f97876010, 0x1000, 0x7f97876010, 0x7f97874010) = 0xffffff9c [0x7ff88ea160, 0]
+proot info: vpid 2: translate("/" + "/proc/self/fd/3")
+proot info: vpid 2:          -> "/proc/11504/fd/3"
+proot info: vpid 2: sysenter end: readlinkat(0xffffff9c, 0x7ff88ea14f, 0x7f97876010, 0x1000, 0x7f97876010, 0x7f97874010) = 0xffffff9c [0x7ff88ea14f, 0]
+proot info: vpid 2: sysexit start: readlinkat(0x39, 0x7ff88ea14f, 0x7f97876010, 0x1000, 0x7f97876010, 0x7f97874010) = 0x39 [0x7ff88ea14f, 0]
+proot info: vpid 2: sysexit end: readlinkat(0x39, 0x7f97874010, 0x7f97876010, 0x1000, 0x7f97876010, 0x7f97874010) = 0x39 [0x7ff88ea160, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea4b0, 0x80000, 0x0, 0x0, 0x7ff88ea4dc) = 0xffffff9c [0x7ff88ea280, 0]
+proot info: vpid 2: translate("/" + "/data/data/com.termux/files/usr/lib/libc.so")
+proot info: vpid 2:          -> "/data/data/com.termux/files/usr/lib/libc.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea254, 0x80000, 0x0, 0x0, 0x7ff88ea4dc) = 0xffffff9c [0x7ff88ea280, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea4b0, 0x80000, 0x0, 0x696cffffffffffff, 0x8080800000000000) = 0xffffff9c [0x7ff88ea280, 0]
+proot info: vpid 2: translate("/" + "/vendor/lib64/libc.so")
+proot info: vpid 2:          -> "/system/vendor/lib64/libc.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea263, 0x80000, 0x0, 0x696cffffffffffff, 0x8080800000000000) = 0xffffff9c [0x7ff88ea280, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea4b0, 0x80000, 0x0, 0x696cffffffffffff, 0x8080800000000000) = 0xffffff9c [0x7ff88ea280, 0]
+proot info: vpid 2: translate("/" + "/system/lib64/libc.so")
+proot info: vpid 2:          -> "/system/lib64/libc.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea26a, 0x80000, 0x0, 0x696cffffffffffff, 0x8080800000000000) = 0xffffff9c [0x7ff88ea280, 0]
+proot info: vpid 2: sysenter start: readlinkat(0xffffff9c, 0x7f9784d010, 0x7f9784f010, 0x1000, 0x7f9784f010, 0x7f9784d010) = 0xffffff9c [0x7ff88ea160, 0]
+proot info: vpid 2: translate("/" + "/proc/self/fd/3")
+proot info: vpid 2:          -> "/proc/11504/fd/3"
+proot info: vpid 2: sysenter end: readlinkat(0xffffff9c, 0x7ff88ea14f, 0x7f9784f010, 0x1000, 0x7f9784f010, 0x7f9784d010) = 0xffffff9c [0x7ff88ea14f, 0]
+proot info: vpid 2: sysexit start: readlinkat(0x15, 0x7ff88ea14f, 0x7f9784f010, 0x1000, 0x7f9784f010, 0x7f9784d010) = 0x15 [0x7ff88ea14f, 0]
+proot info: vpid 2: sysexit end: readlinkat(0x15, 0x7f9784d010, 0x7f9784f010, 0x1000, 0x7f9784f010, 0x7f9784d010) = 0x15 [0x7ff88ea160, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7f978400b0, 0x88000, 0x0, 0x0, 0x1) = 0xffffff9c [0x7ff88ea400, 0]
+proot info: vpid 2: translate("/" + "/dev/__properties__")
+proot info: vpid 2:          -> "/dev/__properties__"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea3ec, 0x88000, 0x0, 0x0, 0x1) = 0xffffff9c [0x7ff88ea400, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea2c0, 0x80000, 0x0, 0x0, 0x7ff88ea2f6) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: translate("/" + "/data/data/com.termux/files/usr/lib/libnetd_client.so")
+proot info: vpid 2:          -> "/data/data/com.termux/files/usr/lib/libnetd_client.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea07a, 0x80000, 0x0, 0x0, 0x7ff88ea2f6) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea2c0, 0x80000, 0x0, 0x43, 0x8080808080808000) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: translate("/" + "/vendor/lib64/libnetd_client.so")
+proot info: vpid 2:          -> "/system/vendor/lib64/libnetd_client.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea089, 0x80000, 0x0, 0x43, 0x8080808080808000) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea2c0, 0x80000, 0x0, 0x43, 0x8080808080808000) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: translate("/" + "/system/lib64/libnetd_client.so")
+proot info: vpid 2:          -> "/system/lib64/libnetd_client.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea090, 0x80000, 0x0, 0x43, 0x8080808080808000) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: sysenter start: readlinkat(0xffffff9c, 0x7f97771010, 0x7f97773010, 0x1000, 0x7f97773010, 0x7f97771010) = 0xffffff9c [0x7ff88e9f90, 0]
+proot info: vpid 2: translate("/" + "/proc/self/fd/3")
+proot info: vpid 2:          -> "/proc/11504/fd/3"
+proot info: vpid 2: sysenter end: readlinkat(0xffffff9c, 0x7ff88e9f7f, 0x7f97773010, 0x1000, 0x7f97773010, 0x7f97771010) = 0xffffff9c [0x7ff88e9f7f, 0]
+proot info: vpid 2: sysexit start: readlinkat(0x1f, 0x7ff88e9f7f, 0x7f97773010, 0x1000, 0x7f97773010, 0x7f97771010) = 0x1f [0x7ff88e9f7f, 0]
+proot info: vpid 2: sysexit end: readlinkat(0x1f, 0x7f97771010, 0x7f97773010, 0x1000, 0x7f97773010, 0x7f97771010) = 0x1f [0x7ff88e9f90, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea2c0, 0x80000, 0x0, 0x0, 0x7ff88ea2ee) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: translate("/" + "/data/data/com.termux/files/usr/lib/libc++.so")
+proot info: vpid 2:          -> "/data/data/com.termux/files/usr/lib/libc++.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea082, 0x80000, 0x0, 0x0, 0x7ff88ea2ee) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea2c0, 0x80000, 0x0, 0x2b6362696cffffff, 0x8000000000) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: translate("/" + "/vendor/lib64/libc++.so")
+proot info: vpid 2:          -> "/system/vendor/lib64/libc++.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea091, 0x80000, 0x0, 0x2b6362696cffffff, 0x8000000000) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea2c0, 0x80000, 0x0, 0x2b6362696cffffff, 0x8000000000) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: translate("/" + "/system/lib64/libc++.so")
+proot info: vpid 2:          -> "/system/lib64/libc++.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea098, 0x80000, 0x0, 0x2b6362696cffffff, 0x8000000000) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: sysenter start: readlinkat(0xffffff9c, 0x7f9775e010, 0x7f97760010, 0x1000, 0x7f97760010, 0x7f9775e010) = 0xffffff9c [0x7ff88e9f90, 0]
+proot info: vpid 2: translate("/" + "/proc/self/fd/3")
+proot info: vpid 2:          -> "/proc/11504/fd/3"
+proot info: vpid 2: sysenter end: readlinkat(0xffffff9c, 0x7ff88e9f7f, 0x7f97760010, 0x1000, 0x7f97760010, 0x7f9775e010) = 0xffffff9c [0x7ff88e9f7f, 0]
+proot info: vpid 2: sysexit start: readlinkat(0x17, 0x7ff88e9f7f, 0x7f97760010, 0x1000, 0x7f97760010, 0x7f9775e010) = 0x17 [0x7ff88e9f7f, 0]
+proot info: vpid 2: sysexit end: readlinkat(0x17, 0x7f9775e010, 0x7f97760010, 0x1000, 0x7f97760010, 0x7f9775e010) = 0x17 [0x7ff88e9f90, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea2c0, 0x80000, 0x0, 0x0, 0x7ff88ea2ec) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: translate("/" + "/data/data/com.termux/files/usr/lib/libm.so")
+proot info: vpid 2:          -> "/data/data/com.termux/files/usr/lib/libm.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea084, 0x80000, 0x0, 0x0, 0x7ff88ea2ec) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea2c0, 0x80000, 0x0, 0x655fffffffffffff, 0x0) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: translate("/" + "/vendor/lib64/libm.so")
+proot info: vpid 2:          -> "/system/vendor/lib64/libm.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea093, 0x80000, 0x0, 0x655fffffffffffff, 0x0) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: sysenter start: openat(0xffffff9c, 0x7ff88ea2c0, 0x80000, 0x0, 0x655fffffffffffff, 0x0) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: translate("/" + "/system/lib64/libm.so")
+proot info: vpid 2:          -> "/system/lib64/libm.so"
+proot info: vpid 2: sysenter end: openat(0xffffff9c, 0x7ff88ea09a, 0x80000, 0x0, 0x655fffffffffffff, 0x0) = 0xffffff9c [0x7ff88ea0b0, 0]
+proot info: vpid 2: sysenter start: readlinkat(0xffffff9c, 0x7f9766d010, 0x7f9766f010, 0x1000, 0x7f9766f010, 0x7f9766d010) = 0xffffff9c [0x7ff88e9f90, 0]
+proot info: vpid 2: translate("/" + "/proc/self/fd/3")
+proot info: vpid 2:          -> "/proc/11504/fd/3"
+proot info: vpid 2: sysenter end: readlinkat(0xffffff9c, 0x7ff88e9f7f, 0x7f9766f010, 0x1000, 0x7f9766f010, 0x7f9766d010) = 0xffffff9c [0x7ff88e9f7f, 0]
+proot info: vpid 2: sysexit start: readlinkat(0x15, 0x7ff88e9f7f, 0x7f9766f010, 0x1000, 0x7f9766f010, 0x7f9766d010) = 0x15 [0x7ff88e9f7f, 0]
+proot info: vpid 2: sysexit end: readlinkat(0x15, 0x7f9766d010, 0x7f9766f010, 0x1000, 0x7f9766f010, 0x7f9766d010) = 0x15 [0x7ff88e9f90, 0]
+proot info: vpid 2: sysenter start: brk(0x0, 0x0, 0x0, 0x0, 0x0, 0x0) = 0x0 [0x7ff88e9e10, 0]
+proot info: vpid 2: sysenter end: mmap(0x3000118000, 0x1000, 0x3, 0x22, 0xffffffffffffffff, 0x0) = 0x3000118000 [0x7ff88e9e10, 0]
+proot info: vpid 2: sysexit start: mmap(0x3000118000, 0x1000, 0x3, 0x22, 0xffffffffffffffff, 0x0) = 0x3000118000 [0x7ff88e9e10, 0]
+proot info: vpid 2: sysexit end: brk(0x3000119000, 0x0, 0x0, 0x0, 0x0, 0x0) = 0x3000119000 [0x7ff88e9e10, 0]
+proot info: vpid 2: sysenter start: brk(0x300011a000, 0xffffffcfffee6fff, 0x0, 0x0, 0x0, 0x0) = 0x300011a000 [0x7ff88e9e10, 0]
+proot info: vpid 2: sysenter end: mremap(0x3000118000, 0x1000, 0x2000, 0x0, 0x0, 0x0) = 0x3000118000 [0x7ff88e9e10, 0]
+proot info: vpid 2: sysexit start: mremap(0x3000118000, 0x1000, 0x2000, 0x0, 0x0, 0x0) = 0x3000118000 [0x7ff88e9e10, 0]
+proot info: vpid 2: sysexit end: brk(0x300011a000, 0xffffffcfffee6fff, 0x0, 0x0, 0x0, 0x0) = 0x300011a000 [0x7ff88e9e10, 0]
+proot info: vpid 2: sysenter start: uname(0x7ff88ea6e8, 0x7ff88ead62, 0x30000dfe49, 0x30000f9680, 0x0, 0x0) = 0x7ff88ea6e8 [0x7ff88ea6e0, 0]
+proot info: vpid 2: sysenter end: uname(0x7ff88ea6e8, 0x7ff88ead62, 0x30000dfe49, 0x30000f9680, 0x0, 0x0) = 0x7ff88ea6e8 [0x7ff88ea6e0, 0]
+proot info: vpid 2: sysexit start: uname(0x0, 0x7ff88ead62, 0x30000dfe49, 0x30000f9680, 0x0, 0x0) = 0x0 [0x7ff88ea6e0, 0]
+proot info: vpid 2: sysexit end: uname(0x0, 0x7ff88ead62, 0x30000dfe49, 0x30000f9680, 0x0, 0x0) = 0x0 [0x7ff88ea6e0, 0]
+proot info: vpid 2: sysenter start: brk(0x300011b000, 0xffffffcfffee5fff, 0xfffffffffffff000, 0x0, 0x7f97846e68, 0x0) = 0x300011b000 [0x7ff88ea540, 0]
+proot info: vpid 2: sysenter end: mremap(0x3000118000, 0x2000, 0x3000, 0x0, 0x0, 0x0) = 0x3000118000 [0x7ff88ea540, 0]
+proot info: vpid 2: sysexit start: mremap(0x3000118000, 0x2000, 0x3000, 0x0, 0x0, 0x0) = 0x3000118000 [0x7ff88ea540, 0]
+proot info: vpid 2: sysexit end: brk(0x300011b000, 0xffffffcfffee5fff, 0xfffffffffffff000, 0x0, 0x7f97846e68, 0x0) = 0x300011b000 [0x7ff88ea540, 0]
+proot info: vpid 1: sysenter start: wait4(0xffffffff, 0x7fcf671600, 0x0, 0x0, 0x0, 0x1) = 0xffffffff [0x7fcf671580, 0]
+proot info: vpid 1: sysenter end: wait4(0xffffffff, 0x7fcf671600, 0x0, 0x0, 0x0, 0x1) = 0xffffffff [0x7fcf671580, 0]
+proot info: vpid 2: exited with status 0
+proot info: vpid 1: sysexit start: wait4(0x2cf0, 0x7fcf671600, 0x0, 0x0, 0x0, 0x1) = 0x2cf0 [0x7fcf671580, 0]
+proot info: vpid 1: sysexit end: wait4(0x2cf0, 0x7fcf671600, 0x0, 0x0, 0x0, 0x1) = 0x2cf0 [0x7fcf671580, 0]
+proot info: vpid 1: sysenter start: brk(0x3000059000, 0xffffffcffffa7fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000059000 [0x7fcf6716b0, 0]
+proot info: vpid 1: sysenter end: void(0x3000059000, 0xffffffcffffa7fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000059000 [0x7fcf6716b0, 0]
+proot info: vpid 1: sysexit start: void(0x3000059000, 0xffffffcffffa7fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x3000059000 [0x7fcf6716b0, 0]
+proot info: vpid 1: sysexit end: brk(0x300011b000, 0xffffffcffffa7fff, 0xfffffffffffff000, 0x0, 0x7fae942e68, 0x0) = 0x300011b000 [0x7fcf6716b0, 0]
+proot info: vpid 1: sysenter start: openat(0xffffff9c, 0x3f00027f08, 0x80001, 0x0, 0xffffffffffffffff, 0x0) = 0xffffff9c [0x7fae979590, 0]
+proot info: vpid 1: translate("/" + "/dev/log/main")
+proot info: vpid 1: sysenter end: void(0xfffffffffffffffe, 0x3f00027f08, 0x80001, 0x0, 0xffffffffffffffff, 0x0) = 0xfffffffffffffffe [0x7fae979590, 0]
+proot info: vpid 1: sysenter start: connect(0x4, 0x7fae979d30, 0x14, 0x3f00041000, 0x3f00015f64, 0x3f00025000) = 0x4 [0x7fae979c70, 0]
+proot info: vpid 1: sysenter end: connect(0x4, 0x7fae979d30, 0x14, 0x3f00041000, 0x3f00015f64, 0x3f00025000) = 0x4 [0x7fae979c70, 0]
+proot info: vpid 1: translate("/" + "/data/data/com.termux/files/usr/bin/make")
+proot info: vpid 1:          -> "/data/data/com.termux/files/usr/bin/make"
+proot info: vpid 1: terminated with signal 11

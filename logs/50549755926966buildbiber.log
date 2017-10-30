@@ -1,0 +1,154 @@
+
+Reading '/data/data/com.termux/files/home/.cpan/Metadata'
+  Database was generated on Fri, 15 Sep 2017 15:41:02 GMT
+Running install for module 'ExtUtils::LibBuilder'
+Checksum for /data/data/com.termux/files/home/.cpan/sources/authors/id/A/AM/AMBS/ExtUtils-LibBuilder-0.08.tar.gz ok
+Configuring A/AM/AMBS/ExtUtils-LibBuilder-0.08.tar.gz with Build.PL
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'ExtUtils-LibBuilder' version '0.08'
+  AMBS/ExtUtils-LibBuilder-0.08.tar.gz
+  /data/data/com.termux/files/usr/bin/perl Build.PL -- OK
+Running Build for A/AM/AMBS/ExtUtils-LibBuilder-0.08.tar.gz
+Building ExtUtils-LibBuilder
+  AMBS/ExtUtils-LibBuilder-0.08.tar.gz
+  ./Build -- OK
+Running Build test
+# Testing ExtUtils::LibBuilder 0.08, Perl 5.026000, /data/data/com.termux/files/usr/bin/perl
+t/00-load.t ....... ok
+CANNOT LINK EXECUTABLE: library "libbar.so" not found
+page record for 0x7f7efe2010 was not found (block_size=64)
+
+#   Failed test at t/01-simple.t line 79.
+#          got: ''
+#     expected: '15'
+# Looks like you failed 1 test of 7.
+t/01-simple.t ..... 
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/7 subtests 
+t/pod-coverage.t .. ok
+t/pod.t ........... ok
+
+Test Summary Report
+-------------------
+t/01-simple.t   (Wstat: 256 Tests: 7 Failed: 1)
+  Failed test:  7
+  Non-zero exit status: 1
+Files=4, Tests=10,  6 wallclock secs ( 0.18 usr  0.04 sys +  4.81 cusr  0.36 csys =  5.39 CPU)
+Result: FAIL
+Failed 1/4 test programs. 1/10 subtests failed.
+  AMBS/ExtUtils-LibBuilder-0.08.tar.gz
+  ./Build test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports AMBS/ExtUtils-LibBuilder-0.08.tar.gz
+Running install for module 'Text::BibTeX'
+Checksum for /data/data/com.termux/files/home/.cpan/sources/authors/id/A/AM/AMBS/Text-BibTeX-0.85.tar.gz ok
+---- Unsatisfied dependencies detected during ----
+----       AMBS/Text-BibTeX-0.85.tar.gz       ----
+    ExtUtils::LibBuilder [build_requires]
+Running install for module 'ExtUtils::LibBuilder'
+  AMBS/ExtUtils-LibBuilder-0.08.tar.gz
+  Has already been unwrapped into directory /data/data/com.termux/files/home/.cpan/build/ExtUtils-LibBuilder-0.08-3
+  AMBS/ExtUtils-LibBuilder-0.08.tar.gz
+  Has already been prepared
+  AMBS/ExtUtils-LibBuilder-0.08.tar.gz
+  Has already been made
+  AMBS/ExtUtils-LibBuilder-0.08.tar.gz
+  Has already been tested within this command
+  AMBS/Text-BibTeX-0.85.tar.gz
+  Has already been unwrapped into directory /data/data/com.termux/files/home/.cpan/build/Text-BibTeX-0.85-5
+Warning: Prerequisite 'ExtUtils::LibBuilder => 0.02' for 'AMBS/Text-BibTeX-0.85.tar.gz' failed when processing 'AMBS/ExtUtils-LibBuilder-0.08.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Configuring A/AM/AMBS/Text-BibTeX-0.85.tar.gz with Build.PL
+Can't locate ExtUtils/LibBuilder.pm in @INC (you may need to install the ExtUtils::LibBuilder module) (@INC contains: inc /data/data/com.termux/files/usr/lib/perl5/site_perl/5.26.0/aarch64-android /data/data/com.termux/files/usr/lib/perl5/site_perl/5.26.0 /data/data/com.termux/files/usr/lib/perl5/5.26.0/aarch64-android /data/data/com.termux/files/usr/lib/perl5/5.26.0 .) at inc/MyBuilder.pm line 11.
+BEGIN failed--compilation aborted at inc/MyBuilder.pm line 11.
+Compilation failed in require at Build.PL line 5.
+BEGIN failed--compilation aborted at Build.PL line 5.
+Warning: No success on command[/data/data/com.termux/files/usr/bin/perl Build.PL]
+  AMBS/Text-BibTeX-0.85.tar.gz
+  /data/data/com.termux/files/usr/bin/perl Build.PL -- NOT OK
+Running install for module 'XML::LibXSLT'
+Checksum for /data/data/com.termux/files/home/.cpan/sources/authors/id/S/SH/SHLOMIF/XML-LibXSLT-1.95.tar.gz ok
+Configuring S/SH/SHLOMIF/XML-LibXSLT-1.95.tar.gz with Makefile.PL
+running xslt-config... ok
+looking for -lxslt... yes
+looking for -lexslt... yes
+running pkg-config libexslt... ok
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for XML::LibXSLT
+Writing MYMETA.yml and MYMETA.json
+  SHLOMIF/XML-LibXSLT-1.95.tar.gz
+  /data/data/com.termux/files/usr/bin/perl Makefile.PL -- OK
+Running make for S/SH/SHLOMIF/XML-LibXSLT-1.95.tar.gz
+cp LibXSLT.pm blib/lib/XML/LibXSLT.pm
+Running Mkbootstrap for LibXSLT ()
+chmod 644 "LibXSLT.bs"
+"/data/data/com.termux/files/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- LibXSLT.bs blib/arch/auto/XML/LibXSLT/LibXSLT.bs 644
+"/data/data/com.termux/files/usr/bin/perl" "/data/data/com.termux/files/usr/lib/perl5/5.26.0/ExtUtils/xsubpp"  -typemap '/data/data/com.termux/files/usr/lib/perl5/5.26.0/ExtUtils/typemap' -typemap '/data/data/com.termux/files/home/.cpan/build/XML-LibXSLT-1.95-15/typemap'  LibXSLT.xs > LibXSLT.xsc
+mv LibXSLT.xsc LibXSLT.c
+aarch64-linux-android-clang -c  -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libxml2 -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libxml2 -I/data/data/com.termux/files/usr/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -DVERSION=\"1.95\" -DXS_VERSION=\"1.95\" -fPIC -Wno-unused-function "-I/data/data/com.termux/files/usr/lib/perl5/5.26.0/aarch64-android/CORE"  -DHAVE_BLANK -DHAVE_BLANK -DHAVE_EXSLT LibXSLT.c
+aarch64-linux-android-clang -c  -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libxml2 -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/libxml2 -I/data/data/com.termux/files/usr/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -DVERSION=\"1.95\" -DXS_VERSION=\"1.95\" -fPIC -Wno-unused-function "-I/data/data/com.termux/files/usr/lib/perl5/5.26.0/aarch64-android/CORE"  -DHAVE_BLANK -DHAVE_BLANK -DHAVE_EXSLT perl-libxml-mm.c
+rm -f blib/arch/auto/XML/LibXSLT/LibXSLT.so
+aarch64-linux-android-clang  -I/data/data/com.termux/files/usr/include -shared LibXSLT.o perl-libxml-mm.o  -o blib/arch/auto/XML/LibXSLT/LibXSLT.so  \
+   -L/data/data/com.termux/files/usr/lib -lxslt -lxml2 -lm -lz -L/data/data/com.termux/files/usr/lib -lexslt -lgcrypt -lgpg-error -lxml2 -lm -ldl "-L/data/data/com.termux/files/usr/lib/perl5/5.26.0/aarch64-android/CORE" -lperl   \
+  
+chmod 755 blib/arch/auto/XML/LibXSLT/LibXSLT.so
+Manifying 1 pod document
+  SHLOMIF/XML-LibXSLT-1.95.tar.gz
+  /data/data/com.termux/files/usr/bin/make -- OK
+Running make test
+"/data/data/com.termux/files/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- LibXSLT.bs blib/arch/auto/XML/LibXSLT/LibXSLT.bs 644
+PERL_DL_NONLAZY=1 "/data/data/com.termux/files/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+
+#   Failed test 'LibXML version is the same as its run time version.'
+#   at t/01basic.t line 22.
+#          got: '20904'
+#     expected: '20905'
+
+
+Compiled against:    libxslt 10130, libxml2 20904
+Running:             libxslt 10130, libxml2 20905
+Compiled with EXSLT: yes
+
+DO NOT REPORT THIS FAILURE: Your setup of library paths is incorrect!
+
+# Looks like you failed 1 test of 4.
+t/01basic.t ............... 
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/4 subtests 
+t/02dromeds.t ............. ok
+I/O warning : failed to load external entity "not-found.xml"
+t/03input.t ............... ok
+t/04params.t .............. ok
+t/05quick.t ............... ok
+t/06entities.t ............ ok
+t/06output.t .............. ok
+t/07blankdoc.t ............ ok
+t/08literal.t ............. ok
+t/09exslt.t ............... ok
+t/10functions.t ........... ok
+t/11utf8.t ................ ok
+t/12import.t .............. ok
+t/13error.t ............... ok
+t/14security.t ............ ok
+t/15misc.t ................ ok
+t/cpan-changes.t .......... skipped: Test::CPAN::Changes required for this test
+t/pod.t ................... ok
+t/rt71345_a.t ............. ok
+t/rt71345_b.t ............. ok
+t/style-trailing-space.t .. skipped: Test::TrailingSpace required for trailing space test.
+t/xml-grammar-failures.t .. ok
+
+Test Summary Report
+-------------------
+t/01basic.t             (Wstat: 256 Tests: 4 Failed: 1)
+  Failed test:  4
+  Non-zero exit status: 1
+Files=22, Tests=247, 15 wallclock secs ( 0.73 usr  0.05 sys + 13.08 cusr  0.85 csys = 14.71 CPU)
+Result: FAIL
+Failed 1/22 test programs. 1/247 subtests failed.
+make: *** [Makefile:1048: test_dynamic] Error 255
+  SHLOMIF/XML-LibXSLT-1.95.tar.gz
+  /data/data/com.termux/files/usr/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports SHLOMIF/XML-LibXSLT-1.95.tar.gz

@@ -1,0 +1,528 @@
+---
+layout: default
+title: Create Programs in Termux!
+---
+
+Welcome to Termux!
+
+Online help:     https://termux.com/help
+Community forum: https://termux.com/community
+IRC channel:     #termux on freenode
+Gitter chat:     https://gitter.im/termux/termux
+Mailing list:    termux+subscribe@groups.io
+
+Search packages:   packages search <query>
+Install a package: packages install <package>
+Upgrade packages:  packages upgrade
+Learn more:        packages help
+$ irclog2md
+$ cgss
+/data/data/com.termux/files/home/git/sdrausty/sdrausty.github.io
+$ g
+[master 116b9f4] Commit on 20170527 at 13:17:24 or simply at 1495905444 in Unix time.
+ 1 file changed, 6 insertions(+), 12 deletions(-)
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 669 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/sdrausty/sdrausty.github.io.git
+   ecfb27c..116b9f4  master -> master
+$ c
+/data/data/com.termux/files/home/git/sdrausty
+$ l
+total 136
+drwx------ 18 u0_a93 u0_a93  4096 May 26 14:35 .
+drwx------ 40 u0_a93 u0_a93  4096 May 26 22:26 ..
+-rw-------  1 u0_a93 u0_a93 12288 May 20 16:26 .th.swp
+drwx------  6 u0_a93 u0_a93  4096 Apr 25 00:06 RPG-LaTeX-Book-Cards-Template
+drwx------  3 u0_a93 u0_a93  4096 May 16 15:01 bitpics
+drwx------ 13 u0_a93 u0_a93  4096 May 21 21:50 electrum
+-rw-------  1 u0_a93 u0_a93 34494 May 22 15:43 favicon.ico
+drwx------ 10 u0_a93 u0_a93  4096 May  6 23:51 hello-world
+drwx------  8 u0_a93 u0_a93  4096 May 26 14:36 hpmor
+-rw-------  1 u0_a93 u0_a93 12299 May 22 16:16 index.html
+drwx------  4 u0_a93 u0_a93  4096 May  3 10:33 latex-beginners-course
+drwx------  3 u0_a93 u0_a93  4096 May  4 13:55 latex-intermediate-course
+drwx------  5 u0_a93 u0_a93  4096 Apr 24 23:39 rpg-latex-template
+drwx------ 10 u0_a93 u0_a93  4096 May 27 13:17 sdrausty.github.io
+drwx------ 12 u0_a93 u0_a93  4096 May 21 21:41 sdrausty.github.io000
+drwx------  7 u0_a93 u0_a93  4096 May 12 13:20 sdrausty.github.iot
+drwx------ 14 u0_a93 u0_a93  4096 May 22 01:05 t
+drwx------  3 u0_a93 u0_a93  4096 Apr 21 20:54 termux-apt-repo
+drwx------  3 u0_a93 u0_a93  4096 Apr 21 20:56 termux-create-package
+drwx------  8 u0_a93 u0_a93  4096 May 10 22:52 termux-packages
+drwx------  4 u0_a93 u0_a93  4096 Apr 24 21:54 tufte-latex
+$ l ..
+total 164
+drwx------  40 u0_a93 u0_a93 4096 May 26 22:26 .
+drwx------  34 u0_a93 u0_a93 4096 May 26 22:57 ..
+drwx------  10 u0_a93 u0_a93 4096 May 26 21:25 AndroTermux
+drwx------   9 u0_a93 u0_a93 4096 May 25 23:48 BooksApp
+drwx------  22 u0_a93 u0_a93 4096 May 19 17:18 Celestia
+drwx------   5 u0_a93 u0_a93 4096 Apr 25 22:27 DND-5e-LaTeX-Template
+drwx------   8 u0_a93 u0_a93 4096 May 26 19:31 Depth-LIB-Android-
+drwx------  16 u0_a93 u0_a93 4096 May 26 00:25 HeadFirstAndroid
+drwx------   6 u0_a93 u0_a93 4096 Apr 20 23:10 LaTeX-project
+drwx------   8 u0_a93 u0_a93 4096 Apr 20 22:29 LatexTemplate
+drwx------   8 u0_a93 u0_a93 4096 May 26 19:33 PocketHub
+drwx------  12 u0_a93 u0_a93 4096 May 10 01:08 Supybot
+drwx------   6 u0_a93 u0_a93 4096 Apr 26 21:22 ThinkComplexity2
+drwx------   5 u0_a93 u0_a93 4096 Apr 26 22:26 ThinkPython
+drwx------   6 u0_a93 u0_a93 4096 Apr 26 22:26 ThinkPython2
+drwx------  15 u0_a93 u0_a93 4096 May 19 17:16 allegro5
+drwx------  14 u0_a93 u0_a93 4096 May 26 00:11 android-piano
+drwx------   9 u0_a93 u0_a93 4096 May 26 18:07 android-tutorials
+drwx------  11 u0_a93 u0_a93 4096 May 19 18:03 biber
+drwx------   7 u0_a93 u0_a93 4096 May 19 17:05 book
+drwx------   3 u0_a93 u0_a93 4096 Apr 20 22:14 book-template
+drwx------   4 u0_a93 u0_a93 4096 May 10 00:07 chemtikz
+drwx------   4 u0_a93 u0_a93 4096 Apr 21 10:33 colorlib
+drwx------   8 u0_a93 u0_a93 4096 May 26 22:44 com.termux.api_10_src.tar.gz
+drwx------  35 u0_a93 u0_a93 4096 May 19 17:01 cw-advandroid
+drwx------  34 u0_a93 u0_a93 4096 May 19 17:01 cw-android
+drwx------ 109 u0_a93 u0_a93 4096 May 19 17:00 cw-omnibus
+drwx------  13 u0_a93 u0_a93 4096 May 22 23:06 electrum
+drwx------   8 u0_a93 u0_a93 4096 May 21 19:05 hpmor
+drwx------   3 u0_a93 u0_a93 4096 Apr 20 22:21 latex-book-template
+drwx------   7 u0_a93 u0_a93 4096 Apr 23 20:17 latex-nonfiction-ebook-template
+drwx------   5 u0_a93 u0_a93 4096 May  8 15:35 logger
+-rw-------   1 u0_a93 u0_a93  565 Apr 29 00:21 m
+drwx------  19 u0_a93 u0_a93 4096 May 23 16:46 povray
+drwx------  18 u0_a93 u0_a93 4096 May 26 14:35 sdrausty
+drwx------   3 u0_a93 u0_a93 4096 May  9 17:27 shellbot
+drwx------  12 u0_a93 u0_a93 4096 May 26 22:18 termux-app
+drwx------   3 u0_a93 u0_a93 4096 May 25 23:56 termux-buildapk
+drwx------   7 u0_a93 u0_a93 4096 May 19 16:34 termux-packages
+drwx------   8 u0_a93 u0_a93 4096 May 10 17:58 termux.github.io
+drwx------  10 u0_a93 u0_a93 4096 May 19 18:04 xindy.ctan
+$ cd ../biber/
+$ git pull
+Already up-to-date.
+$ l
+total 108
+drwx------ 11 u0_a93 u0_a93  4096 May 19 18:03 .
+drwx------ 40 u0_a93 u0_a93  4096 May 26 22:26 ..
+drwx------  7 u0_a93 u0_a93  4096 May 27 13:36 .git
+-rw-------  1 u0_a93 u0_a93   185 May 19 18:03 .gitignore
+-rw-------  1 u0_a93 u0_a93  3544 May 19 18:03 Build.PL
+-rw-------  1 u0_a93 u0_a93 22629 May 19 18:03 Changes
+-rw-------  1 u0_a93 u0_a93  3833 May 19 18:03 MANIFEST
+-rw-------  1 u0_a93 u0_a93   187 May 19 18:03 MANIFEST.SKIP
+-rw-------  1 u0_a93 u0_a93  1859 May 19 18:03 README.md
+-rw-------  1 u0_a93 u0_a93  1153 May 19 18:03 RELEASE
+-rw-------  1 u0_a93 u0_a93   480 May 19 18:03 THANKS
+-rw-------  1 u0_a93 u0_a93  8010 May 19 18:03 TODO.org
+drwx------  2 u0_a93 u0_a93  4096 May 19 18:03 bin
+drwx------  3 u0_a93 u0_a93  4096 May 19 18:03 data
+drwx------ 15 u0_a93 u0_a93  4096 May 19 18:03 dist
+drwx------  2 u0_a93 u0_a93  4096 May 19 18:03 doc
+drwx------  2 u0_a93 u0_a93  4096 May 19 18:03 etc
+drwx------  2 u0_a93 u0_a93  4096 May 19 18:03 htdocs
+drwx------  3 u0_a93 u0_a93  4096 May 19 18:03 lib
+drwx------  3 u0_a93 u0_a93  4096 May 19 18:03 t
+-rw-------  1 u0_a93 u0_a93   364 May 19 18:03 visual.pl
+$ cat README.md
+# OVERVIEW
+
+Biber is a BibTeX replacement for users of biblatex, with full Unicode
+support.
+
+**Please note**--the default download for all platforms is 64-bit. Please
+look in the files section for the correct 32-bit platform instead of
+using the default download button if you want 32-bit.
+
+## REQUIREMENTS
+
+Biber is written in Perl with the aim of providing a customised and
+sophisticated data preparation backend for biblatex.
+
+You do not need to install Perl use biber--binaries are provided for many
+operating systems via the main TeX distributions (TeXLive, MacTeX, MiKTeX)
+and also via download from SourceForge.
+
+You only need a Perl installation to use biber in one of the following
+cases:
+
+- A binary version is not available for your OS/platform
+- You wish to keep up with all of the bleeding-edge git commits before they
+- are packaged into a binary.
+
+For the vast majority of users, using the latest binary for the OS/platform
+you are using will be what you want to do. For details on the requirements
+for installing the Perl program version, please see the biber PDF documentation.
+
+The git repository for Biber is kept on github:
+
+[https://github.com/plk/biber](https://github.com/plk/biber)
+
+## SUPPORT AND DOCUMENTATION
+
+After installing, `biber --help` will give you the basic documentation.
+
+The latest PDF documentation can be found here:
+
+[https://sourceforge.net/projects/biblatex-biber/files/biblatex-biber](https://sourceforge.net/projects/biblatex-biber/files/biblatex-biber)
+
+More information, bugfix releases, forums and bug tracker are available at:
+
+[https://github.com/plk/biber](https://github.com/plk/biber)
+
+## BUILDING
+
+If you wish to build you own binary, see the main biber PDF documentation.
+There is a section there on how to do this. The PDF documentation is in the
+`documentation` folder for the release on Sourceforge.
+$ l
+total 108
+drwx------ 11 u0_a93 u0_a93  4096 May 19 18:03 .
+drwx------ 40 u0_a93 u0_a93  4096 May 26 22:26 ..
+drwx------  7 u0_a93 u0_a93  4096 May 27 13:36 .git
+-rw-------  1 u0_a93 u0_a93   185 May 19 18:03 .gitignore
+-rw-------  1 u0_a93 u0_a93  3544 May 19 18:03 Build.PL
+-rw-------  1 u0_a93 u0_a93 22629 May 19 18:03 Changes
+-rw-------  1 u0_a93 u0_a93  3833 May 19 18:03 MANIFEST
+-rw-------  1 u0_a93 u0_a93   187 May 19 18:03 MANIFEST.SKIP
+-rw-------  1 u0_a93 u0_a93  1859 May 19 18:03 README.md
+-rw-------  1 u0_a93 u0_a93  1153 May 19 18:03 RELEASE
+-rw-------  1 u0_a93 u0_a93   480 May 19 18:03 THANKS
+-rw-------  1 u0_a93 u0_a93  8010 May 19 18:03 TODO.org
+drwx------  2 u0_a93 u0_a93  4096 May 19 18:03 bin
+drwx------  3 u0_a93 u0_a93  4096 May 19 18:03 data
+drwx------ 15 u0_a93 u0_a93  4096 May 19 18:03 dist
+drwx------  2 u0_a93 u0_a93  4096 May 19 18:03 doc
+drwx------  2 u0_a93 u0_a93  4096 May 19 18:03 etc
+drwx------  2 u0_a93 u0_a93  4096 May 19 18:03 htdocs
+drwx------  3 u0_a93 u0_a93  4096 May 19 18:03 lib
+drwx------  3 u0_a93 u0_a93  4096 May 19 18:03 t
+-rw-------  1 u0_a93 u0_a93   364 May 19 18:03 visual.pl
+$ per
+perl        perlbug     perldoc     perlivp     perltex     perlthanks  perror
+$ perl Build.PL
+Can't locate Module/Build.pm in @INC (you may need to install the Module::Build module) (@INC contains: /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/aarch64-android /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1 /data/data/com.termux/files/usr/lib/perl5/5.24.1/aarch64-android /data/data/com.termux/files/usr/lib/perl5/5.24.1 .) at Build.PL line 5.
+$ cp
+cp     cpack  cpan   cpio   cpp    cppi
+$ cpan Module::Build
+Loading internal null logger. Install Log::Log4perl for logging messages
+Reading '/data/data/com.termux/files/home/.cpan/Metadata'
+  Database was generated on Thu, 18 May 2017 01:17:02 GMT
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/01mailrc.txt.gz
+Reading '/data/data/com.termux/files/home/.cpan/sources/authors/01mailrc.txt.gz'
+............................................................................DONE
+Fetching with HTTP::Tiny:
+http://www.cpan.org/modules/02packages.details.txt.gz
+Reading '/data/data/com.termux/files/home/.cpan/sources/modules/02packages.details.txt.gz'
+  Database was generated on Sat, 27 May 2017 15:17:02 GMT
+  HTTP::Date not available
+.............
+  New CPAN.pm version (v2.16) available.
+  [Currently running version is v2.1101]
+  You might want to try
+    install CPAN
+    reload cpan
+  to both upgrade CPAN.pm and run the new version without leaving
+  the current session.
+
+
+...............................................................DONE
+Fetching with HTTP::Tiny:
+http://www.cpan.org/modules/03modlist.data.gz
+Reading '/data/data/com.termux/files/home/.cpan/sources/modules/03modlist.data.gz'
+DONE
+Writing /data/data/com.termux/files/home/.cpan/Metadata
+Running install for module 'Module::Build'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/L/LE/LEONT/Module-Build-0.4222.tar.gz
+Warning (usually harmless): 'YAML' not installed, cannot parse '/data/data/com.termux/files/home/.cpan/FTPstats.yml'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/L/LE/LEONT/CHECKSUMS
+Checksum for /data/data/com.termux/files/home/.cpan/sources/authors/id/L/LE/LEONT/Module-Build-0.4222.tar.gz ok
+'YAML' not installed, will not store persistent state
+Configuring L/LE/LEONT/Module-Build-0.4222.tar.gz with Makefile.PL
+# running Build.PL
+
+Checking optional features...
+inc_bundling_support....disabled
+  requires:
+    ! inc::latest is not installed
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Module-Build' version '0.4222'
+  LEONT/Module-Build-0.4222.tar.gz
+  /data/data/com.termux/files/usr/bin/perl Makefile.PL -- OK
+Running make for L/LE/LEONT/Module-Build-0.4222.tar.gz
+/data/data/com.termux/files/usr/bin/perl Build --makefile_env_macros 1
+Building Module-Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "manifest" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "distcheck" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "skipcheck" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "PAR" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "PAR::Dist" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "manifest" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find ""http:" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Inline" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Compat" in podpath: using lib::Module::Build::Compat as replacement path to Module::Build::Compat
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Software::License" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "PL_files" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "File::ShareDir" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Signature" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "Module::Build::Compat" in podpath: using lib::Module::Build::Compat as replacement path to Module::Build::Compat
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "YAML" in podpath: more than one possible replacement path to YAML, using CPAN::Meta::YAML
+Cannot find "CPANPLUS" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Install" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "inc::latest" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "inc::latest" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Devel::AssertOS::Unix" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "inc::latest" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build::Cookbook" in podpath: using lib::Module::Build::Cookbook as replacement path to Module::Build::Cookbook
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::Compat" in podpath: using lib::Module::Build::Compat as replacement path to Module::Build::Compat
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build::Authoring" in podpath: using lib::Module::Build::Authoring as replacement path to Module::Build::Authoring
+Cannot find "Module::Build::API" in podpath: using lib::Module::Build::API as replacement path to Module::Build::API
+Cannot find "Module::Build::ConfigData" in podpath: using lib::Module::Build::ConfigData as replacement path to Module::Build::ConfigData
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+Cannot find "Module::Build" in podpath: using lib::Module::Build as replacement path to Module::Build
+  LEONT/Module-Build-0.4222.tar.gz
+  /data/data/com.termux/files/usr/bin/make -- OK
+Running make test
+/data/data/com.termux/files/usr/bin/perl Build --makefile_env_macros 1 test
+t/00-compile.t ................. ok
+t/PL_files.t ................... ok
+t/actions/installdeps.t ........ ok
+t/actions/manifest_skip.t ...... ok
+t/add_property.t ............... ok
+t/add_property_array.t ......... ok
+t/add_property_hash.t .......... ok
+t/basic.t ...................... ok
+t/bundle_inc.t ................. skipped: $ENV{MB_TEST_EXPERIMENTAL} is not set
+t/compat.t ..................... ok
+t/compat/exit.t ................ ok
+t/debug.t ...................... ok
+t/destinations.t ............... ok
+t/ext.t ........................ ok
+t/extend.t ..................... ok
+t/files.t ...................... ok
+t/help.t ....................... ok
+t/install.t .................... ok
+t/install_extra_target.t ....... ok
+t/manifypods.t ................. ok
+t/manifypods_with_utf8.t ....... ok
+t/metadata.t ................... ok
+t/metadata2.t .................. ok
+t/mymeta.t ..................... ok
+t/new_from_context.t ........... ok
+t/notes.t ...................... ok
+t/par.t ........................ skipped: PAR::Dist 0.17 or up not installed to check .par's.
+t/parents.t .................... ok
+t/perl_mb_opt.t ................ ok
+t/pod_parser.t ................. ok
+t/ppm.t ........................ ok
+t/properties/dist_suffix.t ..... ok
+t/properties/license.t ......... ok
+t/properties/module_name.t ..... ok
+t/properties/needs_compiler.t .. ok
+t/properties/release_status.t .. ok
+t/properties/requires.t ........ ok
+t/properties/share_dir.t ....... ok
+t/resume.t ..................... ok
+t/runthrough.t ................. ok
+t/sample.t ..................... ok
+t/script_dist.t ................ ok
+t/signature.t .................. ok
+t/test_file_exts.t ............. ok
+t/test_reqs.t .................. ok
+t/test_type.t .................. ok
+t/test_types.t ................. ok
+t/tilde.t ...................... ok
+t/unit_run_test_harness.t ...... ok
+t/use_tap_harness.t ............ ok
+t/versions.t ................... ok
+t/write_default_maniskip.t ..... ok
+t/xs.t ......................... ok
+All tests successful.
+Files=53, Tests=1167, 496 wallclock secs ( 2.24 usr  0.30 sys + 338.67 cusr 29.72 csys = 370.93 CPU)
+Result: PASS
+  LEONT/Module-Build-0.4222.tar.gz
+  /data/data/com.termux/files/usr/bin/make test -- OK
+Running make install
+/data/data/com.termux/files/usr/bin/perl Build --makefile_env_macros 1 install
+Building Module-Build
+Installing /data/data/com.termux/files/usr/share/man/man1/config_data.1
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/bin/config_data.html
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Base.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Compat.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Config.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Cookbook.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Dumper.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Notes.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/PPMMaker.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/PodParser.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/API.pod
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Authoring.pod
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Bundling.pod
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/ConfigData.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Platform/Default.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Platform/MacOS.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Platform/Unix.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Platform/VMS.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Platform/VOS.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Platform/Windows.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Platform/aix.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Platform/cygwin.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Platform/darwin.pm
+Installing /data/data/com.termux/files/usr/lib/perl5/site_perl/5.24.1/Module/Build/Platform/os2.pm
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::API.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Authoring.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Base.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Bundling.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Compat.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::ConfigData.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Cookbook.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Notes.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::PPMMaker.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Platform::Default.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Platform::MacOS.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Platform::Unix.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Platform::VMS.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Platform::VOS.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Platform::Windows.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Platform::aix.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Platform::cygwin.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Platform::darwin.3
+Installing /data/data/com.termux/files/usr/share/man/man3/Module::Build::Platform::os2.3
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/API.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Base.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Authoring.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Bundling.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Compat.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Cookbook.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/ConfigData.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Notes.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/PPMMaker.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Platform/Default.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Platform/MacOS.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Platform/Unix.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Platform/VMS.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Platform/VOS.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Platform/Windows.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Platform/aix.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Platform/cygwin.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Platform/darwin.html
+Installing /data/data/com.termux/files/usr/share/doc/perl/html/site/lib/Module/Build/Platform/os2.html
+Installing /data/data/com.termux/files/usr/bin/config_data
+  LEONT/Module-Build-0.4222.tar.gz
+  /data/data/com.termux/files/usr/bin/make install  -- OK
+$
+
+---
+
+Log::Dispatch
+
+---
+
+#### You can typeset the [LaTeX/PDF version of 'Harry Potter and the Methods of Rationality'](https://github.com/sdrausty/hpmor) with [TeX in Termux](./tit.html) on your Android tablet or smartphone as a 1985 page long PDF document! That is a lot of reading. An audiobook [is available.](http://www.hpmorpodcast.com) Ways of listening along are with `espeak`, `play-audio` or `termux-tts-speak`.
+
+!['Harry Potter and the Methods of Rationality'](./../bitpics/hpmorpdf.png)
+
+Install TexLive with `packages install texlive` or `apt install texlive`. 
+
+Run 🏃 `tlmgr install scheme-full` to instal ~2500MB of typsetting goodies! You will find you can typeset from a one page letter to books hundreds of pages long with TeX in Termux on a tablet or smartphone in various languages and formats.
+
+Create a symbolic link:
+
+```
+ln -s /data/data/com.termux/files/usr/opt/texlive/2016/bin/custom/xetex /data/data/com.termux/files/usr/opt/texlive/2016/bin/custom/xelatex
+```
+Copy the source code of this book to your device:
+
+```
+$ git clone https://github.com/sdrausty/hpmor
+Cloning into 'hpmor'...
+remote: Counting objects: 1820, done.
+remote: Total 1820 (delta 0), reused 0 (delta 0), pack-reused 1820
+Receiving objects: 100% (1820/1820), 71.99 MiB | 2.27 MiB/s, done.
+Resolving deltas: 100% (1302/1302), done.
+```
+
+Change directory:
+
+```
+$ cd hpmor/
+```
+
+Use `make` to build this pdf:
+
+```
+$ make
+```
+
+There are missing programs from Texlive [#966](https://github.com/termux/termux-packages/issues/966) in Termux. Can you help with enabling these programs on your tablet or smartphone? Then please contribute.
+
+<!---
+- [TeX in Termux](./tit.html)
+-->
+
+- [Build Your Books with TexLive!](https://www.tug.org/texlive/)
+
+### When you press the `volumeDown+power` buttons simultaneously on a smartphone, it takes a screenshot like this one of [the source code for this page](https://raw.githubusercontent.com/sdrausty/sdrausty.github.io/master/pages/hpmor.md) in [vim](http://www.vim.org/) running in [Termux](./asac.html) on [Android.](https://source.android.com/)
+
+![](./../bitpics/hpmor.png)
+
+#### This animation was created with [imagemagick](https://www.imagemagick.org/) in [Termux](./asac.html) on an Android smartphone.
+
+![](./../bitpics/ps1.gif)
+
+If you're confused by this page try [this link,](http://tldp.org/) or you might want to try [this one.](https://www.debian.org/doc/) Post your what you have found at [the wiki for this website](https://github.com/sdrausty/sdrausty.github.io/wiki) and [donate](./donate.md) to let [sdrausty.github.io](https://sdrausty.github.io/) grow.
+
+[Back to the Previous Page](./tit.html)

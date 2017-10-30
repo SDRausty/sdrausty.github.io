@@ -1,0 +1,9 @@
+Codename: termux
+Version: 1
+Architectures: aarch64
+Description: Extras repository
+Suite: termux
+Date: Fri, 25 Aug 2017 23:19:30 UTC
+SHA256:
+ aed7baa02ce0f867df25c63d35f12f48b8226152c055bec75509ee461e74aca9 396 extras/binary-aarch64/Packages
+ db3e55caa317f2d28fca29564855a03feaedaddfbd0f792b5f6512b3d04d1459 372 extras/binary-aarch64/Packages.xz

@@ -1,0 +1,134 @@
+cpanm (App::cpanminus) 1.7043 on perl 5.026000 built for aarch64-android
+Work directory is /data/data/com.termux/files/home/.cpanm/work/1505497559.26966
+You have make /data/data/com.termux/files/usr/bin/make
+You have /data/data/com.termux/files/usr/bin/wget
+You have /data/data/com.termux/files/usr/bin/tar: tar (GNU tar) 1.29
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /data/data/com.termux/files/usr/bin/unzip
+Searching Net::HTTP () on cpanmetadb ...
+--> Working on Net::HTTP
+Fetching http://www.cpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.17.tar.gz
+-> OK
+Unpacking Net-HTTP-6.17.tar.gz
+Entering Net-HTTP-6.17
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.24)
+Configuring Net-HTTP-6.17
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Net::HTTP
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have URI 0 ... Yes (1.71)
+Checking if you have IO::Select 0 ... Yes (1.22)
+Checking if you have Carp 0 ... Yes (1.42)
+Checking if you have warnings 0 ... Yes (1.37)
+Checking if you have IO::Socket::INET 0 ... Yes (1.35)
+Checking if you have base 0 ... Yes (2.25)
+Checking if you have IO::Uncompress::Gunzip 0 ... Yes (2.074)
+Checking if you have Test::More 0 ... Yes (1.302073)
+Checking if you have Data::Dumper 0 ... Yes (2.167)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (7.24)
+Checking if you have Socket 0 ... Yes (2.020_03)
+Checking if you have vars 0 ... Yes (1.03)
+Checking if you have File::Spec 0 ... Yes (3.67)
+Checking if you have Compress::Raw::Zlib 0 ... Yes (2.074)
+Building and testing Net-HTTP-6.17
+cp lib/Net/HTTP/NB.pm blib/lib/Net/HTTP/NB.pm
+cp lib/Net/HTTP/Methods.pm blib/lib/Net/HTTP/Methods.pm
+cp lib/Net/HTTP.pm blib/lib/Net/HTTP.pm
+cp lib/Net/HTTPS.pm blib/lib/Net/HTTPS.pm
+Manifying 4 pod documents
+PERL_DL_NONLAZY=1 "/data/data/com.termux/files/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.24
+# 
+# === Configure Suggests ===
+# 
+#     Module      Want       Have
+#     -------- ------- ----------
+#     JSON::PP 2.27300 2.27400_02
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.24
+# 
+# === Test Requires ===
+# 
+#     Module              Want     Have
+#     ------------------- ---- --------
+#     Data::Dumper         any    2.167
+#     ExtUtils::MakeMaker  any     7.24
+#     File::Spec           any     3.67
+#     IO::Select           any     1.22
+#     Socket               any 2.020_03
+#     Test::More           any 1.302073
+# 
+# === Test Recommends ===
+# 
+#     Module         Want     Have
+#     ---------- -------- --------
+#     CPAN::Meta 2.120900 2.150010
+# 
+# === Runtime Requires ===
+# 
+#     Module                 Want  Have
+#     ---------------------- ---- -----
+#     Carp                    any  1.42
+#     Compress::Raw::Zlib     any 2.074
+#     IO::Socket::INET        any  1.35
+#     IO::Uncompress::Gunzip  any 2.074
+#     URI                     any  1.71
+#     base                    any  2.25
+#     strict                  any  1.11
+#     vars                    any  1.03
+#     warnings                any  1.37
+# 
+# === Runtime Suggests ===
+# 
+#     Module             Want    Have
+#     ----------------- ----- -------
+#     IO::Socket          any    1.38
+#     IO::Socket::INET6   any missing
+#     IO::Socket::IP      any    0.38
+#     IO::Socket::SSL   2.012   2.049
+#     Symbol              any    1.08
+# 
+t/00-report-prereqs.t .. ok
+Your vendor has not defined Socket macro TCP_NODELAY, used at t/http-nb.t line 34
+# Looks like your test exited with 29 just after 5.
+t/http-nb.t ............ 
+Dubious, test returned 29 (wstat 7424, 0x1d00)
+Failed 9/14 subtests 
+t/http.t ............... ok
+t/live-https.t ......... ok
+t/live.t ............... ok
+t/rt-112313.t .......... ok
+
+Test Summary Report
+-------------------
+t/http-nb.t          (Wstat: 7424 Tests: 5 Failed: 0)
+  Non-zero exit status: 29
+  Parse errors: Bad plan.  You planned 14 tests but ran 5.
+Files=6, Tests=95, 32 wallclock secs ( 0.38 usr  0.03 sys +  5.49 cusr  0.35 csys =  6.25 CPU)
+Result: FAIL
+Failed 1/6 test programs. 0/95 subtests failed.
+make: *** [Makefile:889: test_dynamic] Error 255
+-> FAIL Installing Net::HTTP failed. See /data/data/com.termux/files/home/.cpanm/work/1505497559.26966/build.log for details. Retry with --force to force install it.

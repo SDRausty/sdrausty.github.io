@@ -1,0 +1,480 @@
+cpanm (App::cpanminus) 1.7043 on perl 5.026000 built for aarch64-android
+Work directory is /data/data/com.termux/files/home/.cpanm/work/1505499256.30175
+You have make /data/data/com.termux/files/usr/bin/make
+You have /data/data/com.termux/files/usr/bin/wget
+You have /data/data/com.termux/files/usr/bin/tar: tar (GNU tar) 1.29
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /data/data/com.termux/files/usr/bin/unzip
+Searching IO::Socket::INET6 () on cpanmetadb ...
+--> Working on IO::Socket::INET6
+Fetching http://www.cpan.org/authors/id/S/SH/SHLOMIF/IO-Socket-INET6-2.72.tar.gz
+-> OK
+Unpacking IO-Socket-INET6-2.72.tar.gz
+Entering IO-Socket-INET6-2.72
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::Install 1.46 ... Yes (2.04)
+Checking if you have Module::Build 0.38 ... Yes (0.4224)
+Configuring IO-Socket-INET6-2.72
+Running Build.PL
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'IO-Socket-INET6' version '2.72'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have warnings 0 ... Yes (1.37)
+Checking if you have Socket6 0.12 ... Yes (0.28)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have IO::Socket 0 ... Yes (1.38)
+Checking if you have Errno 0 ... Yes (1.28)
+Checking if you have Test::More 0 ... Yes (1.302073)
+Checking if you have Exporter 0 ... Yes (5.72)
+Checking if you have Socket 0 ... Yes (2.020_03)
+Checking if you have Carp 0 ... Yes (1.42)
+Building and testing IO-Socket-INET6-2.72
+Building IO-Socket-INET6
+IO::Socket::INET6: sock_info: Bad protocol 'tcp' at t/blocking.t line 34.
+# Looks like your test exited with 255 before it could output anything.
+t/blocking.t .............. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 2/2 subtests 
+t/configure6.t ............ ok
+IO::Socket::INET6: sock_info: Bad protocol 'tcp' at t/host6.t line 35.
+t/host6.t ................. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+No subtests run 
+t/io_multihomed6.t ........ skipped: localhost does not resolve to both 127.0.0.1 and ::1
+IO::Socket::INET6: sock_info: Bad protocol 'tcp' at t/io_sock6.t line 47.
+t/io_sock6.t .............. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 20/20 subtests 
+IO::Socket::INET6: sock_info: Bad protocol 'udp' (maybe your system does not have a localhost at all, 'localhost' or ::1) at t/io_udp6.t line 77.
+t/io_udp6.t ............... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 7/7 subtests 
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value $proto in getprotobynumber at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in hash element at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 173.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+Use of uninitialized value in subroutine entry at /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/IO-Socket-INET6-2.72/blib/lib/IO/Socket/INET6.pm line 187.
+t/listen_port_only.t ...... skipped: failed to create inet6 listener
+t/pod-coverage.t .......... ok
+t/pod.t ................... ok
+t/style-trailing-space.t .. skipped: Test::TrailingSpace required for trailing space test.
+
+Test Summary Report
+-------------------
+t/blocking.t            (Wstat: 65280 Tests: 0 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/host6.t               (Wstat: 65280 Tests: 0 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+t/io_sock6.t            (Wstat: 65280 Tests: 0 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 20 tests but ran 0.
+t/io_udp6.t             (Wstat: 65280 Tests: 0 Failed: 0)
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 7 tests but ran 0.
+Files=10, Tests=3,  5 wallclock secs ( 0.26 usr  0.07 sys +  4.42 cusr  0.29 csys =  5.04 CPU)
+Result: FAIL
+Failed 4/10 test programs. 0/3 subtests failed.
+-> FAIL Installing IO::Socket::INET6 failed. See /data/data/com.termux/files/home/.cpanm/work/1505499256.30175/build.log for details. Retry with --force to force install it.
