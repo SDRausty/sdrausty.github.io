@@ -2,7 +2,7 @@
 layout: default
 title: "sdrausty.github.io"
 ---
-#### Cherish activities such as sports. Walking, blading and skiing may be favorites. Sailing, a passionate pastime? Having \`code\' in pocket, and in palm of hand is grand! 👍⛵🚢🚣
+#### Cherish activities such as sports. Walking, blading and skiing maybe favorites. Is sailing a passionate pastime? Having \`code\` in pocket and in palm of hand is grand! 👍⛵🚢🚣
 
 👉 [au](https://sdrausty.github.io/au/)<br>
 👉 [Is Your Smartphone Your Computer?](./pages/ysyc)<br>
