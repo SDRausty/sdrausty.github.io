@@ -1,3 +1,9 @@
+"Writing software using a phone!
+Developing without a laptop: Living the dream."
+
+https://medium.com/samsung-internet-dev/writing-software-using-a-phone-e71976f1f18d
+
+
 Installation is easy and customization takes no time at all. In the time that I’ve been using Termux, I’ve been more productive and able to uninstall some redundant apps. For those like me who use a Smartphones as their PC, Termux is a must have.
 https://www.marcbilodeau.com/termux/
 

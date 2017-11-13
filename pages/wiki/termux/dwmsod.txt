@@ -1,0 +1,41 @@
+After an enormous file is created on the external SD card, it is formatted as a [native Android filesystem]( https://www.google.com/search?q=what+is+the+android+file+system). Then it is **mounted** as a native filespace **in $HOME as** the **nonroot** Termux single user using [`mount loopback device`](https://www.google.com/search?q=mount+loopback+device) or similar.
+
+This issue is fairly simple in Linux: **create file of a specific GB size > format filesystem in file > mount filesystem in file via loop device nonroot**. This sequence is impossible today on external micro SD storage in Termux on Android. You might even be mounting a filesystem from a file via loop device nonroot on a notebook or desktop without knowing it when you mount a USB stick, CD, DVD or similar.
+
+![img_20170728_225948](https://user-images.githubusercontent.com/27742457/28741651-1098139e-73e9-11e7-8873-7479a6ebd316.jpg)
+
+Creating and utilizing an enormous native Android filesystem on the external SD card should be doable in some `chroot` or `proot` fashion, possibly even without using `chroot` or `proot`. What is your opinion? 
+
+https://plus.google.com/109614420080028230010/posts/H7Av31MSK39
+
+Even though this is a fairly simple issue in Linux **(create file > format filesystem in file > mount filesystem in file via loop device)**, it is impossible in Termux at present.﻿
+
+Https://www.google.com/search?q=mount+non+root+user+site%3Atldp.org 
+This has been added here to clarify root and nonroot mounts. Linux Deploy https://github.com/meefik/linuxdeploy mounts a beautiful filesystem after downloading on device...
+
+What about "Debian Noroot"? Does this app have the code we are seeking? It appears to mount an image from a file. "The scripts for creating Debian images are located in directory "img" https://github.com/pelya/debian-noroot/tree/master/img "To prepare image, run these scripts:" from https://github.com/pelya/debian-noroot/blob/master/README.md
+
+https://play.google.com/store/apps/details?id=com.cuntubuntu
+
+![screenshot_20170803-132456](https://user-images.githubusercontent.com/27742457/28945285-ded31ea0-7873-11e7-97a4-8d711da227b5.png)
+
+Screenshot of Debian Noroot running on an Android smartphone.
+
+https://github.com/pelya/debian-noroot
+
+"Run Debian on top of Android with a single click. No root required! Should work on any high-end device! Unleash full unrestricted desktop environment onto your mobile device! Instant frustration guaranteed! (unless you're using mouse or stylus) [and keyboard]."
+
+```
+git clone https://github.com/pelya/debian-noroot
+cd debian-noroot
+git submodule init
+git submodule update //doesn't work, requires passphrase!?
+ack loop
+ack mount 
+ack device
+ack img
+```
+
+**Disclaimer:** I usually only use Termux in Android, the APKs and the other goodies built on device (a smartphone). Please see https://sdrausty.github.io/buildAPKs/reallyEasilyBuildAndroidAPKsOnDevice **This issue was last reedited 20170803 UTC for clarity of topic.**
+
+

@@ -219,3 +219,543 @@ https://sdrausty.github.io/TermuxArch/
 S D Rausty 19:55
 at almost the same size on first git clone and give it directories for further downloading if desired. See
 https://sdrausty.github.io/buildAPKs/ for a working example. Submodules at buildAPKs was inspired by @vishalbiswas eliminating a bloated < 400M initial download.
+
+Ipsilon And I have an axe
+
+IRC/Gitter bot Nov 01 22:21
+rods-tab3 is it electric ?
+Ipsilon no...
+Ipsilon not yet...
+
+Surya Poojary Nov 01 22:35
+Hello
+Guys.
+Any update on MySQL gem for ruby ?
+
+IRC/Gitter bot Nov 02 04:38
+Grimler Condor: $HOME == /data/data/com.termux/files/home should be a dead giveaway
+Grimler @Malahal If it is a shebang issue then termux-exec (pkg install termux-exec) is designed to take care of it
+
+Fredrik Fornwall Nov 02 05:38
+the docker image used when building packages have been updated to ubuntu 17.10 - run ./scripts/update-docker.sh to receive the updated docker image
+
+Amsit S Nov 02 06:00
+Hey all can I adding pdo_mysql extension for php , thanks before.
+
+Surya Poojary Nov 02 13:36
+@fornwall and all the other contributors to Termux.. thanks a lot guys for making termux the best coding environment on Android.Git, Heroku ,ruby , python,node and what not,u guys are the best !!!! .From being a guy who didn't know how to turn on a PC to learning ruby,py and node ... and deploying my first app on heroku(deleted it , trying to work on something more complex :grinning: )..this all happened due to Termux..My sincere thanks to fornwall and team for helping me to learn to code !!! God bless!!
+
+bixodomt Nov 02 13:37
+Im want hack nasa
+How install katoolin on termux?
+
+bitcoinmeetups.org Nov 03 00:30
+Is there any tool with Termux that can mount an encrypted folder?
+
+IRC/Gitter bot Nov 03 04:12
+delt Hello
+delt would it be possible to implement a 'sudo' command by using 'su' on rooted devices?
+delt im asking because 'su -c' has limitations with special characters / quoting of arguments
+delt ie. argument to su's -c option must consist of a single arg, and there's no way to escape special chars or tell the command (or shell) what is what
+delt (for example: filenames with spaces)
+live_the_dream delt not really
+
+IRC/Gitter bot Nov 03 04:18
+delt live_the_dream: so 'sudo' would need to be implemented at the 'rooting'
+delt stage
+delt fucking keyboard
+live_the_dream yeah. you have sudo command store commands on sdcard then execute commads one you have root
+delt live_the_dream: so 'sudo' would need to be implemented at the 'rooting' stage or the 'install your favourite ROM' stage
+live_the_dream but that is literally the first thought
+live_the_dream i had
+delt so use a temp file on a (reliable, always mounted) filesystem that is r/w by termux user
+live_the_dream yeah
+delt clever, but not at all efficient =)
+delt or anywhere near my idea of clean programming =) =)
+delt anyway, as dirty hack as it might be, even a simple shell script could do this.. if not, a simple C program of < 20 lines
+
+IRC/Gitter bot Nov 03 04:27
+delt ie. tmpscript=/sdcard/termux-tmp-$$, then write a simple shell script as $tmpscript and su -c $tmpscript
+delt might not work for multi-line / block commands tho
+delt ie. while some_condition; do .... blah blah .... done
+
+Surya Poojary Nov 03 07:55
+Unpacking nodejs (8.9.0) ...
+Setting up nodejs (8.9.0) ...
+$ npm install express
+Unhandled rejection Error: EACCES: permission denied, link '/data/data/com.termux/files/home/.npm/_cacache/tmp/24c85c80' -> '/data/data/com.termux/files/home/.npm/_cacache/content-v2/sha512/59/ca/2e0f5017aa211536370255b2fbb493016a53ca7d335d077820223a58a86aa8771e6607b085e66f0dc28c2d783e58375a461ac72baa9eb974d71b24e41c03'
+npm ERR! cb() never called!
+npm ERR! This is an error with npm itself. Please report this error at:
+npm ERR! https://github.com/npm/npm/issues
+Guys pls help ..can't install anything via npm after upgrading to node 8
+
+IRC/Gitter bot Nov 03 08:10
+Guy- hi
+Guy- I'd like to use zsh in 'adb shell' -- could I do that with termux?
+Guy- or can it run zsh on the device screen only?
+
+IRC/Gitter bot Nov 03 08:49
+Guy- OK, LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib /data/data/com.termux/files/usr/bin/zsh seems to work
+Guy- at least for interactive usage
+Guy- running zsh scripts would then work via #!/system/bin/env LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib /data/data/com.termux/files/usr/bin/zsh (presumably)
+
+Surya Poojary Nov 03 09:29
+Guys
+Can i install heroku through yarn
+
+IRC/Gitter bot Nov 03 10:18
+tomty89 what backend does openal-soft in termux use?
+
+Fredrik Fornwall Nov 03 17:53
+@staymetal try the recent 8.9.0-1 update of nodejs and check if it fixes the npm problem
+
+Bryan Goldstein Nov 03 18:29
+@sdrausty have you built the termux Android app using termux?
+
+Fredrik Fornwall Nov 03 20:25
+I just pushed an update to the termux-packages repository that should make it easier to build packages maintained out-of-tree. That is, when the package recipe folder (containing build.sh and eventual patches and helper files) is outside of the termux-packages repository itself.
+To build an in-tree package, the command
+./build-package.sh package-name
+is used. This uses the package recipe folder ./packages/package-name/.
+To build an out-of-tree package, just specify the path to the folder containing the recipe:
+./build-package.sh path/to/my/package
+Things should now work without issues (if they don't - report it), including dependency checks so that dependencies gets built first.
+
+Fredrik Fornwall Nov 03 20:31
+Dependencies to build are picked up both from the main termux-packages repo, but also from package recipe folder adjacent to the one being built. So, if you are building with
+./build-package.sh path/to/my-custom-packages/pkg1
+and pkg1 depends on pkg2, which is located at path/to/my-custom-packages/pkg2, the build will first build pkg2 as a dependency.
+this should make it easier to maintain packages outside the main repo
+an early user of this will be https://github.com/termux/termux-root-packages - a new repo to contain root-only packages
+
+Fredrik Fornwall Nov 03 20:37
+as I'm not a root user myself, I would appreciate any help in maintaining termux-root-packages - both the source code repo and if possible also hosting the apt repo
+
+Surya Poojary Nov 03 21:32
+@fornwall ..npm is working now !! Thanks!
+
+Fredrik Fornwall Nov 03 21:34
+@staymetal great! the patch applied is by @karolba in termux/termux-packages#1701
+
+IRC/Gitter bot Nov 03 21:37
+live_the_dream fornwall: i guess that is on me?
+
+IRC/Gitter bot Nov 03 21:47
+fornwall live_the_dream: sounds nice :)
+
+Surya Poojary 00:05
+nodemon index.js
+bash: /data/data/com.termux/files/usr/bin/nodemon: /usr/bin/env: bad interpreter: No such file or directory
+How to fix this
+
+IRC/Gitter bot 00:34
+R34lM4n Hello. There's termux for android kitkat?
+
+IRC/Gitter bot 00:40
+R34lM4n Por que no lo hiceron para android 4.4?
+
+IRC/Gitter bot 00:52
+rods-tab3 termux requires android >= 5; try gnuroot
+
+bitcoinmeetups.org 02:52
+Hello. Is it possible to use Termux with Xserver XSDL or a similar x server app for Android?
+
+IRC/Gitter bot 03:15
+live_the_dream it is possible
+
+bitcoinmeetups.org 03:30
+Cool. Any links to instructions? And does it work well?
+
+IRC/Gitter bot 05:00
+pdo_fn14 No debfoster ported to termux guys?
+
+Gustavo Chaín 07:33
+hey there
+would it be possible to run docker inside and android device?
+
+Henrik Grimler 07:52
+@gchaincl there has been much discussion about that and the answer seems to be: no
+
+Gustavo Chaín 08:06
+@Grimler91 thanks
+
+Auxilus 09:34
+@Grimler91 but I think we can test the build scripts in termux by modifying build-package.sh right?
+
+IRC/Gitter bot 09:53
+blue90 Hi
+blue90 Hi
+blue90 Hình
+blue90 Hi
+
+Vishal Biswas 10:46
+@fornwall I'm very new to meson. I tried termux_setup_meson but the has_function function doesn't use CFLAGS, LDFLAGS, etc. Is there a way to get around this?
+
+IRC/Gitter bot 10:51
+koppp9r My ip
+koppp9r Help
+koppp9r Help
+koppp9r Hhhbh
+
+Auxilus 10:53
+@vishalbiswas Nice to see you after long time!
+
+Vishal Biswas 10:54
+@Auxilus I'm always here, just not interacting
+
+Auxilus 10:55
+:thumbsup:
+
+Bryan Goldstein 12:02
+is there an extra step when you build termux-app app to get the environment installed?
+actually that is a stupid question, it worked fine before I started changing things
+
+Bryan Goldstein 12:09
+I changed com.termux to com.vrmux so I could work on a VR version of termux without a name conflict, and everything works except it can't find "/data/data/com.vrmux/files/usr/bin/login"
+1) Is there something I forgot to change to com.vrmux.
+2) Is there an easier way I could have gone about this.
+https://photos.app.goo.gl/EYmNmlrJu6pnHP312
+
+Bryan Goldstein 12:14
+@kabbi did most of the work, I'm just trying to bring it up to date
+
+Bryan Goldstein 12:24
+@sdrausty - I tried TermuxArch and it puts me in a shell without an editor, I would attempt to edit my pacman sources and locale, but I don't have vi or nano
+
+Sofia 12:35
+@brysgo pacman -Syu nano
+
+Bryan Goldstein 12:56
+so after setting my mirror using cat
+I'm getting errors trying to install packages
+so and so -x86_64 does not have a valid architecture
+thanks @Soph1a7 - I still can't get anything installed
+
+Bryan Goldstein 13:07
+I one thing is saying x86_64 and another is telling it i686
+uname -m says i686
+but pacman is looking for x86_64
+
+shail0072 13:27
+Need penetrating tools for termux where to download?
+Like all Kali Linux tools
+
+Bryan Goldstein 13:49
+@sdrausty - answer to downloads folder on chromebook pixel 2 is ~/downloads/
+
+Auxilus 14:46
+@shail0072 we have metasploit-framework , hydra , nmap , sqlmap
+
+shail0072 14:52
+Bbqsql ?
+@Auxilus what about other Kali tools?
+
+S D Rausty 14:54
+@brysgo vi is built into busybox and works in Termux out-of-the-box . Ditto for vi and nano in Arch.
+@brysgo Try the newest version of
+https://sdrausty.github.io/TermuxArch/
+It should detect your system correctly.
+If it doesn't, let me know please.
+
+Bryan Goldstein 14:56
+Thanks, I'll test it out tonight
+
+S D Rausty 14:57
+There have been quite a few changes, including the addition of i686 detection.
+
+IRC/Gitter bot 16:04
+Vens Hello. I want to know, does uninstalling termux remove all installed pkgs and files that were installed/created from within termux?
+
+Bryan Goldstein 16:06
+While I can't guarantee it, from a user experience perspective it does
+@vens
+
+IRC/Gitter bot 16:07
+Vens Thank you :grinning: another one, is there a way I can list all my currently installed pkgs? I tried 'apt list' that only showed me all available packages though.
+
+Henrik Grimler 16:10
+Vens
+
+Bryan Goldstein 16:11
+apt list --installed
+I think
+
+IRC/Gitter bot 16:13
+Vens gitter: thanks for the help. It worked :grinning:
+
+Henrik Grimler 16:14
+There is a entry in the wiki about backup and restore: https://wiki.termux.com/wiki/Package_Management#Backup_and_restore_packages
+@Auxilus no, the docker image uses ubuntu' s packages and cross compiles the packages. This will always differ from the environment on your device and therefore a build on your device can't guarantee that building
+In the docker image will succeed
+
+Henrik Grimler 16:20
+Basically: cross compiling a package differs from just compiling it since the build environment has to be carefully setup, and not all packages are configured to deal with this nicely
+
+@fornwall and all the other contributors to Termux.. thanks a lot guys for making termux the best coding environment on Android.Git, Heroku ,ruby , python,node and what not,u guys are the best !!!! .From being a guy who didn't know how to turn on a PC to learning ruby,py and node ... and deploying my first app on heroku(deleted it , trying to work on something more complex  )..this all happened due to Termux..My sincere thanks to fornwall and team for helping me to learn to code !!! God bless!!
+
+bixodomt Nov 02 13:37
+Im want hack nasa
+How install katoolin on termux?
+
+bitcoinmeetups.org Nov 03 00:30
+Is there any tool with Termux that can mount an encrypted folder?
+
+IRC/Gitter bot Nov 03 04:12
+delt Hello
+delt would it be possible to implement a 'sudo' command by using 'su' on rooted devices?
+delt im asking because 'su -c' has limitations with special characters / quoting of arguments
+delt ie. argument to su's -c option must consist of a single arg, and there's no way to escape special chars or tell the command (or shell) what is what
+delt (for example: filenames with spaces)
+live_the_dream delt not really
+
+IRC/Gitter bot Nov 03 04:18
+delt live_the_dream: so 'sudo' would need to be implemented at the 'rooting'
+delt stage
+delt fucking keyboard
+live_the_dream yeah. you have sudo command store commands on sdcard then execute commads one you have root
+delt live_the_dream: so 'sudo' would need to be implemented at the 'rooting' stage or the 'install your favourite ROM' stage
+live_the_dream but that is literally the first thought
+live_the_dream i had
+delt so use a temp file on a (reliable, always mounted) filesystem that is r/w by termux user
+live_the_dream yeah
+delt clever, but not at all efficient =)
+delt or anywhere near my idea of clean programming =) =)
+delt anyway, as dirty hack as it might be, even a simple shell script could do this.. if not, a simple C program of < 20 lines
+
+IRC/Gitter bot Nov 03 04:27
+delt ie. tmpscript=/sdcard/termux-tmp-$$, then write a simple shell script as $tmpscript and su -c $tmpscript
+delt might not work for multi-line / block commands tho
+delt ie. while some_condition; do .... blah blah .... done
+
+Surya Poojary Nov 03 07:55
+Unpacking nodejs (8.9.0) ...
+Setting up nodejs (8.9.0) ...
+$ npm install express
+Unhandled rejection Error: EACCES: permission denied, link '/data/data/com.termux/files/home/.npm/_cacache/tmp/24c85c80' -> '/data/data/com.termux/files/home/.npm/_cacache/content-v2/sha512/59/ca/2e0f5017aa211536370255b2fbb493016a53ca7d335d077820223a58a86aa8771e6607b085e66f0dc28c2d783e58375a461ac72baa9eb974d71b24e41c03'
+npm ERR! cb() never called!
+npm ERR! This is an error with npm itself. Please report this error at:
+npm ERR! https://github.com/npm/npm/issues
+Guys pls help ..can't install anything via npm after upgrading to node 8
+
+IRC/Gitter bot Nov 03 08:10
+Guy- hi
+Guy- I'd like to use zsh in 'adb shell' -- could I do that with termux?
+Guy- or can it run zsh on the device screen only?
+
+IRC/Gitter bot Nov 03 08:49
+Guy- OK, LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib /data/data/com.termux/files/usr/bin/zsh seems to work
+Guy- at least for interactive usage
+Guy- running zsh scripts would then work via #!/system/bin/env LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib /data/data/com.termux/files/usr/bin/zsh (presumably)
+
+Surya Poojary Nov 03 09:29
+Guys
+Can i install heroku through yarn
+
+IRC/Gitter bot Nov 03 10:18
+tomty89 what backend does openal-soft in termux use?
+
+Fredrik Fornwall Nov 03 17:53
+@staymetal try the recent 8.9.0-1 update of nodejs and check if it fixes the npm problem
+
+Bryan Goldstein Nov 03 18:29
+@sdrausty have you built the termux Android app using termux?
+
+Fredrik Fornwall Nov 03 20:25
+I just pushed an update to the termux-packages repository that should make it easier to build packages maintained out-of-tree. That is, when the package recipe folder (containing build.sh and eventual patches and helper files) is outside of the termux-packages repository itself.
+To build an in-tree package, the command
+./build-package.sh package-name
+is used. This uses the package recipe folder ./packages/package-name/.
+To build an out-of-tree package, just specify the path to the folder containing the recipe:
+./build-package.sh path/to/my/package
+Things should now work without issues (if they don't - report it), including dependency checks so that dependencies gets built first.
+
+Fredrik Fornwall Nov 03 20:31
+Dependencies to build are picked up both from the main termux-packages repo, but also from package recipe folder adjacent to the one being built. So, if you are building with
+./build-package.sh path/to/my-custom-packages/pkg1
+and pkg1 depends on pkg2, which is located at path/to/my-custom-packages/pkg2, the build will first build pkg2 as a dependency.
+this should make it easier to maintain packages outside the main repo
+an early user of this will be https://github.com/termux/termux-root-packages - a new repo to contain root-only packages
+
+Fredrik Fornwall Nov 03 20:37
+as I'm not a root user myself, I would appreciate any help in maintaining termux-root-packages - both the source code repo and if possible also hosting the apt repo
+
+Surya Poojary Nov 03 21:32
+@fornwall ..npm is working now !! Thanks!
+
+Fredrik Fornwall Nov 03 21:34
+@staymetal great! the patch applied is by @karolba in termux/termux-packages#1701
+
+IRC/Gitter bot Nov 03 21:37
+live_the_dream fornwall: i guess that is on me?
+
+IRC/Gitter bot Nov 03 21:47
+fornwall live_the_dream: sounds nice :)
+
+Surya Poojary 00:05
+nodemon index.js
+bash: /data/data/com.termux/files/usr/bin/nodemon: /usr/bin/env: bad interpreter: No such file or directory
+How to fix this
+
+IRC/Gitter bot 00:34
+R34lM4n Hello. There's termux for android kitkat?
+
+IRC/Gitter bot 00:40
+R34lM4n Por que no lo hiceron para android 4.4?
+
+IRC/Gitter bot 00:52
+rods-tab3 termux requires android >= 5; try gnuroot
+
+bitcoinmeetups.org 02:52
+Hello. Is it possible to use Termux with Xserver XSDL or a similar x server app for Android?
+
+IRC/Gitter bot 03:15
+live_the_dream it is possible
+
+bitcoinmeetups.org 03:30
+Cool. Any links to instructions? And does it work well?
+
+IRC/Gitter bot 05:00
+pdo_fn14 No debfoster ported to termux guys?
+
+Gustavo Chaín 07:33
+hey there
+would it be possible to run docker inside and android device?
+
+Henrik Grimler 07:52
+@gchaincl there has been much discussion about that and the answer seems to be: no
+
+Gustavo Chaín 08:06
+@Grimler91 thanks
+
+Auxilus 09:34
+@Grimler91 but I think we can test the build scripts in termux by modifying build-package.sh right?
+
+IRC/Gitter bot 09:53
+blue90 Hi
+blue90 Hi
+blue90 Hình
+blue90 Hi
+
+Vishal Biswas 10:46
+@fornwall I'm very new to meson. I tried termux_setup_meson but the has_function function doesn't use CFLAGS, LDFLAGS, etc. Is there a way to get around this?
+
+IRC/Gitter bot 10:51
+koppp9r My ip
+koppp9r Help
+koppp9r Help
+koppp9r Hhhbh
+
+Auxilus 10:53
+@vishalbiswas Nice to see you after long time!
+
+Vishal Biswas 10:54
+@Auxilus I'm always here, just not interacting
+
+Auxilus 10:55
+:thumbsup:
+
+Bryan Goldstein 12:02
+is there an extra step when you build termux-app app to get the environment installed?
+actually that is a stupid question, it worked fine before I started changing things
+
+Bryan Goldstein 12:09
+I changed com.termux to com.vrmux so I could work on a VR version of termux without a name conflict, and everything works except it can't find "/data/data/com.vrmux/files/usr/bin/login"
+1) Is there something I forgot to change to com.vrmux.
+2) Is there an easier way I could have gone about this.
+https://photos.app.goo.gl/EYmNmlrJu6pnHP312
+
+Bryan Goldstein 12:14
+@kabbi did most of the work, I'm just trying to bring it up to date
+
+Bryan Goldstein 12:24
+@sdrausty - I tried TermuxArch and it puts me in a shell without an editor, I would attempt to edit my pacman sources and locale, but I don't have vi or nano
+
+Sofia 12:35
+@brysgo pacman -Syu nano
+
+Bryan Goldstein 12:56
+so after setting my mirror using cat
+I'm getting errors trying to install packages
+so and so -x86_64 does not have a valid architecture
+thanks @Soph1a7 - I still can't get anything installed
+
+Bryan Goldstein 13:07
+I one thing is saying x86_64 and another is telling it i686
+uname -m says i686
+but pacman is looking for x86_64
+
+shail0072 13:27
+Need penetrating tools for termux where to download?
+Like all Kali Linux tools
+
+Bryan Goldstein 13:49
+@sdrausty - answer to downloads folder on chromebook pixel 2 is ~/downloads/
+
+Auxilus 14:46
+@shail0072 we have metasploit-framework , hydra , nmap , sqlmap
+
+shail0072 14:52
+Bbqsql ?
+@Auxilus what about other Kali tools?
+
+S D Rausty 14:54
+@brysgo vi is built into busybox and works in Termux out-of-the-box . Ditto for vi and nano in Arch.
+@brysgo Try the newest version of
+https://sdrausty.github.io/TermuxArch/
+It should detect your system correctly.
+If it doesn't, let me know please.
+
+Bryan Goldstein 14:56
+Thanks, I'll test it out tonight
+
+S D Rausty 14:57
+There have been quite a few changes, including the addition of i686 detection.
+
+IRC/Gitter bot 16:04
+Vens Hello. I want to know, does uninstalling termux remove all installed pkgs and files that were installed/created from within termux?
+
+Bryan Goldstein 16:06
+While I can't guarantee it, from a user experience perspective it does
+@vens
+
+IRC/Gitter bot 16:07
+Vens Thank you  another one, is there a way I can list all my currently installed pkgs? I tried 'apt list' that only showed me all available packages though.
+
+Henrik Grimler 16:10
+Vens
+
+Bryan Goldstein 16:11
+apt list --installed
+I think
+
+IRC/Gitter bot 16:13
+Vens gitter: thanks for the help. It worked
+
+Henrik Grimler 16:14
+There is a entry in the wiki about backup and restore: https://wiki.termux.com/wiki/Package_Management#Backup_and_restore_packages
+@Auxilus no, the docker image uses ubuntu' s packages and cross compiles the packages. This will always differ from the environment on your device and therefore a build on your device can't guarantee that building
+In the docker image will succeed
+
+Henrik Grimler 16:20
+Basically: cross compiling a package differs from just compiling it since the build environment has to be carefully setup, and not all packages are configured to deal with this nicely
+
+Fredrik Fornwall 16:55
+@vishalbiswas I'm new to meson myself as well . sounds strange about `has_function´, I guess #mesonbuild on freenode is a good place to ask about it
+
+S D Rausty 17:16
+@Grimler91 I would like to setup a build environment on device like for buildAPKs.
+Something simple that downloads source, complies it for the specific device, then installs on specific device. No cross-compiling involved.
+I have tried https://github.com/termux/termux-packages/tree/master/scripts with some success.
+Any suggestions how to make this simple and sweet are appreciated. (download source>build it>installed)
+
+S D Rausty 18:25
+Installing from source on device might yield a tremendous increase in program execution speed on device, since it would be compiled for a specific architecture model.
+I encountered this tremendous speed increase when compiling kernels per device.
+If you are using Linux on a computer, you want to make your own kernel. When you do, you might be amazed that you morphed your machine into the machine that you wanted to buy because you thought it was faster and better.
+https://duckduckgo.com/?q=compiling+kernels
+
+S D Rausty 18:33
+Once you have gotten used to making kernels, it becomes second nature
+
+S D Rausty 18:42
+How can I root my device from within Termux? Any GitHub leads are welcome 🌡
