@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'tldr' ]
+2 info using npm@5.5.1
+3 info using node@v9.2.0
+4 verbose npm-session a4204e1ba1e93005
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/tldr 12239ms (from cache)
+8 silly pacote tag manifest for tldr@latest fetched in 12769ms
+9 silly install loadIdealTree
+10 silly install cloneCurrentTreeToIdealTree
+11 silly install loadShrinkwrap
+12 silly install loadAllDepsIntoIdealTree
+13 silly resolveWithNewModule tldr@3.1.0 checking installable status
+14 http fetch GET 304 https://registry.npmjs.org/commander 11242ms (from cache)
+15 http fetch GET 304 https://registry.npmjs.org/lodash.get 11239ms (from cache)
+16 silly pacote range manifest for commander@~2.9.0 fetched in 11263ms
+17 silly resolveWithNewModule commander@2.9.0 checking installable status
+18 silly pacote range manifest for lodash.get@~4.4.2 fetched in 11268ms
+19 silly resolveWithNewModule lodash.get@4.4.2 checking installable status
+20 http fetch GET 304 https://registry.npmjs.org/lodash.unescape 11372ms (from cache)
+21 silly pacote range manifest for lodash.unescape@~4.0.0 fetched in 11404ms
+22 silly resolveWithNewModule lodash.unescape@4.0.1 checking installable status
+23 http fetch GET 304 https://registry.npmjs.org/lodash.isempty 12140ms (from cache)
+24 silly pacote range manifest for lodash.isempty@~4.4.0 fetched in 12151ms
+25 silly resolveWithNewModule lodash.isempty@4.4.0 checking installable status
+26 http fetch GET 304 https://registry.npmjs.org/lodash.defaults 12425ms (from cache)
+27 silly pacote range manifest for lodash.defaults@~4.2.0 fetched in 12435ms
+28 silly resolveWithNewModule lodash.defaults@4.2.0 checking installable status
+29 http fetch GET 304 https://registry.npmjs.org/glob 13708ms (from cache)
+30 silly pacote range manifest for glob@^7.1.2 fetched in 13731ms
+31 silly resolveWithNewModule glob@7.1.2 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/lodash.sample 14014ms (from cache)
+33 silly pacote range manifest for lodash.sample@~4.2.1 fetched in 14033ms
+34 silly resolveWithNewModule lodash.sample@4.2.1 checking installable status
+35 http fetch GET 304 https://registry.npmjs.org/chalk 14075ms (from cache)
+36 silly pacote range manifest for chalk@~2.3.0 fetched in 14115ms
+37 silly resolveWithNewModule chalk@2.3.0 checking installable status
+38 http fetch GET 304 https://registry.npmjs.org/fs-extra 14180ms (from cache)
+39 silly pacote range manifest for fs-extra@^4.0.2 fetched in 14198ms
+40 silly resolveWithNewModule fs-extra@4.0.2 checking installable status
+41 http fetch GET 304 https://registry.npmjs.org/lodash.identity 15360ms (from cache)
+42 silly pacote range manifest for lodash.identity@~3.0.0 fetched in 15370ms
+43 silly resolveWithNewModule lodash.identity@3.0.0 checking installable status
+44 http fetch GET 304 https://registry.npmjs.org/unzip2 7164ms (from cache)
+45 silly pacote range manifest for unzip2@~0.2.5 fetched in 7182ms
+46 silly resolveWithNewModule unzip2@0.2.5 checking installable status
+47 http fetch GET 304 https://registry.npmjs.org/request 10109ms (from cache)
+48 silly pacote range manifest for request@~2.75.0 fetched in 10140ms
+49 silly resolveWithNewModule request@2.75.0 checking installable status
+50 http fetch GET 304 https://registry.npmjs.org/os-homedir 10534ms (from cache)
+51 silly pacote range manifest for os-homedir@~1.0.1 fetched in 10544ms
+52 silly resolveWithNewModule os-homedir@1.0.2 checking installable status
+53 http fetch GET 304 https://registry.npmjs.org/ms 24169ms (from cache)
+54 http fetch GET 304 https://registry.npmjs.org/natural 24034ms (from cache)
+55 silly pacote range manifest for ms@~0.7.1 fetched in 24189ms
+56 silly resolveWithNewModule ms@0.7.3 checking installable status
+57 silly pacote range manifest for natural@^0.5.4 fetched in 24062ms
+58 silly resolveWithNewModule natural@0.5.4 checking installable status
+59 http fetch GET 304 https://registry.npmjs.org/marked 24466ms (from cache)
+60 silly pacote range manifest for marked@~0.3.6 fetched in 24481ms
+61 silly resolveWithNewModule marked@0.3.6 checking installable status
+62 http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 7290ms (from cache)
+63 http fetch GET 304 https://registry.npmjs.org/ansi-styles 7299ms (from cache)
+64 http fetch GET 304 https://registry.npmjs.org/supports-color 7303ms (from cache)
+65 silly pacote range manifest for escape-string-regexp@^1.0.5 fetched in 7313ms
+66 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+67 silly pacote range manifest for ansi-styles@^3.1.0 fetched in 7321ms
+68 silly resolveWithNewModule ansi-styles@3.2.0 checking installable status
+69 silly pacote range manifest for supports-color@^4.0.0 fetched in 7322ms
+70 silly resolveWithNewModule supports-color@4.5.0 checking installable status
+71 http fetch GET 304 https://registry.npmjs.org/color-convert 15786ms (from cache)
+72 silly pacote range manifest for color-convert@^1.9.0 fetched in 15800ms
+73 silly resolveWithNewModule color-convert@1.9.1 checking installable status
+74 http fetch GET 304 https://registry.npmjs.org/color-name 8153ms (from cache)
+75 silly pacote range manifest for color-name@^1.1.1 fetched in 8177ms
+76 silly resolveWithNewModule color-name@1.1.3 checking installable status
+77 http fetch GET 304 https://registry.npmjs.org/has-flag 5702ms (from cache)
+78 silly pacote range manifest for has-flag@^2.0.0 fetched in 5710ms
+79 silly resolveWithNewModule has-flag@2.0.0 checking installable status
+80 http fetch GET 200 https://registry.npmjs.org/graceful-readlink 11882ms
+81 silly pacote range manifest for graceful-readlink@>= 1.0.0 fetched in 11910ms
+82 silly resolveWithNewModule graceful-readlink@1.0.1 checking installable status
+83 http fetch GET 200 https://registry.npmjs.org/jsonfile 7940ms
+84 silly pacote range manifest for jsonfile@^4.0.0 fetched in 7967ms
+85 silly resolveWithNewModule jsonfile@4.0.0 checking installable status
+86 http fetch GET 200 https://registry.npmjs.org/graceful-fs 8061ms
+87 silly pacote range manifest for graceful-fs@^4.1.2 fetched in 8094ms
+88 silly resolveWithNewModule graceful-fs@4.1.11 checking installable status
+89 error cb() never called!
+90 error This is an error with npm itself. Please report this error at:
+91 error <https://github.com/npm/npm/issues>
