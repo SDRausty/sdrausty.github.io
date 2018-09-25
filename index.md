@@ -10,6 +10,7 @@ title: "sdrausty.github.io"
 👉 [GitHub and Git Foundations](./pages/ggf)<br>
 👉 [How to Automate Git Processes](./pages/htgp)<br>
 <!--👉 [Termux IRC Chat Log](./logs/ircFreenodeTermuxWeechatlog)<br>-->
+👉 [Sitemap](./sitemap)<br>
 👉 [TermuxArch](https://sdrausty.github.io/TermuxArch/)<br>
 👉 [TeX in Termux](./pages/tit)<br>
 👉 [What Do You Do with Termux?](./pages/tf)<br>
