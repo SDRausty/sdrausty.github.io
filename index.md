@@ -6,7 +6,7 @@ title: "sdrausty.github.io"
 
 👉 [au](https://sdrausty.github.io/au/)<br>
 👉 [Is Your Smartphone Your Computer?](./pages/ysyc)<br>
-👉 [buildAPKs in Termux](./buildAPKs)<br>
+👉 [buildAPKs in Termux](./buildAPKs/)<br>
 👉 [GitHub and Git Foundations](./pages/ggf)<br>
 👉 [How to Automate Git Processes](./pages/htgp)<br>
 <!--👉 [Termux IRC Chat Log](./logs/ircFreenodeTermuxWeechatlog)<br>-->
@@ -26,7 +26,7 @@ title: "sdrausty.github.io"
 
 ![Screenshot Animation](./bitpics/ps1.gif)
 
-If you're confused by this page try [this link,](https://wiki.termux.com) or [this link,](http://tldp.org/) or you might want to try [this one.](https://www.debian.org/doc/)
+If you're confused by this page try [this link,](https://wiki.termux.com/wiki/Main_Page) or [this link,](http://tldp.org/) or you might want to try [this one.](https://www.debian.org/doc/)
 
 Post your what you have found at [the wiki,](https://github.com/sdrausty/sdrausty.github.io/wiki) [donate](./pages/donate) and help [this website grow!](https://sdrausty.github.io/)
 
