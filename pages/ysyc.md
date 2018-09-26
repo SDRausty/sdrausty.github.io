@@ -5,40 +5,6 @@ title: A Smartphone = A Computer!
 
 ## Morph your Android device into a computer! Take part in our endeavor of harnessing the power of your Android tablet or smartphone. There is 24/7 development [here.](https://github.com/termux/termux-packages/graphs/commits) The world is a big place!
 
-Contact
-Community 
-https://termux.com/community
-Homepage 
-https://termux.com/
-IRC 
-Channel #Termux on freenode
-Github 
-https://github.com/termux/
-Gitter 
-https://gitter.im/termux/termux
-
-
-Welcome to [Termux!](https://termux.com/)
-
-Online help:     [https://termux.com/help](https://termux.com/help)
-
-Community forum: [https://termux.com/community](https://termux.com/community)
-
-IRC channel:     #termux on freenode
-
-Gitter chat:     https://gitter.im/termux/termux
-
-Mailing list:    termux+subscribe@groups.io
-
-Search packages:   pkg search <query>
-
-Install a package: pkg install <package>
-
-Upgrade packages:  pkg upgrade
-
-Learn more:        pkg help
-
-
 - [Termux on Google Play!](https://play.google.com/store/apps/details?id=com.termux) Please do not mix your installation of Termux between Google Play and F-droid. There are [compatibility issues.](https://github.com/termux/termux-api/issues/53)
 
 - [Termux on F-droid!](https://f-droid.org/packages/com.termux/) Please do not mix your installation of Termux between Google Play and F-droid. There are [compatibility issues.](https://github.com/termux/termux-api/issues/53)
