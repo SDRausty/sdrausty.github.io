@@ -36,7 +36,7 @@ This will create a timesaving method at the command prompt. Instead of typing `g
 
 If you're confused by this page try [this link](http://tldp.org/) or you might want to try [this one](https://www.debian.org/doc/). Post your what you have found at [the wiki for this website](https://github.com/sdrausty/sdrausty.github.io/wiki) and [donate](./donate.md) to let [sdrausty.guthub.io](https://sdrausty.github.io/) grow.
 
-- [How to Automate the "Commit-and-Push" Process? (git)](http://stackoverflow.com/questions/16709404/how-to-automate-the-commit-and-push-process-git)
-- [Username and Password in Command for `git push`](http://stackoverflow.com/questions/29776439/username-and-password-in-command-for-git-push)
+- [How to Automate the "Commit-and-Push" Process? (git)](https://stackoverflow.com/questions/16709404/how-to-automate-the-commit-and-push-process-git)
+- [Username and Password in Command for `git push`](https://stackoverflow.com/questions/29776439/username-and-password-in-command-for-git-push)
 
 [Up One Level](./../)
