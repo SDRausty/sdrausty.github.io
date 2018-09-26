@@ -37,10 +37,10 @@ There some others from [http://termux.net/dists/stable/main/](http://termux.net/
 
 ![Screenshot](./../bitpics/tf.png)
 
-#### This animation was created with [imagemagick](https://www.imagemagick.org/) in [Termux](./pages/asac) on an Android smartphone.
+#### This animation was created with [imagemagick](https://www.imagemagick.org/) in [Termux](./asac) on an Android smartphone.
 
 ![Screenshot Animation](./../bitpics/ps1.gif)
 
-If you're confused by this page try [this link,](http://tldp.org/) or you might want to try [this one.](https://www.debian.org/doc/) Post your what you have found at [the wiki,](https://github.com/sdrausty/sdrausty.github.io/wiki) [donate](./pages/donate.md) and help [this website grow!](https://sdrausty.github.io/)
+If you're confused by this page try [this link,](http://tldp.org/) or you might want to try [this one.](https://www.debian.org/doc/) Post your what you have found at [the wiki,](https://github.com/sdrausty/sdrausty.github.io/wiki) [donate](./donate.md) and help [this website grow!](https://sdrausty.github.io/)
 
 [Up One Level](./../)
