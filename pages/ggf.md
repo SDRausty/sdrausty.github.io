@@ -42,7 +42,7 @@ $ youtube-dl https://m.youtube.com/playlist?list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAi
 ```
 This way you will be able to view Git and GitHub Foundations from your favorite folder at your leisure.
 
-- [GitHub and Git Foundations](https://m.youtube.com/playlist?list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL)
+- [GitHub and Git Foundations]( https://www.youtube.com/playlist?list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL&app=desktop)
 
 ### When you press the `volumeDown+power` buttons simultaneously on a smartphone, it takes a screenshot like this one of [the source code for this page](https://raw.githubusercontent.com/sdrausty/sdrausty.github.io/master/pages/ggf.md) in [vim](http://www.vim.org/git.php) running on [Termux](https://termux.com) on an [Android](https://developer.android.com/) [plat](https://www.google.com/search?q=platform+technology)[form.](https://duckduckgo.com/?q=platform+technology+define)
 

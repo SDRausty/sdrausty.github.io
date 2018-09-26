@@ -37,7 +37,7 @@ There some others from [http://termux.net/dists/stable/main/](http://termux.net/
 
 ![Screenshot](./../bitpics/tf.png)
 
-#### This animation was created with [imagemagick](https://www.imagemagick.org/) in [Termux](./pages/asac.html) on an Android smartphone.
+#### This animation was created with [imagemagick](https://www.imagemagick.org/) in [Termux](./pages/asac) on an Android smartphone.
 
 ![Screenshot Animation](./../bitpics/ps1.gif)
 

@@ -25,7 +25,6 @@ This is the sitemap for [https://sdrausty.github.io/](https://sdrausty.github.io
 * [How to Automate Git Push](https://sdrausty.github.io/pages/htgp.html)
 * [imagemagick](https://sdrausty.github.io/pages/im.html)
 * [ircFreenodeTermuxWeechatlog](https://sdrausty.github.io/logs/ircFreenodeTermuxWeechatlog.html)
-* [more](https://sdrausty.github.io/pages/more.html)
 * [reallyEasilyBuildAndroidAPKsOnDevice](https://sdrausty.github.io/buildAPKs/reallyEasilyBuildAndroidAPKsOnDevice)
 * [TermuxArch](https://sdrausty.github.io/TermuxArch/)
 * [What Do You Do With Termux?](https://sdrausty.github.io/pages/tf.html)

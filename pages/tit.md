@@ -5,7 +5,7 @@ title: TeXing
 
 #### You can typeset from a one page letter to books that are hundreds of pages long with TeX in Termux on your Android smartphone!
 
-The [LaTeX/PDF version of 'Harry Potter and the Methods of Rationality'](./hpmor.html) and [this textbook](https://github.com/sdrausty/HoTTbook) are two examples of wonderful books you can compile on a smartphone today. If you are a beginner, or advanced user of [LaTeX](http://latex.org/) 'Material for UK-TUG's LaTeX for Beginners Course' [is available here.](https://github.com/sdrausty/latex-beginners-course) 
+The [LaTeX/PDF version of 'Harry Potter and the Methods of Rationality'](./hpmor.html) and [this textbook](https://github.com/sdrausty/HoTTbook) are two examples of wonderful books you can compile on a smartphone today. If you are a beginner, or advanced user of [LaTeX](https://latex.org/forum/) 'Material for UK-TUG's LaTeX for Beginners Course' [is available here.](https://github.com/sdrausty/latex-beginners-course) 
 
 Install TexLive with `packages install texlive` or `apt install texlive`. 
 
