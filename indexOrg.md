@@ -90,7 +90,7 @@ end
 - level 1 item
   - level 2 item
   - level 2 item
-- [How to Automate the "Commit-and-Push" Process? (git)](http://stackoverflow.com/questions/16709404/how-to-automate-the-commit-and-push-process-git)
+- [How to Automate the "Commit-and-Push" Process? (git)](https://stackoverflow.com/questions/16709404/how-to-automate-the-commit-and-push-process-git)
 ### Remote image
 
 ![](https://sdrausty.github.io/images/bluemarblewest.jpg)
