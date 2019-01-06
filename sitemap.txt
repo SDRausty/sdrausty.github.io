@@ -1,8 +1,8 @@
 https://sdrausty.github.io/
 https://sdrausty.github.io/au/
-https://sdrausty.github.io/buildAPKs/
-https://sdrausty.github.io/buildAPKs/easilyBuildAndroidAPKsonDevice
-https://sdrausty.github.io/buildAPKs/reallyEasilyBuildAndroidAPKsonDevice
+https://sdrausty.github.io/docsBuildAPKs/
+https://sdrausty.github.io/docsBuildAPKs/easilyBuildAndroidAPKsonDevice
+https://sdrausty.github.io/docsBuildAPKs/reallyEasilyBuildAndroidAPKsonDevice
 https://sdrausty.github.io/pages/asac.html
 https://sdrausty.github.io/pages/donate.html
 https://sdrausty.github.io/pages/ggf.html

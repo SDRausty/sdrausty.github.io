@@ -4,7 +4,7 @@ This is the sitemap for [https://sdrausty.github.io/](https://sdrausty.github.io
 
 * [asac](https://sdrausty.github.io/pages/asac.html)
 * [au](https://sdrausty.github.io/au/)
-* [buildAPKs](https://sdrausty.github.io/buildAPKs/)
+* [buildAPKs](https://sdrausty.github.io/docsBuildAPKs/)
 * [buildAPKsAmusements](https://sdrausty.github.io/buildAPKsAmusements/)
 * [buildAPKsApps](https://sdrausty.github.io/buildAPKsApps/)
 * [buildAPKsBrowsers](https://sdrausty.github.io/buildAPKsBrowsers/)
