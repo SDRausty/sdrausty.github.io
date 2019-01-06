@@ -6,7 +6,7 @@ title: "sdrausty.github.io"
 
 👉 [au](https://sdrausty.github.io/au/)<br>
 👉 [Is Your Smartphone Your Computer?](./pages/ysyc)<br>
-👉 [buildAPKs in Termux](./buildAPKs/)<br>
+👉 [buildAPKs in Termux](https://github.com/sdrausty/docsBuildAPKs/)<br>
 👉 [GitHub and Git Foundations](./pages/ggf)<br>
 👉 [How to Automate Git Processes](./pages/htgp)<br>
 <!--👉 [Termux IRC Chat Log](./logs/ircFreenodeTermuxWeechatlog)<br>-->
