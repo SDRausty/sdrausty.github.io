@@ -18,7 +18,7 @@ You didn't like the timings, did you?  I did not like them at all.  Why is Termu
 
 Listen; https://github.com/sdrausty/sdrausty.github.io/blob/master/audio/alphaV.webm Possibly you shall comprehend.  Possibly. 
 
-You are welcome to reply to my public statement.  As you know, I have been using Termux software since it arrived.  After years of using (coof coof) your open source software (does it compile?) I have a firm opinion about you.
+You are welcome to reply to my public statement.  As you know, I have been using Termux software since it arrived.  After years of using (coof coof) your open source software (does it compile?) I have a firm opinion about you.  If it doesn't compile, what are you feeding me?  Why are you wasting my time?  To get my autodrive, my bitcoins?  Why doesn't it compile from the source code that you publish?
 
 #### Cherish activities such as sports. Walking, blading and skiing maybe favorites. Is sailing a passionate pastime? Having \`code\` in pocket and in palm of hand is grand! 👍⛵🚢 
 
