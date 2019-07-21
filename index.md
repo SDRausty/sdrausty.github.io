@@ -11,7 +11,7 @@ Message to https://github.com/Neo-Oli DITTO without Swedish rooting my stuff.
 Message to https://github.com/xeffyr DITTO without Swedish rooting my stuff.
 
 Did you wanna root my device to getta my BITCOINS, my Tesla autodrive?
-@Grimler91 BITTCOINS+literature? You know, latex is elastic.  Read my work through your latex *.deb.  I think not @Grimler91. 
+@Grimler91 BITTCOINS+literature? You know, latex is elastic.  Read my work through your Termuxed latex *.deb?  I think not @Grimler91. 
 Neo-Oli the Swiss banker, can you please confirm?  Or are you hiding in the Alpine Mountains?
 
 You didn't like the timings, did you?  I did not like them at all.  Why is Termux slower?  Degustamos rooted bitcoins?
