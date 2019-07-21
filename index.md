@@ -4,7 +4,7 @@ title: "sdrausty.github.io"
 ---
 Message to https://github.com/Grimler91 You enticed me to contribute.  Then you deleted my hard effort, my work numerous times before I became aware of your destructive actions towards Termux development.  And latter you banned my account from Termux.  @Grimler91, You are keeping Termux off Wikipedia and I know why.  You wanna my latex academic literature and my smartphone bitcoins Swedish liaison.  My academic literature is not to be stolen/deleted, by you and your Termuxed deb packages.
 
-Message to https://github.com/fornwall DITTO. Do you like being the stooge?  Too lazy to merge pull requests?  Or is it, no ones rooted and I cannot get the bitcoins?
+Message to https://github.com/fornwall DITTO. Do you like being the stooge?  Too lazy to merge pull requests?  Or is it, no ones rooted and I cannot get the bitcoins and bounce a Tesla autodrive?
 
 Message to https://github.com/Neo-Oli DITTO without Swedish encouraging me to root my stuff.  Just you and your team encouraging me to root away my Android citadel.  
 
