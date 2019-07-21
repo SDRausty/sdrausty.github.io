@@ -2,13 +2,13 @@
 layout: default
 title: "sdrausty.github.io"
 ---
-Message to https://github.com/Grimler91 You enticed me to contribute.  Then you deleted my hard effort, my work.  And latter you banned my account from Termux.  You are keeping Termux off Wikipedia and I know why.  You want my latex literature and my smartphone bitcoins Swedish.
+Message to https://github.com/Grimler91 You enticed me to contribute.  Then you deleted my hard effort, my work.  And latter you banned my account from Termux.  You are keeping Termux off Wikipedia and I know why.  You want my latex literature and my smartphone bitcoins, Swedish liaison.
 
 Message to https://github.com/fornwall DITTO
 
-Message to https://github.com/Neo-Oli DITTO
+Message to https://github.com/Neo-Oli DITTO without Swedish rooting my stuff.
 
-Message to https://github.com/xeffyr DITTO
+Message to https://github.com/xeffyr DITTO without Swedish rooting my stuff.
 
 Did you wanna root my device to getta my BITCOINS, my Tesla autodrive?
 @Grimler91 BITTCOINSyt?+literature? You know, latex is elastic.  Read my work through your latex *.deb.  I think not @Grimler91. 
