@@ -11,7 +11,7 @@ Message to https://github.com/Neo-Oli DITTO
 Message to https://github.com/xeffyr DITTO
 
 Did you wanna root my device to getta my BITCOINS, my Tesla autodrive?
-@Grimler91 BITTCOINS+literature? Neo-Oli the Swiss banker, can you please confirm?  Or are you hiding in the Alpine Mountains?
+@Grimler91 BITTCOINS+literature? You know, latex is elastic.  Neo-Oli the Swiss banker, can you please confirm?  Or are you hiding in the Alpine Mountains?
 
 You didn't like the timings, did you?
 
