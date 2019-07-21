@@ -10,7 +10,7 @@ Message to https://github.com/Neo-Oli DITTO
 
 Message to https://github.com/xeffyr DITTO
 
-Did you wanna root my device to getta my BITCOIN?
+Did you wanna root my device to getta my BITCOINS, my Tesla autodrive?
 @Grimler91 BITTCOINS+literature? Neo Swiss banker.
 
 You didn't like the timings, did you?
