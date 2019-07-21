@@ -18,7 +18,9 @@ You didn't like the timings, did you?  I did not like them at all.  Why is Termu
 
 Listen; https://github.com/sdrausty/sdrausty.github.io/blob/master/audio/alphaV.webm Possibly you shall comprehend.  Possibly. 
 
-#### Cherish activities such as sports. Walking, blading and skiing maybe favorites. Is sailing a passionate pastime? Having \`code\` in pocket and in palm of hand is grand! 👍⛵🚢🚣
+You are welcome to reply to my public statement.  As you know, I have been using Termux software since it arrived.  After years of using (coof coof) your open source software (does it compile?) I have a firm opinion about you.
+
+#### Cherish activities such as sports. Walking, blading and skiing maybe favorites. Is sailing a passionate pastime? Having \`code\` in pocket and in palm of hand is grand! 👍⛵🚢 
 
 👉 [au](https://sdrausty.github.io/au/)<br>
 👉 [Is Your Smartphone Your Computer?](./pages/ysyc)<br>
