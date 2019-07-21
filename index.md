@@ -11,7 +11,7 @@ Message to https://github.com/Neo-Oli DITTO
 Message to https://github.com/xeffyr DITTO
 
 Did you wanna root my device to getta my BITCOIN?
-@Grimler91 BITTCOINS+literature? Neo? Swiss banker?
+@Grimler91 BITTCOINS+literature? Neo Swiss banker.
 
 #### Cherish activities such as sports. Walking, blading and skiing maybe favorites. Is sailing a passionate pastime? Having \`code\` in pocket and in palm of hand is grand! 👍⛵🚢🚣
 
