@@ -13,6 +13,8 @@ Message to https://github.com/xeffyr DITTO
 Did you wanna root my device to getta my BITCOIN?
 @Grimler91 BITTCOINS+literature? Neo Swiss banker.
 
+You didn't like the timings, did you?
+
 #### Cherish activities such as sports. Walking, blading and skiing maybe favorites. Is sailing a passionate pastime? Having \`code\` in pocket and in palm of hand is grand! 👍⛵🚢🚣
 
 👉 [au](https://sdrausty.github.io/au/)<br>
