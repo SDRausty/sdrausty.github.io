@@ -2,7 +2,7 @@
 layout: default
 title: "sdrausty.github.io"
 ---
-Message to https://github.com/Grimler91 You enticed me to contribute.  Then you banned me.
+Message to https://github.com/Grimler91 You enticed me to contribute.  Then you deleted my hard effort, my work.  And latter you banned my account from Termux.
 
 Message to https://github.com/fornwall DITTO
 
