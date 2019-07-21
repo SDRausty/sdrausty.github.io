@@ -16,6 +16,8 @@ Neo-Oli the Swiss banker, can you please confirm?  Or are you hiding in the Alpi
 
 You didn't like the timings, did you?  I did not like them at all.  Why is Termux slower?  Degustamos rooted bitcoins?
 
+Listen; https://github.com/sdrausty/sdrausty.github.io/blob/master/audio/alphaV.webm
+
 #### Cherish activities such as sports. Walking, blading and skiing maybe favorites. Is sailing a passionate pastime? Having \`code\` in pocket and in palm of hand is grand! 👍⛵🚢🚣
 
 👉 [au](https://sdrausty.github.io/au/)<br>
