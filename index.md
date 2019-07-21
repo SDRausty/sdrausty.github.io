@@ -8,7 +8,7 @@ Message to https://github.com/fornwall DITTO. Do you like being the stooge?  Too
 
 Message to https://github.com/Neo-Oli DITTO without Swedish encouraging me to root my stuff, just you and your team encouraging me to root away my Android citadel.  
 
-Message to https://github.com/xeffyr DITTO without Swedish encouraging me to rooting my stuff, just you and your tean encouraging me to root away my Android castle.
+Message to https://github.com/xeffyr DITTO without Swedish encouraging me to rooting my stuff, just you and your group encouraging me to root away my Android castle.
 
 Did you wanna root my device to getta my BITCOINS, my Tesla autodrive?
 @Grimler91 BITTCOINS+literature? You know, latex is elastic.  Read my work through your Termuxed latex *.deb?  I think not @Grimler91. 
