@@ -14,7 +14,7 @@ Did you wanna root my device to getta my BITCOINS, my Tesla autodrive?
 @Grimler91 BITTCOINS+literature? You know, latex is elastic.  Read my work through your latex *.deb.  I think not @Grimler91. 
 Neo-Oli the Swiss banker, can you please confirm?  Or are you hiding in the Alpine Mountains?
 
-You didn't like the timings, did you?
+You didn't like the timings, did you?  I did not like them at all.  Why is Termux slower?  Degustanos rooted bitcoins?
 
 #### Cherish activities such as sports. Walking, blading and skiing maybe favorites. Is sailing a passionate pastime? Having \`code\` in pocket and in palm of hand is grand! 👍⛵🚢🚣
 
