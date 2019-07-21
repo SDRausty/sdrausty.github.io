@@ -2,7 +2,7 @@
 layout: default
 title: "sdrausty.github.io"
 ---
-Message to https://github.com/Grimler91 You enticed me to contribute.  Then you deleted my hard effort, my work.  And latter you banned my account from Termux.  You are keeping Termux off Wikipedia and I know why.  You want my latex literature and my smartphone bitcoins, Swedish liaison.
+Message to https://github.com/Grimler91 You enticed me to contribute.  Then you deleted my hard effort, my work.  And latter you banned my account from Termux.  You are keeping Termux off Wikipedia and I know why.  You want my latex literature and my smartphone bitcoins Swedish liaison.
 
 Message to https://github.com/fornwall DITTO
 
