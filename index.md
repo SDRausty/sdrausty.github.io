@@ -2,7 +2,7 @@
 layout: default
 title: "sdrausty.github.io"
 ---
-Message to https://github.com/Grimler91 I have stepped on the old cobblestone in the capital north of Stockholm. You enticed me to contribute.  Then you with others deleted my hard effort, my work numerous times before I became aware of your destructive actions towards Termux development.  Later you banned my account from Termux.  @Grimler91, You are keeping Termux away from Wikipedia and I know why.  You wanna my latex academic literature and my smartphone bitcoins Swedish liaison.  My academic literature is not to be stolen/deleted, by you and your Termuxed deb packages!
+Message to https://github.com/Grimler91 I have stepped on the old cobblestone in the capital north of Stockholm. You enticed me to contribute.  Then you, with others, deleted my hard effort, my work numerous times before I became aware of your destructive actions towards Termux development.  Later you banned my account from Termux.  @Grimler91, You are keeping Termux away from Wikipedia and I know why.  You wanna my latex academic literature and my smartphone bitcoins Swedish liaison.  My academic literature is not to be stolen/deleted, by you and your Termuxed deb packages!
 
 Message to https://github.com/fornwall DITTO. Do you like being the stooge?  Too lazy to merge pull requests?  Or is it, no ones rooted, and I cannot get the bitcoins and bounce a Tesla autodrive?
 
