@@ -2,7 +2,7 @@
 layout: default
 title: "sdrausty.github.io"
 ---
-Message to https://github.com/Grimler91 You enticed me to contribute.  Then you deleted my hard effort, my work.  And latter you banned my account from Termux.  @Grimler91, You are keeping Termux off Wikipedia and I know why.  You wanna my latex academic literature and my smartphone bitcoins Swedish liaison.  My academic literature is not to be stolen/deleted, by you and your Termuxed deb packages.
+Message to https://github.com/Grimler91 You enticed me to contribute.  Then you deleted my hard effort, my work numerous times before I became aware of your destructive actions towards Termux development.  And latter you banned my account from Termux.  @Grimler91, You are keeping Termux off Wikipedia and I know why.  You wanna my latex academic literature and my smartphone bitcoins Swedish liaison.  My academic literature is not to be stolen/deleted, by you and your Termuxed deb packages.
 
 Message to https://github.com/fornwall DITTO
 
