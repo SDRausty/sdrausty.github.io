@@ -34,7 +34,7 @@ Enjoy the DVR Player in your device `$ while true; do play-audio 2001/2001\ Spac
 
 Enjoy the DVR Player in your device with [alphaV.webm](https://github.com/sdrausty/sdrausty.github.io/blob/master/audio/alphaV.webm?raw=true) and possibly you shall comprehend. Possibly.
 
-`while true ; do play-audio alphaV.webm ; sleep ${RANDOM::2} ; done`
+`while true ; do play-audio alphaV.webm ; sleep ${RANDOM::3} ; done`
 
 See https://raw.githubusercontent.com/WAE/WAE/master/wae.bash for a shell script that runs this loop.
 
