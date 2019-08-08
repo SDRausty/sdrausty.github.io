@@ -30,12 +30,10 @@ If you're confused by this page try [this link,](https://wiki.termux.com/wiki/Ma
 
 Post your what you have found at [the wiki,](https://github.com/sdrausty/sdrausty.github.io/wiki) [donate](./pages/donate) and help [this website grow!](https://sdrausty.github.io/)
 
-Enjoy the DVR Player in your device `$ while true; do play-audio 2001/2001\ Space\ Odyssey\ -\ Blue\ Danube.mkv; done` with [Termux.](./pages/asac)
-
 Enjoy the DVR Player in your device with [alphaV.webm](https://github.com/sdrausty/sdrausty.github.io/blob/master/audio/alphaV.webm?raw=true) and possibly you shall comprehend. Possibly.
 
 `while true ; do play-audio alphaV.webm ; sleep ${RANDOM::3} ; done`
 
-See https://raw.githubusercontent.com/WAE/WAE/master/wae.bash for a shell script that runs this loop.
+See [wae.bash](https://raw.githubusercontent.com/WAE/WAE/master/wae.bash) for a shell script that runs this loop.
 
 <!-- #EOM -->
