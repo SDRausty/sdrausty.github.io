@@ -36,4 +36,4 @@ Enjoy the DVR Player in your device with [alphaV.webm](https://github.com/sdraus
 
 See [wae.bash](https://raw.githubusercontent.com/WAE/WAE/master/wae.bash) for a shell script that runs this loop.
 
-<!-- #EOM -->
+<!--index.md EOF-->
